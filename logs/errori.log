@@ -1,0 +1,5 @@
+INFO:root:[2025-06-22 10:08:35] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
+INFO:root:[2025-06-22 10:11:02] ✅ Completato: /home/user/mappa-concorsi/scarica_regioni.py
+INFO:root:[2025-06-22 10:11:02] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+INFO:root:[2025-06-22 11:08:26] ✅ Completato: /home/user/mappa-concorsi/geolocalizza.py
+INFO:root:[2025-06-22 11:08:26] 🔄 Git add/commit/push...
