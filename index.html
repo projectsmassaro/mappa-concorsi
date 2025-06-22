@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="it">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
   <title>Mappa Concorsi Pubblici</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   <style>
     html, body {
       height: 100%;
       margin: 0;
-      padding: 0;
+      font-family: 'Inter', sans-serif;
       overflow: hidden;
-      font-family: 'Roboto', sans-serif;
     }
 
     #map {
@@ -21,60 +21,91 @@
       width: 100vw;
     }
 
-    .leaflet-top.leaflet-left {
-      left: auto;
-      right: 10px;
-    }
-
     #controls {
       position: absolute;
       top: 20px;
-      right: 20px;
-      background: rgba(255, 255, 255, 0.95);
+      left: 20px;
+      width: 320px;
+      background: rgba(255, 255, 255, 0.97);
       padding: 20px;
-      z-index: 1000;
       border-radius: 12px;
-      box-shadow: 0 8px 16px rgba(0,0,0,0.25);
-      font-size: 14px;
-      width: 280px;
+      box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+      z-index: 1000;
     }
 
     #controls label {
-      display: block;
-      margin-bottom: 8px;
       font-weight: 600;
+      margin-top: 12px;
+      display: block;
+      font-size: 14px;
       color: #333;
     }
 
+    #controls input,
     #controls select {
-      display: block;
       width: 100%;
-      padding: 8px;
-      margin-bottom: 16px;
+      padding: 10px;
+      margin-top: 6px;
+      margin-bottom: 12px;
       border: 1px solid #ccc;
       border-radius: 6px;
       font-size: 14px;
-      background-color: #fff;
-      color: #333;
     }
 
-    #controls select:focus {
-      outline: none;
-      border-color: #007BFF;
-      box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+    #controls button {
+      width: 100%;
+      padding: 10px;
+      font-weight: bold;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-top: 10px;
+    }
+
+    #controls button:hover {
+      background-color: #0056b3;
+    }
+
+    .leaflet-top.leaflet-left {
+      display: none;
+    }
+
+    .popup-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 6px;
+    }
+
+    .popup-content {
+      font-size: 14px;
+    }
+
+    .badge {
+      display: inline-block;
+      background: #ffc107;
+      color: #111;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 3px 6px;
+      border-radius: 4px;
+      margin-top: 4px;
     }
   </style>
 </head>
 <body>
   <div id="controls">
-    <label for="enteFilter">Filtra per Ente:</label>
-    <select id="enteFilter">
-      <option value="">Tutti</option>
-    </select>
-    <label for="regioneFilter">Filtra per Regione:</label>
-    <select id="regioneFilter">
-      <option value="">Tutte</option>
-    </select>
+    <label for="searchInput">🔎 Cerca:</label>
+    <input type="text" id="searchInput" placeholder="Titolo o Ente..." />
+
+    <label for="enteFilter">🏛️ Ente:</label>
+    <select id="enteFilter"><option value="">Tutti</option></select>
+
+    <label for="regioneFilter">📍 Regione:</label>
+    <select id="regioneFilter"><option value="">Tutte</option></select>
+
+    <button id="resetBtn">🔄 Reset filtri</button>
   </div>
 
   <div id="map"></div>
@@ -82,27 +113,30 @@
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
   <script>
-    const map = L.map('map', {
-      zoomControl: false
-    }).setView([42.5, 12.5], 6);
-
-    L.control.zoom({
-      position: 'topright'
-    }).addTo(map);
+    const map = L.map('map', { zoomControl: false }).setView([42.5, 12.5], 6);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
+    const markerCluster = L.markerClusterGroup();
     let allMarkers = [];
-    let markerCluster = L.markerClusterGroup();
     map.addLayer(markerCluster);
+
+    function daysUntil(dateStr) {
+      const [gg, mm, aaaa] = dateStr.split('/');
+      const today = new Date();
+      const target = new Date(`${aaaa}-${mm}-${gg}`);
+      const diff = Math.ceil((target - today) / (1000 * 60 * 60 * 24));
+      return diff;
+    }
 
     function loadData() {
       fetch('concorsi_geolocalizzati.json?ts=' + Date.now())
         .then(res => res.json())
         .then(data => {
-          const concorsi = Object.values(data).flat();
+          const oggi = new Date();
+          oggi.setHours(0, 0, 0, 0);
 
           markerCluster.clearLayers();
           allMarkers = [];
@@ -110,18 +144,26 @@
           const enti = new Set();
           const regioni = new Set();
 
-          concorsi.forEach(c => {
+          Object.values(data).flat().forEach(c => {
             const lat = parseFloat(c.lat);
             const lon = parseFloat(c.lon);
-            if (!isNaN(lat) && !isNaN(lon)) {
-              const marker = L.marker([lat, lon]).bindPopup(`
-                <strong>${c.titolo}</strong><br>
-                ${c.ente}<br>
-                Scadenza: ${c.scadenza}<br>
-                <a href="${c.url}" target="_blank">Apri bando</a>
+            const [gg, mm, aaaa] = c.scadenza.split('/');
+            const dataScadenza = new Date(`${aaaa}-${mm}-${gg}`);
+
+            if (!isNaN(lat) && !isNaN(lon) && dataScadenza >= oggi) {
+              const giorni = daysUntil(c.scadenza);
+              const marker = L.marker([lat, lon], { title: c.titolo }).bindPopup(`
+                <div class="popup-title">${c.titolo}</div>
+                <div class="popup-content">
+                  🏛️ ${c.ente}<br />
+                  🗓️ Scadenza: ${c.scadenza}
+                  <div class="badge">${giorni === 0 ? 'Scade oggi!' : `Scade tra ${giorni} giorni`}</div><br/>
+                  🔗 <a href="${c.url}" target="_blank">Apri bando</a>
+                </div>
               `);
               marker.ente = c.ente;
               marker.regione = c.regione || '';
+              marker.titolo = c.titolo || '';
               allMarkers.push(marker);
               enti.add(c.ente);
               if (c.regione) regioni.add(c.regione);
@@ -130,9 +172,6 @@
 
           updateFilters([...enti].sort(), [...regioni].sort());
           applyFilters();
-        })
-        .catch(error => {
-          console.error("Errore nel caricamento dati:", error);
         });
     }
 
@@ -145,12 +184,21 @@
     }
 
     function applyFilters() {
-      const enteVal = document.getElementById('enteFilter').value;
-      const regioneVal = document.getElementById('regioneFilter').value;
+      const enteVal = document.getElementById('enteFilter').value.toLowerCase();
+      const regioneVal = document.getElementById('regioneFilter').value.toLowerCase();
+      const searchVal = document.getElementById('searchInput').value.toLowerCase();
 
       markerCluster.clearLayers();
       allMarkers.forEach(m => {
-        if ((enteVal === '' || m.ente === enteVal) && (regioneVal === '' || m.regione === regioneVal)) {
+        const matchesSearch = searchVal === '' || 
+          (m.titolo && m.titolo.toLowerCase().includes(searchVal)) || 
+          (m.ente && m.ente.toLowerCase().includes(searchVal));
+
+        if (
+          matchesSearch &&
+          (enteVal === '' || m.ente.toLowerCase() === enteVal) &&
+          (regioneVal === '' || m.regione.toLowerCase() === regioneVal)
+        ) {
           markerCluster.addLayer(m);
         }
       });
@@ -158,9 +206,16 @@
 
     document.getElementById('enteFilter').addEventListener('change', applyFilters);
     document.getElementById('regioneFilter').addEventListener('change', applyFilters);
+    document.getElementById('searchInput').addEventListener('input', applyFilters);
+    document.getElementById('resetBtn').addEventListener('click', () => {
+      document.getElementById('enteFilter').value = '';
+      document.getElementById('regioneFilter').value = '';
+      document.getElementById('searchInput').value = '';
+      applyFilters();
+    });
 
     loadData();
-    setInterval(loadData, 1800000); // aggiorna ogni 30 minuti
+    setInterval(loadData, 1800000); // Aggiorna ogni 30 min
   </script>
 </body>
 </html>
