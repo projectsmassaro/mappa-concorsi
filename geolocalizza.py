@@ -1,7 +1,3 @@
-from pathlib import Path
-
-# Codice Python aggiornato integrando Wikidata e Nominatim come fallback
-script_code = """
 import json
 import time
 import requests
@@ -18,7 +14,8 @@ def geocode_nominatim(*queries):
     headers = {"User-Agent": "GeoScraper/1.0"}
 
     for q in queries:
-        if not q: continue
+        if not q:
+            continue
         params = {
             "q": q.strip(),
             "format": "json",
@@ -60,7 +57,7 @@ def geocode_wikidata(nome_ente):
 
 # === Estrai parte dopo "di" nel titolo ===
 def extract_place_from_title(titolo):
-    match = re.search(r"\\bdi\\s+([A-Z][^\\d,.;\\n]+)", titolo, flags=re.IGNORECASE)
+    match = re.search(r"\bdi\s+([A-Z][^\d,.;\n]+)", titolo, flags=re.IGNORECASE)
     if match:
         return match.group(1).strip()
     return None
@@ -91,9 +88,4 @@ with open("concorsi_geolocalizzati.json", "w", encoding="utf-8") as f:
     json.dump(regioni, f, ensure_ascii=False, indent=2)
 
 print("✅ File salvato: concorsi_geolocalizzati.json")
-"""
-
-output_path = Path("/mnt/data/geolocalizza_concorsi_completo.py")
-output_path.write_text(script_code)
-output_path.name
 
