@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>📘 Informazioni sul Progetto</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      margin: 0;
+      padding: 2rem;
+      line-height: 1.6;
+      background: #f5f7fa;
+      color: #333;
+    }
+    h1, h2 {
+      color: #222;
+    }
+    nav {
+      margin-bottom: 2rem;
+    }
+    nav a {
+      text-decoration: none;
+      color: #0077cc;
+      margin-right: 1rem;
+      font-weight: bold;
+    }
+    code {
+      background: #eee;
+      padding: 0.2rem 0.4rem;
+      border-radius: 4px;
+      font-family: monospace;
+    }
+    pre {
+      background: #eee;
+      padding: 1rem;
+      overflow-x: auto;
+      border-radius: 6px;
+    }
+    footer {
+      margin-top: 4rem;
+      font-size: 0.9rem;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">🗺️ Torna alla Mappa</a>
+  <a href="https://github.com/projectsmassaro/mappa-concorsi" target="_blank">📂 GitHub</a>
+</nav>
+
+<h1>📘 Mappa Concorsi Pubblici</h1>
+
+<p>
+  Questo progetto raccoglie e geolocalizza i <strong>concorsi pubblici regionali in Italia</strong> pubblicati sul sito <a href="https://www.concorsipubblici.com" target="_blank">concorsipubblici.com</a>.
+</p>
+
+<h2>🎯 Obiettivi</h2>
+<ul>
+  <li>Fornire una visualizzazione semplice e interattiva dei concorsi pubblici attivi.</li>
+  <li>Aiutare studenti, cittadini e professionisti a orientarsi tra le offerte.</li>
+  <li>Creare un esempio di progetto open-source educativo per portfolio e didattica.</li>
+</ul>
+
+<h2>⚙️ Funzionamento</h2>
+<ol>
+  <li><code>scarica_regioni.py</code>: scarica i concorsi per ciascuna regione.</li>
+  <li><code>geolocalizza.py</code>: assegna coordinate ai concorsi usando i nomi delle località.</li>
+  <li><code>pipeline.py</code>: automatizza il tutto e aggiorna automaticamente i dati su GitHub.</li>
+</ol>
+
+<h2>🔁 Aggiornamenti</h2>
+<p>
+  I dati vengono aggiornati automaticamente ogni 4 ore tramite uno script pianificato (<code>cron</code> o <code>systemd timer</code>).
+</p>
+
+<h2>🤖 Etica e Riconoscimenti</h2>
+<p>
+  I dati sono prelevati da <a href="https://www.concorsipubblici.com" target="_blank">concorsipubblici.com</a>, che non limita l’accesso pubblico alle pagine da cui vengono estratte le informazioni. Tuttavia, si intende usare il progetto solo per fini educativi e non commerciali, nel rispetto delle fonti.
+</p>
+
+<h2>💬 Contatti</h2>
+<p>
+  Creato da <strong>Angelo Massaro</strong> — dottorando in storia pubblica e digitale.  
+  Per contatti o proposte: <a href="https://github.com/projectsmassaro" target="_blank">@projectsmassaro</a>
+</p>
+
+<footer>
+  Ultimo aggiornamento automatico: <em>inserito dallo script pipeline</em>.
+</footer>
+
+</body>
+</html>
+
