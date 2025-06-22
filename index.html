@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <title>Mappa Concorsi Pubblici</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <style>
+    html, body, #map {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+    #controls {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: white;
+      padding: 10px;
+      z-index: 1000;
+      border-radius: 5px;
+      box-shadow: 0 0 5px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+  <div id="controls">
+    <label for="enteFilter">Filtra per Ente:</label>
+    <select id="enteFilter">
+      <option value="">Tutti</option>
+    </select>
+    <label for="regioneFilter">Filtra per Regione:</label>
+    <select id="regioneFilter">
+      <option value="">Tutte</option>
+    </select>
+  </div>
+
+  <div id="map"></div>
+
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
+  <script>
+    const map = L.map('map').setView([42.5, 12.5], 6);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    let allMarkers = [];
+    let markerCluster = L.markerClusterGroup();
+    map.addLayer(markerCluster);
+
+    function loadData() {
+      fetch('concorsi_geolocalizzati.json?ts=' + Date.now())
+        .then(res => res.json())
+        .then(data => {
+          markerCluster.clearLayers();
+          allMarkers = [];
+
+          const enti = new Set();
+          const regioni = new Set();
+
+          // Scorriamo ogni regione
+          for (const [regione, concorsi] of Object.entries(data)) {
+            concorsi.forEach(c => {
+              const lat = parseFloat(c.lat);
+              const lon = parseFloat(c.lon);
+              if (!isNaN(lat) && !isNaN(lon)) {
+                const marker = L.marker([lat, lon]).bindPopup(`
+                  <strong>${c.titolo}</strong><br>
+                  ${c.ente}<br>
+                  Scadenza: ${c.scadenza}<br>
+                  <a href="${c.url}" target="_blank">Apri bando</a>
+                `);
+                marker.ente = c.ente;
+                marker.regione = regione;
+                allMarkers.push(marker);
+                enti.add(c.ente);
+                regioni.add(regione);
+              }
+            });
+          }
+
+          updateFilters([...enti].sort(), [...regioni].sort());
+          applyFilters();
+        })
+        .catch(error => {
+          console.error("Errore nel caricamento dati:", error);
+        });
+    }
+
+    function updateFilters(enti, regioni) {
+      const enteSelect = document.getElementById('enteFilter');
+      enteSelect.innerHTML = '<option value="">Tutti</option>' + enti.map(e => `<option value="${e}">${e}</option>`).join('');
+
+      const regioneSelect = document.getElementById('regioneFilter');
+      regioneSelect.innerHTML = '<option value="">Tutte</option>' + regioni.map(r => `<option value="${r}">${r}</option>`).join('');
+    }
+
+    function applyFilters() {
+      const enteVal = document.getElementById('enteFilter').value;
+      const regioneVal = document.getElementById('regioneFilter').value;
+
+      markerCluster.clearLayers();
+      allMarkers.forEach(m => {
+        if ((enteVal === '' || m.ente === enteVal) &&
+            (regioneVal === '' || m.regione === regioneVal)) {
+          markerCluster.addLayer(m);
+        }
+      });
+    }
+
+    document.getElementById('enteFilter').addEventListener('change', applyFilters);
+    document.getElementById('regioneFilter').addEventListener('change', applyFilters);
+
+    loadData();
+    setInterval(loadData, 1800000); // ogni 30 minuti
+  </script>
+</body>
+</html>
+
