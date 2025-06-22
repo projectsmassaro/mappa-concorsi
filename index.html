@@ -6,21 +6,62 @@
   <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster/dist/MarkerCluster.Default.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <style>
-    html, body, #map {
+    html, body {
       height: 100%;
       margin: 0;
       padding: 0;
+      overflow: hidden;
+      font-family: 'Roboto', sans-serif;
     }
+
+    #map {
+      height: 100vh;
+      width: 100vw;
+    }
+
+    .leaflet-top.leaflet-left {
+      left: auto;
+      right: 10px;
+    }
+
     #controls {
       position: absolute;
-      top: 10px;
-      left: 10px;
-      background: white;
-      padding: 10px;
+      top: 20px;
+      right: 20px;
+      background: rgba(255, 255, 255, 0.95);
+      padding: 20px;
       z-index: 1000;
-      border-radius: 5px;
-      box-shadow: 0 0 5px rgba(0,0,0,0.4);
+      border-radius: 12px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+      font-size: 14px;
+      width: 280px;
+    }
+
+    #controls label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: 600;
+      color: #333;
+    }
+
+    #controls select {
+      display: block;
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 14px;
+      background-color: #fff;
+      color: #333;
+    }
+
+    #controls select:focus {
+      outline: none;
+      border-color: #007BFF;
+      box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
     }
   </style>
 </head>
@@ -41,7 +82,13 @@
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
   <script src="https://unpkg.com/leaflet.markercluster/dist/leaflet.markercluster.js"></script>
   <script>
-    const map = L.map('map').setView([42.5, 12.5], 6);
+    const map = L.map('map', {
+      zoomControl: false
+    }).setView([42.5, 12.5], 6);
+
+    L.control.zoom({
+      position: 'topright'
+    }).addTo(map);
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       attribution: '&copy; OpenStreetMap contributors'
@@ -55,32 +102,31 @@
       fetch('concorsi_geolocalizzati.json?ts=' + Date.now())
         .then(res => res.json())
         .then(data => {
+          const concorsi = Object.values(data).flat();
+
           markerCluster.clearLayers();
           allMarkers = [];
 
           const enti = new Set();
           const regioni = new Set();
 
-          // Scorriamo ogni regione
-          for (const [regione, concorsi] of Object.entries(data)) {
-            concorsi.forEach(c => {
-              const lat = parseFloat(c.lat);
-              const lon = parseFloat(c.lon);
-              if (!isNaN(lat) && !isNaN(lon)) {
-                const marker = L.marker([lat, lon]).bindPopup(`
-                  <strong>${c.titolo}</strong><br>
-                  ${c.ente}<br>
-                  Scadenza: ${c.scadenza}<br>
-                  <a href="${c.url}" target="_blank">Apri bando</a>
-                `);
-                marker.ente = c.ente;
-                marker.regione = regione;
-                allMarkers.push(marker);
-                enti.add(c.ente);
-                regioni.add(regione);
-              }
-            });
-          }
+          concorsi.forEach(c => {
+            const lat = parseFloat(c.lat);
+            const lon = parseFloat(c.lon);
+            if (!isNaN(lat) && !isNaN(lon)) {
+              const marker = L.marker([lat, lon]).bindPopup(`
+                <strong>${c.titolo}</strong><br>
+                ${c.ente}<br>
+                Scadenza: ${c.scadenza}<br>
+                <a href="${c.url}" target="_blank">Apri bando</a>
+              `);
+              marker.ente = c.ente;
+              marker.regione = c.regione || '';
+              allMarkers.push(marker);
+              enti.add(c.ente);
+              if (c.regione) regioni.add(c.regione);
+            }
+          });
 
           updateFilters([...enti].sort(), [...regioni].sort());
           applyFilters();
@@ -104,8 +150,7 @@
 
       markerCluster.clearLayers();
       allMarkers.forEach(m => {
-        if ((enteVal === '' || m.ente === enteVal) &&
-            (regioneVal === '' || m.regione === regioneVal)) {
+        if ((enteVal === '' || m.ente === enteVal) && (regioneVal === '' || m.regione === regioneVal)) {
           markerCluster.addLayer(m);
         }
       });
@@ -115,7 +160,7 @@
     document.getElementById('regioneFilter').addEventListener('change', applyFilters);
 
     loadData();
-    setInterval(loadData, 1800000); // ogni 30 minuti
+    setInterval(loadData, 1800000); // aggiorna ogni 30 minuti
   </script>
 </body>
 </html>
