@@ -1,2 +1,1 @@
 # mappa-concorsi
-# mappa-concorsi
