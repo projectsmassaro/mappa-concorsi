@@ -1,7 +1,4 @@
-from pathlib import Path
 
-# Codice Python aggiornato integrando Wikidata e Nominatim come fallback
-script_code = """
 import json
 import time
 import requests
@@ -60,14 +57,20 @@ def geocode_wikidata(nome_ente):
 
 # === Estrai parte dopo "di" nel titolo ===
 def extract_place_from_title(titolo):
-    match = re.search(r"\\bdi\\s+([A-Z][^\\d,.;\\n]+)", titolo, flags=re.IGNORECASE)
+    match = re.search(r"\bdi\s+([A-Z][^\d,.;\n]+)", titolo, flags=re.IGNORECASE)
     if match:
         return match.group(1).strip()
     return None
 
-# === Geolocalizzazione combinata Wikidata + Nominatim ===
+# === Geolocalizzazione solo sui primi 3 concorsi ===
+processed = 0
+MAX_CONCORSI = 3
+
 for regione, concorsi in regioni.items():
     for c in concorsi:
+        if processed >= MAX_CONCORSI:
+            break
+
         titolo = c.get("titolo", "")
         ente = c.get("ente", "")
         fallback_luogo = extract_place_from_title(titolo)
@@ -84,16 +87,11 @@ for regione, concorsi in regioni.items():
         c["lat"] = lat
         c["lon"] = lon
         print(f"📍 {titolo} → {lat}, {lon}")
+        processed += 1
         time.sleep(1)
 
 # === Salva file geolocalizzato ===
-with open("concorsi_geolocalizzati.json", "w", encoding="utf-8") as f:
+with open("concorsi_geolocalizzati_test.json", "w", encoding="utf-8") as f:
     json.dump(regioni, f, ensure_ascii=False, indent=2)
 
-print("✅ File salvato: concorsi_geolocalizzati.json")
-"""
-
-output_path = Path("/mnt/data/geolocalizza_concorsi_completo.py")
-output_path.write_text(script_code)
-output_path.name
-
+print("✅ File test salvato: concorsi_geolocalizzati_test.json")

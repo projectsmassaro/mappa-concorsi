@@ -7,3 +7,5 @@ INFO:root:[2025-06-22 11:08:27] ✅ Dati pushati su Git
 INFO:root:[2025-06-22 11:13:00] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
 INFO:root:[2025-06-22 11:15:27] ✅ Completato: /home/user/mappa-concorsi/scarica_regioni.py
 INFO:root:[2025-06-22 11:15:27] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+INFO:root:[2025-06-22 12:12:53] ✅ Completato: /home/user/mappa-concorsi/geolocalizza.py
+INFO:root:[2025-06-22 12:12:53] 🔄 Git add/commit/push...
