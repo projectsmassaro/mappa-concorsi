@@ -244,3 +244,35 @@ Traceback (most recent call last):
   File "/home/user/mappa-concorsi/geolocalizza.py", line 8, in <module>
     with open("concorsi_per_regione.json", "r", encoding="utf-8") as f:
 FileNotFoundError: [Errno 2] No such file or directory: 'concorsi_per_regione.json'
+[main 64d93d7] 🤖 Aggiornamento automatico dati
+ 1 file changed, 32 insertions(+)
+To https://github.com/projectsmassaro/mappa-concorsi.git
+   64fdb47..64d93d7  main -> main
+❌ Errore Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot18138076029:AAF_HpgEHF4rdmKddTzrImJqiLehAUVuMDA/sendMessage
+[2025-06-25 08:00:01] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
+[2025-06-25 08:00:01] ❌ Errore in /home/user/mappa-concorsi/scarica_regioni.py: Command '['python3', '/home/user/mappa-concorsi/scarica_regioni.py']' returned non-zero exit status 1.
+[2025-06-25 08:00:01] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+[2025-06-25 08:00:01] ❌ Errore in /home/user/mappa-concorsi/geolocalizza.py: Command '['python3', '/home/user/mappa-concorsi/geolocalizza.py']' returned non-zero exit status 1.
+[2025-06-25 08:00:01] 🔄 Git add/commit/push...
+[2025-06-25 08:00:03] ✅ Dati pushati su Git
+[2025-06-25 08:00:03] 📨 Invio notifica Telegram...
+[2025-06-25 08:00:05] ✅ Notifica Telegram inviata
+Traceback (most recent call last):
+  File "/home/user/mappa-concorsi/scarica_regioni.py", line 34, in <module>
+    driver = webdriver.Firefox(options=options)
+  File "/home/user/.local/lib/python3.10/site-packages/selenium/webdriver/firefox/webdriver.py", line 71, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/user/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "/home/user/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 299, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/user/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/home/user/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Process unexpectedly closed with status 1
+
+Traceback (most recent call last):
+  File "/home/user/mappa-concorsi/geolocalizza.py", line 8, in <module>
+    with open("concorsi_per_regione.json", "r", encoding="utf-8") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'concorsi_per_regione.json'
