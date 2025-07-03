@@ -15,3 +15,5 @@ INFO:root:[2025-06-22 12:12:54] ✅ Notifica Telegram inviata
 INFO:root:[2025-07-03 11:46:16] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
 INFO:root:[2025-07-03 11:48:44] ✅ Completato: /home/user/mappa-concorsi/scarica_regioni.py
 INFO:root:[2025-07-03 11:48:44] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+INFO:root:[2025-07-03 12:55:24] ✅ Completato: /home/user/mappa-concorsi/geolocalizza.py
+INFO:root:[2025-07-03 12:55:24] 🔄 Git add/commit/push...
