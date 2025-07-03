@@ -17,3 +17,6 @@ INFO:root:[2025-07-03 11:48:44] ✅ Completato: /home/user/mappa-concorsi/scaric
 INFO:root:[2025-07-03 11:48:44] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
 INFO:root:[2025-07-03 12:55:24] ✅ Completato: /home/user/mappa-concorsi/geolocalizza.py
 INFO:root:[2025-07-03 12:55:24] 🔄 Git add/commit/push...
+INFO:root:[2025-07-03 12:55:25] ✅ Dati pushati su Git
+INFO:root:[2025-07-03 12:55:25] 📨 Invio notifica Telegram...
+INFO:root:[2025-07-03 12:55:26] ✅ Notifica Telegram inviata
