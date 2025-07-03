@@ -163,6 +163,22 @@
       "lon": "15.7917978"
     },
     {
+      "titolo": "Universita' degli Studi della Basilicata - Potenza, 9 ricercatore",
+      "ente": "Università della Basilicata in Potenza",
+      "url": "https://www.concorsipubblici.com/universita-della-basilicata-potenza-concorso-ricercatore-potenza-2025-1",
+      "scadenza": "31/07/2025",
+      "lat": null,
+      "lon": null
+    },
+    {
+      "titolo": "Universita' degli studi della Basilicata - Potenza, 5 ricercatore",
+      "ente": "Università della Basilicata in Potenza",
+      "url": "https://www.concorsipubblici.com/universita-della-basilicata-potenza-concorso-ricercatore-potenza-2025-0",
+      "scadenza": "31/07/2025",
+      "lat": null,
+      "lon": null
+    },
+    {
       "titolo": "Comune di Rotondella, 1 assistente sociale",
       "ente": "Comune di Rotondella",
       "url": "https://www.concorsipubblici.com/comune-di-rotondella-concorso-assistente-sociale-matera-2025",
@@ -177,6 +193,14 @@
       "scadenza": "21/07/2025",
       "lat": "45.9188029",
       "lon": "13.4192585"
+    },
+    {
+      "titolo": "Universita' degli Studi della Basilicata - Potenza, 1 tecnologo",
+      "ente": "Università della Basilicata in Potenza",
+      "url": "https://www.concorsipubblici.com/universita-della-basilicata-potenza-concorso-tecnologo-potenza-2025-0",
+      "scadenza": "21/07/2025",
+      "lat": null,
+      "lon": null
     },
     {
       "titolo": "Conservatorio di Musica E. R. Duni, 2 Accompagnatori al Pianoforte",
@@ -889,12 +913,36 @@
   ],
   "Emilia Romagna": [
     {
+      "titolo": "Unione dei Comuni della Romagna Forlivese – Unione Montana, 5 Collaboratore Tecnico",
+      "ente": "Unione di comuni della Romagna forlivese - unione montana",
+      "url": "https://www.concorsipubblici.com/unione-di-comuni-della-romagna-forlivese-unione-montana-concorso-collaboratore-tecnico-forli-cesena",
+      "scadenza": "02/08/2025",
+      "lat": null,
+      "lon": null
+    },
+    {
       "titolo": "Asp Opus Civium, 2 Responsabile Attività Assistenziali",
       "ente": "ASP «Opus Civium» di Castelnovo di Sotto",
       "url": "https://www.concorsipubblici.com/asp-opus-civium-di-castelnovo-di-sotto-concorso-responsabile-assistente-socio-assistenziale-reggio",
       "scadenza": "01/08/2025",
       "lat": null,
       "lon": null
+    },
+    {
+      "titolo": "Comune di Riccione, 1  Istruttore Tecnico",
+      "ente": "Comune di Riccione",
+      "url": "https://www.concorsipubblici.com/comune-di-riccione-concorso-istruttore-tecnico-rimini-2025",
+      "scadenza": "01/08/2025",
+      "lat": "45.5006231",
+      "lon": "9.1504912"
+    },
+    {
+      "titolo": "Comune di Serramazzoni, 1 Istruttore Tecnico",
+      "ente": "Comune di Serramazzoni",
+      "url": "https://www.concorsipubblici.com/comune-di-serramazzoni-concorso-istruttore-tecnico-modena-2025",
+      "scadenza": "01/08/2025",
+      "lat": "44.4224625",
+      "lon": "10.7891470"
     },
     {
       "titolo": "Unione della Romagna Faentina, 1 Dirigente dell’Area Polizia Locale",
@@ -911,6 +959,46 @@
       "scadenza": "30/07/2025",
       "lat": "45.0604256",
       "lon": "9.4912595"
+    },
+    {
+      "titolo": "Università di Bologna, 1 ricercatore, GSD  05/BIOS-03  -  Zoologia  e  antropologia",
+      "ente": "Università di Bologna «Alma Mater Studiorum»",
+      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-bologna-2025-115",
+      "scadenza": "29/07/2025",
+      "lat": "44.4982886",
+      "lon": "11.3544570"
+    },
+    {
+      "titolo": "Università di Bologna, 1 ricercatore, GSD 05/BIOS-04 - Anatomia, biologia cellulare  e  biologia   dello  sviluppo  comparate",
+      "ente": "Università di Bologna «Alma Mater Studiorum»",
+      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-bologna-2025-116",
+      "scadenza": "29/07/2025",
+      "lat": "44.4982886",
+      "lon": "11.3544570"
+    },
+    {
+      "titolo": "Università di Bologna, 1 ricercatore,  GSD  04/GEOS-01  -  Mineralogia,  petrologia,  geochimica,   vulcanologia, georisorse e applicazioni",
+      "ente": "Università di Bologna «Alma Mater Studiorum»",
+      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-bologna-2025-117",
+      "scadenza": "29/07/2025",
+      "lat": "44.4982886",
+      "lon": "11.3544570"
+    },
+    {
+      "titolo": "Università di Bologna, 1 ricercatore,   GSD  09/IINF-05  -   Sistemi   di   elaborazione   delle   informazioni",
+      "ente": "Università di Bologna «Alma Mater Studiorum»",
+      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-bologna-2025-118",
+      "scadenza": "29/07/2025",
+      "lat": "44.4982886",
+      "lon": "11.3544570"
+    },
+    {
+      "titolo": "Università di Bologna, 1 ricercatore,    GSD 05/BIOS-01 - Botanica",
+      "ente": "Università di Bologna «Alma Mater Studiorum»",
+      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-bologna-2025-114",
+      "scadenza": "29/07/2025",
+      "lat": "44.4982886",
+      "lon": "11.3544570"
     },
     {
       "titolo": "Azienda Unità Sanitaria Locale - Imola, 2 posti di medico ortopedico",
@@ -1409,6 +1497,14 @@
       "lon": "11.3646051"
     },
     {
+      "titolo": "Azienda Pubblica di Servizi alla Persona del distretto Cesena Valle Savio, 1  Istruttore Amministrativo Contabile",
+      "ente": "Provincia di Forlì- Cesena",
+      "url": "https://www.concorsipubblici.com/provincia-di-forli-cesena-concorso-istruttore-amministrativo-contabile-forli-cesena-2025",
+      "scadenza": "12/07/2025",
+      "lat": "44.0227193",
+      "lon": "12.0141036"
+    },
+    {
       "titolo": "Comune di Busseto, 4 istruttore amministrativo contabile",
       "ente": "Comune di Busseto",
       "url": "https://www.concorsipubblici.com/comune-di-busseto-concorso-istruttore-amministrativo-contabile-parma-2025",
@@ -1815,78 +1911,6 @@
       "scadenza": "04/07/2025",
       "lat": "44.4982886",
       "lon": "11.3544570"
-    },
-    {
-      "titolo": "Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 01/MATH-03 - Analisi matematica, probabilità e statistica matematica",
-      "ente": "Università di Bologna «Alma Mater Studiorum»",
-      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-forli-cesena-2025",
-      "scadenza": "04/07/2025",
-      "lat": "44.4982886",
-      "lon": "11.3544570"
-    },
-    {
-      "titolo": "Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 14/GSPS-05 - Sociologia generale",
-      "ente": "Università di Bologna «Alma Mater Studiorum»",
-      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-bologna-2025-69",
-      "scadenza": "04/07/2025",
-      "lat": "44.4982886",
-      "lon": "11.3544570"
-    },
-    {
-      "titolo": "Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 13/ECON-01 - Economia politica",
-      "ente": "Università di Bologna «Alma Mater Studiorum»",
-      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-bologna-2025-71",
-      "scadenza": "04/07/2025",
-      "lat": "44.4982886",
-      "lon": "11.3544570"
-    },
-    {
-      "titolo": "Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 05/BIOS-06 - Fisiologia",
-      "ente": "Università di Bologna «Alma Mater Studiorum»",
-      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-bologna-2025-72",
-      "scadenza": "04/07/2025",
-      "lat": "44.4982886",
-      "lon": "11.3544570"
-    },
-    {
-      "titolo": "Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 06/MEDS-06 - Chirurgia generale",
-      "ente": "Università di Bologna «Alma Mater Studiorum»",
-      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-bologna-2025-65",
-      "scadenza": "04/07/2025",
-      "lat": "44.4982886",
-      "lon": "11.3544570"
-    },
-    {
-      "titolo": "Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 01/MATH-04 - Fisica matematica",
-      "ente": "Università di Bologna «Alma Mater Studiorum»",
-      "url": "https://www.concorsipubblici.com/universita-di-bologna-alma-mater-studiorum-concorso-ricercatore-bologna-2025-67",
-      "scadenza": "04/07/2025",
-      "lat": "44.4982886",
-      "lon": "11.3544570"
-    },
-    {
-      "titolo": "Comune di Bondeno, 1 Avvocato",
-      "ente": "COMUNE DI BONDENO",
-      "url": "https://www.concorsipubblici.com/comune-di-bondeno-concorso-avvocato-ferrara-2025",
-      "scadenza": "03/07/2025",
-      "lat": "46.3720398",
-      "lon": "9.3751999"
-    },
-    {
-      "titolo": "Comune di Coriano, 1 Collaboratore Contabile",
-      "ente": "Comune di Coriano",
-      "url": "https://www.concorsipubblici.com/comune-di-coriano-concorso-collaboratore-contabile-rimini-2025",
-      "scadenza": "03/07/2025",
-      "lat": "43.9645182",
-      "lon": "12.6027046"
-    },
-    {
-      "titolo": "Universita' degli studi di  Parma, 1 ricercatore  , GSD   06/MEDS-20   -   Pediatria   generale   e   specialistica   e   neuropsichiatria infantile",
-      "ente": "Università di Parma",
-      "url": "https://www.concorsipubblici.com/universita-di-parma-concorso-ricercatore-parma-2025-16",
-      "scadenza": "03/07/2025",
-      "lat": "44.8042514",
-      "lon": "10.3352078"
     }
   ],
   "Friuli Venezia Giulia": [
@@ -3263,6 +3287,14 @@
       "lon": "8.9266707"
     },
     {
+      "titolo": "Comune di Lavagna, 3 Agenti di Polizia Locale",
+      "ente": "Comune di Lavagna",
+      "url": "https://www.concorsipubblici.com/comune-di-lavagna-concorso-agente-polizia-locale-genova-2025",
+      "scadenza": "17/07/2025",
+      "lat": "45.7699707",
+      "lon": "13.6224469"
+    },
+    {
       "titolo": "Comune di Zoagli, 1 istruttore tecnico",
       "ente": "Comune di Zoagli",
       "url": "https://www.concorsipubblici.com/comune-di-zoagli-concorso-istruttore-tecnico-genova-2025",
@@ -3465,12 +3497,28 @@
       "lon": "9.1378251"
     },
     {
+      "titolo": "Comune di Busto Arsizio, 3 Istruttore Tecnico",
+      "ente": "Comune di Busto Arsizio",
+      "url": "https://www.concorsipubblici.com/comune-di-busto-arsizio-concorso-istruttore-tecnico-varese-2025-0",
+      "scadenza": "01/08/2025",
+      "lat": "45.6119320",
+      "lon": "8.8518269"
+    },
+    {
       "titolo": "Comune di Desio, 1 Funzionario amministrativo contabile",
       "ente": "Comune di Desio",
       "url": "https://www.concorsipubblici.com/comune-di-desio-concorso-funzionario-amministrativo-contabile-monza-e-brianza-2025",
       "scadenza": "01/08/2025",
       "lat": "45.6201555",
       "lon": "9.2088361"
+    },
+    {
+      "titolo": "Comune di Busto Arsizio, 2 Assistente Sociale",
+      "ente": "Comune di Busto Arsizio",
+      "url": "https://www.concorsipubblici.com/comune-di-busto-arsizio-concorso-assistente-sociale-varese-2025",
+      "scadenza": "01/08/2025",
+      "lat": "45.6119320",
+      "lon": "8.8518269"
     },
     {
       "titolo": "Comunita’ Montana del Piambello, 1  Funzionario Assistente Sociale",
@@ -3481,17 +3529,17 @@
       "lon": "8.8619409"
     },
     {
-      "titolo": "Camera di Commercio di Bergamo, 2 Istruttore servizi anagrafici e di regolazione del mercato",
-      "ente": "Camera di Commercio di Bergamo",
-      "url": "https://www.concorsipubblici.com/camera-di-commercio-di-bergamo-concorso-istruttore-di-anagrafe-bergamo-2025",
+      "titolo": "Camera di commercio di Bergamo,  1 Funzionario servizi promozionali per l’impresa e il territorio",
+      "ente": "Camera di Commercio, Industria, Artigianato e Agricoltura di Bergamo",
+      "url": "https://www.concorsipubblici.com/camera-di-commercio-industria-artigianato-e-agricoltura-di-bergamo-concorso-funzionario-bergamo",
       "scadenza": "01/08/2025",
       "lat": "45.6963723",
       "lon": "9.6707101"
     },
     {
-      "titolo": "Camera di commercio di Bergamo,  1 Funzionario servizi promozionali per l’impresa e il territorio",
-      "ente": "Camera di Commercio, Industria, Artigianato e Agricoltura di Bergamo",
-      "url": "https://www.concorsipubblici.com/camera-di-commercio-industria-artigianato-e-agricoltura-di-bergamo-concorso-funzionario-bergamo",
+      "titolo": "Camera di Commercio di Bergamo, 2 Istruttore servizi anagrafici e di regolazione del mercato",
+      "ente": "Camera di Commercio di Bergamo",
+      "url": "https://www.concorsipubblici.com/camera-di-commercio-di-bergamo-concorso-istruttore-di-anagrafe-bergamo-2025",
       "scadenza": "01/08/2025",
       "lat": "45.6963723",
       "lon": "9.6707101"
@@ -3765,24 +3813,24 @@
       "ente": "Azienda socio sanitaria territoriale di Crema",
       "url": "https://www.concorsipubblici.com/azienda-socio-sanitaria-territoriale-di-crema-concorso-medico-geriatra-cremona-2025",
       "scadenza": "28/07/2025",
-      "lat": "45.3628280",
-      "lon": "9.6874573"
+      "lat": null,
+      "lon": null
     },
     {
       "titolo": "Politecnico di Milano, 1 ricercatore",
       "ente": "Politecnico di Milano",
       "url": "https://www.concorsipubblici.com/politecnico-di-milano-concorso-ricercatore-milano-2025-81",
       "scadenza": "27/07/2025",
-      "lat": "45.4790288",
-      "lon": "9.2322104"
+      "lat": null,
+      "lon": null
     },
     {
       "titolo": "Politecnico di Milano, 2 ricercatori",
       "ente": "Politecnico di Milano",
       "url": "https://www.concorsipubblici.com/politecnico-di-milano-concorso-ricercatore-milano-2025-82",
       "scadenza": "27/07/2025",
-      "lat": "45.4790288",
-      "lon": "9.2322104"
+      "lat": "45.4641943",
+      "lon": "9.1896346"
     },
     {
       "titolo": "Azienda socio sanitaria territoriale di Lecco, 1 direttore della S.C. Cure Primarie",
@@ -4407,25 +4455,17 @@
       "scadenza": "21/07/2025",
       "lat": null,
       "lon": null
-    },
-    {
-      "titolo": "Comune di Albino, 1 Funzionario Tecnico",
-      "ente": "Comune di Albino",
-      "url": "https://www.concorsipubblici.com/comune-di-albino-concorso-funzionario-tecnico-bergamo-2025",
-      "scadenza": "21/07/2025",
-      "lat": "45.4623671",
-      "lon": "9.1272264"
-    },
-    {
-      "titolo": "Università di Brescia, 1 ricercatore",
-      "ente": "Università di Brescia",
-      "url": "https://www.concorsipubblici.com/universita-di-brescia-concorso-ricercatore-medico-psichiatra-brescia-2025",
-      "scadenza": "21/07/2025",
-      "lat": "45.5440682",
-      "lon": "10.2187488"
     }
   ],
   "Marche": [
+    {
+      "titolo": "Comune di Castel di Lama , 1 funzionario tecnico",
+      "ente": "Comune di Castel di Lama",
+      "url": "https://www.concorsipubblici.com/comune-di-castel-di-lama-concorso-funzionario-tecnico-ascoli-piceno-2025",
+      "scadenza": "06/08/2025",
+      "lat": "42.8689207",
+      "lon": "13.7126878"
+    },
     {
       "titolo": "Comune di Gradara, 1 istruttore amministrativo",
       "ente": "COMUNE DI GRADARA",
@@ -4441,6 +4481,14 @@
       "scadenza": "30/07/2025",
       "lat": "43.4801189",
       "lon": "13.2187279"
+    },
+    {
+      "titolo": "Comune di Cupra Marittima, 1 Istruttore Amministrativo",
+      "ente": "Comune di Cupra Marittima",
+      "url": "https://www.concorsipubblici.com/comune-di-cupra-marittima-concorso-istruttore-amministrativo-ascoli-piceno-2025",
+      "scadenza": "22/07/2025",
+      "lat": "43.0250805",
+      "lon": "13.8590653"
     },
     {
       "titolo": "Universita’ degli Studi di Urbino ”Carlo Bo”, Funzionario - Settore amministrativo-gestionale,",
@@ -4700,6 +4748,14 @@
     }
   ],
   "Molise": [
+    {
+      "titolo": "Universita' degli Studi del Molise, Ammissione  ai  corsi  di  dottorato  di  ricerca,  XLI  ciclo",
+      "ente": "Università del Molise in Campobasso",
+      "url": "https://www.concorsipubblici.com/universita-del-molise-campobasso-concorso-dottorato-campobasso-2025",
+      "scadenza": "20/08/2025",
+      "lat": null,
+      "lon": null
+    },
     {
       "titolo": "Università del Molise in Campobasso, 9 ricercatori",
       "ente": "Università del Molise in Campobasso",
@@ -6191,6 +6247,14 @@
       "lon": null
     },
     {
+      "titolo": "Universita'  degli  studi  di  Firenze , 1 professore  ordinario,   GSD 13/STEC-01 -  Storia  dell'economia",
+      "ente": "Università di Firenze",
+      "url": "https://www.concorsipubblici.com/universita-di-firenze-concorso-professore-firenze-2025-1",
+      "scadenza": "31/07/2025",
+      "lat": "43.7783667",
+      "lon": "11.2600543"
+    },
+    {
       "titolo": "Consiglio Nazionale delle Ricerche - Istituto di Chimica dei Composti Organometallici di Sesto Fiorentino, 1 ricercatore",
       "ente": "Consiglio Nazionale delle Ricerche - Istituto di Chimica dei Composti Organometallici di Sesto Fiorentino",
       "url": "https://www.concorsipubblici.com/consiglio-nazionale-delle-ricerche-istituto-di-chimica-dei-composti-organometallici-di-sesto",
@@ -6758,6 +6822,14 @@
   "Valle d'Aosta": [],
   "Veneto": [
     {
+      "titolo": "Concorso funzionario, tecnico scientifico Padova 2025 presso Università di Padova : Bando pubblico per 1 posti",
+      "ente": "Università di Padova",
+      "url": "https://www.concorsipubblici.com/universita-di-padova-concorso-funzionario-tecnico-scientifico-padova-2025-9",
+      "scadenza": "01/08/2025",
+      "lat": "45.4009079",
+      "lon": "11.8733987"
+    },
+    {
       "titolo": "Unione Montana Feltrina, 1 operatore esperto tecnico - manutentivo",
       "ente": "Unione montana feltrina - Feltre",
       "url": "https://www.concorsipubblici.com/unione-montana-feltrina-feltre-concorso-operatore-tecnico-operatore-tecnico-manutentivo-belluno",
@@ -6986,6 +7058,14 @@
       "ente": "Università di Padova",
       "url": "https://www.concorsipubblici.com/universita-di-padova-concorso-funzionario-tecnico-scientifico-padova-2025-7",
       "scadenza": "18/07/2025",
+      "lat": "45.4009079",
+      "lon": "11.8733987"
+    },
+    {
+      "titolo": "Concorso tecnologo Padova 2025 presso Università di Padova : Bando pubblico per 1 posti",
+      "ente": "Università di Padova",
+      "url": "https://www.concorsipubblici.com/universita-di-padova-concorso-tecnologo-padova-2025-1",
+      "scadenza": "17/07/2025",
       "lat": "45.4009079",
       "lon": "11.8733987"
     },

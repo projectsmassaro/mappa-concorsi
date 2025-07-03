@@ -692,3 +692,16 @@ Traceback (most recent call last):
   File "/home/user/mappa-concorsi/geolocalizza.py", line 7, in <module>
     with open("concorsi_per_regione.json", "r", encoding="utf-8") as f:
 FileNotFoundError: [Errno 2] No such file or directory: 'concorsi_per_regione.json'
+[main 269aaad] 🤖 Aggiornamento automatico dati
+ 2 files changed, 22 insertions(+)
+To https://github.com/projectsmassaro/mappa-concorsi.git
+   4c49518..269aaad  main -> main
+❌ Errore Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot18138076029:AAF_HpgEHF4rdmKddTzrImJqiLehAUVuMDA/sendMessage
+[2025-07-03 16:00:01] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
+[2025-07-03 16:00:02] ❌ Errore in /home/user/mappa-concorsi/scarica_regioni.py: Command '['python3', '/home/user/mappa-concorsi/scarica_regioni.py']' returned non-zero exit status 1.
+[2025-07-03 16:00:02] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+[2025-07-03 16:00:02] ❌ Errore in /home/user/mappa-concorsi/geolocalizza.py: Command '['python3', '/home/user/mappa-concorsi/geolocalizza.py']' returned non-zero exit status 1.
+[2025-07-03 16:00:02] 🔄 Git add/commit/push...
+[2025-07-03 16:00:03] ✅ Dati pushati su Git
+[2025-07-03 16:00:03] 📨 Invio notifica Telegram...
+[2025-07-03 16:00:05] ✅ Notifica Telegram inviata
