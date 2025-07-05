@@ -3164,3 +3164,88 @@ selenium.common.exceptions.WebDriverException: Message: Process unexpectedly clo
 📍 Unione Montana Feltrina, 1 istruttore amministrativo → None, None
 📍 Conservatorio Statale di Musica Cesare Pollini, 2 Assistente → 45.4095231, 11.8795821
 ✅ File salvato: /home/user/mappa-concorsi/concorsi_geolocalizzati.json
+[main 1d85be7] 🤖 Aggiornamento automatico dati
+ 4 files changed, 3587 insertions(+), 993 deletions(-)
+To https://github.com/projectsmassaro/mappa-concorsi.git
+   e22f507..1d85be7  main -> main
+❌ Errore Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot18138076029:AAF_HpgEHF4rdmKddTzrImJqiLehAUVuMDA/sendMessage
+[2025-07-04 16:00:01] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
+[2025-07-04 16:00:01] ❌ Errore in /home/user/mappa-concorsi/scarica_regioni.py: Command '['python3', '/home/user/mappa-concorsi/scarica_regioni.py']' returned non-zero exit status 1.
+[2025-07-04 16:00:01] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+[2025-07-05 07:01:01] ✅ Completato: /home/user/mappa-concorsi/geolocalizza.py
+[2025-07-05 07:01:01] 🔄 Git add/commit/push...
+[2025-07-05 07:01:02] ✅ Dati pushati su Git
+[2025-07-05 07:01:02] 📨 Invio notifica Telegram...
+[2025-07-05 07:01:04] ✅ Notifica Telegram inviata
+📍 Azienda  ULSS  n.   3   Serenissima,   direttore  di  struttura   complessa   UOC   Ostetricia  e  ginecologia → None, None
+📍 Comune di Caerano di San Marco, 1 Funzionario Servizi Amministrativo- Contabili → 45.7859102, 12.0010378
+📍 Provincia di Padova, 2 Istruttore amministrativo → 45.3914080, 11.8058487
+📍 Comune di Noventa Vicentina, 1 manutentore di edifici e infrastruttore → 45.2906283, 11.5398835
+📍 Comune di Villafranca Padovana, 2 Istruttore Tecnico → 45.4952002, 11.7973187
+📍 Azienda Zero di Padova, 1 direttore dell'unità operativa complessa Autorizzazione all'esercizio e organismo tecnicamente accreditante → 45.4142864, 11.8791326
+📍 Centro servizi alla Persona CR Morelli Bugna, 1 Parrucchiere → None, None
+📍 Comune di Montebelluna, 2  funzionario servizi tecnici → 45.7762844, 12.0452878
+📍 Comune di Miane, 1 Funzionario amministrativo contabile → 45.9443206, 12.0938559
+📍 Casa di soggiorno e Pensionato della Citta’ Murata, 5 Infermiere → None, None
+📍 Comune di Martellago, 1 istruttore informatico → 45.5466448, 12.1576784
+📍 Comune di Valeggio sul Mincio , 1 Operatori Esperti – Profilo Tecnico → 45.3537509, 10.7345460
+📍 Comune di Cerea, 2  Istruttore amministrativo contabile → 45.1920049, 11.2129287
+📍 Esu di Padova, 1  istruttore amministrativo contabile → 45.3914080, 11.8058487
+📍 Università degli Studi di Padova, 1  Funzionari, Settore Scientifico-tecnologico → 45.4009079, 11.8733987
+📍 Consorzio Isola di Ariano per I Servizi Sociali, 1  Istruttore Amministrativo-Contabile → None, None
+📍 Unione Montana Feltrina, 1 istruttore amministrativo contabile → None, None
+📍 Universita’ degli Studi di Padova, 1 Funzionari, Settore Scientifico-tecnologico → 45.4009079, 11.8733987
+📍 Concorso tecnologo Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4009079, 11.8733987
+📍 Comune di Cortina D’ Ampezzo, 1 Funzionario Tavolare → 45.4353695, 9.2082799
+📍 Comune di Conegliano, 1 Istruttore Tecnico → 45.4914273, 9.2248757
+📍 Accademia di Belle Arti di Venezia, 1 Assistente → 45.4286325, 12.3304880
+📍 Istituto  per  le  tecnologie  della costruzione , una borsa di ricerca → 45.8093355, 8.6319814
+📍 Comune di Cortina D’ Ampezzo, 3 Istruttori Tecnici → 45.4353695, 9.2082799
+📍 Concorso tecnologo Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4009079, 11.8733987
+📍 Comune di Domegge di Cadore,  1 Istruttore di Polizia Locale → 46.4603762, 12.4158245
+📍 Comune di Rovigo, 1 agente di polizia locale → 45.0710313, 11.7900026
+📍 Comune di Bassano del Grappa, 1  Istruttore amministrativo-contabile → 45.6041705, 8.8693541
+📍 Università di Verona, 1 ricercatore → 45.4363394, 11.0030301
+📍 Provincia di Rovigo, 1 Istruttore direttivo tecnico → 44.9777098, 12.2726835
+📍 Azienda Ospedaliera Universitaria Integrata di Verona, 1 direttore medico di radioterapia → 45.4424977, 10.9857377
+📍 Azienda Ospedaliera Universitaria Integrata di Verona, 1 medico nucleare → 45.4424977, 10.9857377
+📍 Università di Padova, 9 ricercatori → 45.4009079, 11.8733987
+📍 IPAB Andrea Danielato , 1 Coordinatore dei servizi → None, None
+📍 Comune di Schiavon, 1  Istruttore amministrativo → 45.6977089, 11.6442826
+📍 Pensionato Pietro e Santa Scarmignan, 1 cuoco → None, None
+📍 Comune di Polesella, 1  istruttore amministrativo- contabile → 44.9640818, 11.7501773
+📍 Opere Pie d'Onigo di Pederobba, 1 infermiere (proroga termini) → 45.8695205, 11.9695508
+📍 Comune di Thiene, 1 Funzionario amministrativo → 45.7122347, 11.4852633
+📍 Comune di Cartura, 1 Funzionario Amministrativo Contabile → 45.2683900, 11.8568100
+📍 Comune di Concordia Sagittaria , 1 Istruttore di Polizia Locale → 45.7561044, 12.8449558
+📍 Comune di Isola della Scala, 1 Agente di Polizia Locale → 45.4889872, 9.1876540
+📍 Comune di Este, 1 Funzionario Tecnico → 45.4387407, 9.2043251
+📍 Comune di Polesella, 1  istruttore tecnico → 44.9640818, 11.7501773
+📍 Concorso professore di prima fascia Venezia 2025 presso Università «Ca'Foscari» di Venezia : Bando pubblico per 1 posti → 45.4344957, 12.3264484
+📍 Università Ca’ Foscari Venezia , 1 Collaboratore – Settore della comunicazione e informazione, → 45.4344957, 12.3264484
+📍 Comune di Montecchio Precalcino, 2 istruttore tecnico → 45.6657810, 11.5633020
+📍 Comune di Cerro Veronese, 1 Istruttore Amministrativo Bibliotecario → 45.5713167, 11.0305775
+📍 Università di Padova, 17 ricercatore → 45.4009079, 11.8733987
+📍 Comune di Cortina D’ Ampezzo, 3 operaio specializzato → 45.4353695, 9.2082799
+📍 Comune di Sovizzo, 2 Istruttore Amministrativo → 45.5280283, 11.4456338
+📍 Provincia di Treviso, 1 Funzionario Tecnico → 45.8066913, 12.2063158
+📍 Comune di Marostica, 1 Istruttore tecnico → 45.7473182, 11.6559327
+📍 Casa di Riposo A. Galvan di Pontelongo, 1 istruttore amministrativo → 46.0845304, 11.2375172
+📍 Camera di Commercio Industria Artigianato Agricoltura di Treviso Belluno, 4 Istruttori Comparto Funzioni Locali → None, None
+📍 Comune di Monastier di Treviso, 1 Funzionario Tecnico → 45.6500759, 12.4337702
+📍 Istituto Zooprofilattico Sperimentale delle Venezie di Legnaro, 1 dirigente delle professioni sanitarie → 45.3485187, 11.9571797
+📍 Ipab di Vicenza, 1 Infermiere → 45.5486991, 11.5520499
+📍 Pia Opera Croce Verde Padova, 2 istruttore tecnico amministrativo → None, None
+📍 Comune di Campolongo Maggiore, 1 Operatore Operaio Esperto → 45.3305355, 12.0483135
+📍 Consiglio Nazionale delle Ricerche - Istituto di Neuroscienze di Pisa, 1 ricercatore → None, None
+📍 Unione Montana Feltrina, 1 istruttore amministrativo contabile → None, None
+📍 Unione Montana Feltrina, 1 istruttore amministrativo → None, None
+📍 Comune di Cortina D’ Ampezzo,  1 Funzionario Tecnico → 45.4353695, 9.2082799
+📍 Comune di Monselice, 3 Istruttori Tecnici → 45.2417684, 11.7508534
+📍 Unione Montana Feltrina, 1 Funzionario Amministrativo Contabile → None, None
+📍 Unione Montana Feltrina, 1 istruttore tecnico → None, None
+📍 Comune di Cortina D’ Ampezzo,  3 Agenti di Polizia Locale → 45.4353695, 9.2082799
+📍 Comune di Sanguinetto, 2 Istruttore tecnico → 45.1845007, 11.1511359
+📍 Unione Montana Feltrina, 1 istruttore amministrativo → None, None
+📍 Conservatorio Statale di Musica Cesare Pollini, 2 Assistente → 45.4095231, 11.8795821
+✅ File salvato: /home/user/mappa-concorsi/concorsi_geolocalizzati.json
