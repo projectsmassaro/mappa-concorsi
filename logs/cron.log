@@ -9298,3 +9298,997 @@ selenium.common.exceptions.WebDriverException: Message: Process unexpectedly clo
 📍 Unione Montana Feltrina, 1 istruttore amministrativo → None, None
 📍 Conservatorio Statale di Musica Cesare Pollini, 2 Assistente → 45.4095231, 11.8795821
 ✅ File salvato: /home/user/mappa-concorsi/concorsi_geolocalizzati.json
+[main b857263] 🤖 Aggiornamento automatico dati
+ 3 files changed, 1572 insertions(+), 4 deletions(-)
+To https://github.com/projectsmassaro/mappa-concorsi.git
+   30dc269..b857263  main -> main
+❌ Errore Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot18138076029:AAF_HpgEHF4rdmKddTzrImJqiLehAUVuMDA/sendMessage
+[2025-07-09 16:00:01] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
+[2025-07-09 16:00:02] ❌ Errore in /home/user/mappa-concorsi/scarica_regioni.py: Command '['python3', '/home/user/mappa-concorsi/scarica_regioni.py']' returned non-zero exit status 1.
+[2025-07-09 16:00:02] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+[2025-07-09 17:06:29] ✅ Completato: /home/user/mappa-concorsi/geolocalizza.py
+[2025-07-09 17:06:29] 🔄 Git add/commit/push...
+[2025-07-09 17:06:30] ✅ Dati pushati su Git
+[2025-07-09 17:06:30] 📨 Invio notifica Telegram...
+[2025-07-09 17:06:32] ✅ Notifica Telegram inviata
+Traceback (most recent call last):
+  File "/home/user/mappa-concorsi/scarica_regioni.py", line 47, in <module>
+    driver = webdriver.Firefox(options=options)
+  File "/home/user/.local/lib/python3.10/site-packages/selenium/webdriver/firefox/webdriver.py", line 71, in __init__
+    super().__init__(command_executor=executor, options=options)
+  File "/home/user/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 212, in __init__
+    self.start_session(capabilities)
+  File "/home/user/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 299, in start_session
+    response = self.execute(Command.NEW_SESSION, caps)["value"]
+  File "/home/user/.local/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 354, in execute
+    self.error_handler.check_response(response)
+  File "/home/user/.local/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.WebDriverException: Message: Process unexpectedly closed with status 1
+
+📍 Gran Sasso Science Institute di l'Aquila, dottorato di ricerca in Innovative Technologies for Space Missions and Radiation Detection XLI ciclo → 42.3455885, 13.4004688
+📍 Comune di Rocca Pia, 1 istruttore amministrativo contabile → 41.9334300, 13.9770100
+📍 Comune di Pescara, 8 posti di poliziotto municipale → 42.4921125, 14.1780615
+📍 Azienda unità sanitaria locale n. 4 di Teramo, medici di organizzazione dei servizi sanitari di base → 42.6581179, 13.6978746
+📍 Azienda unità sanitaria locale n. 4 di Teramo, 1 medico ginecologo → 42.6581179, 13.6978746
+📍 Università «G. d'Annunzio» di Chieti-Pescara, 4 ricercatori → 42.1536142, 13.2709730
+📍 Comune di Sant’ Egidio alla Vibrata, 1 istruttore tecnico → 42.8210480, 13.7178910
+📍 Comune di Sant’ Egidio alla Vibrata, 1 istruttore direttivo di vigilanza → 42.8210480, 13.7178910
+📍 Ministero dell’Istruzione e del Merito, personale ATA anno scolastico 2024/2025 (concorso per titoli) → 41.8850759, 12.4701420
+📍 Università degli Studi di Teramo, 1 consigliere avvocato → 42.6697722, 13.7003706
+📍 Comune di Castelguidone, 1 istruttore amministrativo → 41.8236474, 14.5240787
+📍 Comune di Rosciano, 1 poliziotto municipale → 42.3206925, 14.0429310
+📍 Comune di Rosciano, 1 operatore tecnico → 42.3206925, 14.0429310
+📍 Comune di Rosciano, 1 autista operaio → 42.3206925, 14.0429310
+📍 Comune di Teramo, 1 specialista economico finanziario → 42.6586805, 13.7041435
+📍 Comune di Arielli, 1 tecnico → 42.2619400, 14.3075120
+📍 Universita'  degli  studi  dell'Aquila, 4 ricercatore → 42.3649150, 13.3724479
+📍 Comune di Prezza, 1 istruttore amministrativo → 42.0581311, 13.8344743
+📍 Comune di Pettorano sul Gizio, 1 poliziotto municipale → 41.9629779, 13.9522680
+📍 Conservatorio di Musica Gesualdo da Venosa – Potenza, 1 accompagnatore al pianoforte per il canto → 40.6391374, 15.7917978
+📍 Universita' degli Studi della Basilicata - Potenza, 9 ricercatore → None, None
+📍 Universita' degli studi della Basilicata - Potenza, 5 ricercatore → None, None
+📍 Comune di Rotondella, 1 assistente sociale → 40.1713120, 16.5255890
+📍 Comune di Salandra, 2 posti di poliziotto municipale → 45.9188029, 13.4192585
+📍 Universita' degli Studi della Basilicata - Potenza, 1 tecnologo → None, None
+📍 Conservatorio di Musica E. R. Duni, 2 Accompagnatori al Pianoforte → 45.4106071, 9.0528037
+📍 Comune di Grassano, 1 assistente sociale → 45.1997335, 8.9127624
+📍 Comune di Pietrapertosa, 2 posti di poliziotto municipale → 40.5180167, 16.0632073
+📍 Comune di Scanzano Jonico, 1 funzionario di vigilanza → 40.2502425, 16.6909586
+📍 Comune di Tramutola, 1 istruttore contabile → 40.3148645, 15.7903642
+📍 Città Metropolitana di Reggio Calabria, 6 posti di “Specialista Area Economico – Finanziaria → 38.1014470, 15.6558222
+📍 Città Metropolitana di Reggio Calabria, 10 posti di istruttore amministrativo → 38.1014470, 15.6558222
+📍 Città Metropolitana di Reggio Calabria, 3 posti di avvocato → 38.1014470, 15.6558222
+📍 Città Metropolitana di Reggio Calabria, 7 posti di Specialista Area Informatica → 38.1014470, 15.6558222
+📍 Città Metropolitana di Reggio Calabria, 4 posti di architetto → 38.1014470, 15.6558222
+📍 Città Metropolitana di Reggio Calabria, 5 posti di Operatore Amministrativo → 38.1014470, 15.6558222
+📍 Città Metropolitana di Reggio Calabria, 5 posti di Istruttore Contabile → 38.1014470, 15.6558222
+📍 Città Metropolitana di Reggio Calabria, 13 posti di Specialista Area Amministrativa → 38.1014470, 15.6558222
+📍 Città Metropolitana di Reggio Calabria, 10 posti di istruttore tecnico → 38.1014470, 15.6558222
+📍 Città Metropolitana di Reggio Calabria, 12 ingegneri → 38.1014470, 15.6558222
+📍 Università «Mediterranea» di Reggio Calabria, 2 ricercatori → 38.1209705, 15.6615138
+📍 Comune di Caulonia, 1 Operatore Esperto → 38.3813770, 16.4090070
+📍 Comune di Caulonia, 1 Istruttore Tecnico-Geometra → 38.3813770, 16.4090070
+📍 Comune di Caulonia, 1 Istruttore Socio-Culturale → 38.3813770, 16.4090070
+📍 Comune di Caulonia, 1 idraulico → 38.3813770, 16.4090070
+📍 Comune di Caulonia, 1 Istruttore Amministrativo-Tributi → 38.3813770, 16.4090070
+📍 Comune di Caulonia, 1 Istruttore Amministrativo-Contabile → 38.3813770, 16.4090070
+📍 Universita' degli studi  mediterranea  di  Reggio Calabria, 2 ricercatore → 38.1209705, 15.6615138
+📍 Comune di Acquaformosa, 1 funzionario amministrativo contabile → 39.7231000, 16.0898850
+📍 Comune di Polistena, 1 funzionario → 38.4142691, 16.0768791
+📍 Università della Calabria di Rende, corso di dottorato di ricerca in Scienze e tecnologie fisiche, chimiche e dei materiali XL ciclo → 39.3620867, 16.2237085
+📍 Comune di Drapia, 5 rilevatori censimento → 38.6645238, 15.9103631
+📍 Comune di Carpanzano, 1 contabile → 39.1474910, 16.3032960
+📍 Scuola superiore  meridionale, Ammissione  ai  corsi  di  dottorato  di  ricerca,  XLI  ciclo → None, None
+📍 Comune di Sant’Arpino, 2 posti di poliziotto municipale → 40.9595120, 14.2489290
+📍 Comune di Benevento, 1 Funzionario Amministrativo Contabile → 41.1299585, 14.7772123
+📍 Comune di Benevento, 2 posi di Istruttore Informatico → 41.1299585, 14.7772123
+📍 Università di Napoli Federico II, 1 ricercatore → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 15 ricercatori → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 1 ricercatore → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 1 ricercatore → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 1 ricercatore → 40.8455637, 14.2579528
+📍 Azienda sanitaria locale di Salerno, 1 direttore della struttura complessa di recupero e riabilitazione → 40.6144609, 14.9736192
+📍 Cnr Istituto per i Polimeri, Compositi e Biomateriali – Pozzuoli, 1 ricercatore → None, None
+📍 Università «Parthenope» di Napoli, Ammissione ai corsi di dottorato di ricerca, XLI ciclo → 40.8374243, 14.2532877
+📍 Universita'  degli   studi   Suor   Orsola Benincasa,  un  professore  di  seconda   fascia, settore concorsuale  11/HIST-01 → 40.8389343, 14.2430257
+📍 Concorso dirigente medico Caserta 2025 presso Azienda Sanitaria Locale di Caserta : Bando pubblico per 20 posti → None, None
+📍 Azienda Speciale Multiservizi Pontecagnano Faiano, 1 istruttore amministrativo → None, None
+📍 Azienda Speciale Multiservizi Pontecagnano Faiano, 2 posti di farmacista → 39.4132734, 16.8219198
+📍 Azienda Speciale Multiservizi Pontecagnano Faiano, 2 magazzinieri → None, None
+📍 Azienda Speciale Multiservizi Pontecagnano Faiano, 5 operai → None, None
+📍 Università di Salerno, 1 ricercatore GSD 09/ICHI-01 - Sistemi, metodi e tecnologie dell'ingegneria chimica e di processo → 40.7720081, 14.7911797
+📍 Università «Parthenope» di Napoli, 1 ricercatore → 40.8374243, 14.2532877
+📍 Università «Parthenope» di Napoli, 3 ricercatori → 40.8374243, 14.2532877
+📍 Università di Salerno, 1 ricercatore GSD 06/MEDS-07 - Malattie dell'apparato cardiovascolare e malattie dell'apparato respiratorio → 40.7720081, 14.7911797
+📍 Università «Suor Orsola Benincasa» di Napoli, 1 professore di seconda fascia → 40.8389343, 14.2430257
+📍 Università di Salerno, 1 ricercatore GSD 06/MEDS-26 → 40.7720081, 14.7911797
+📍 Università di Salerno, 7 ricercatori → 40.7720081, 14.7911797
+📍 Università di Salerno, 1 ricercatore GSD 09/IMIS-01 - Misure → 40.7720081, 14.7911797
+📍 Università di Salerno, 1 ricercatore → 40.7720081, 14.7911797
+📍 Comune di Trani, 1 dirigente giuridico amministrativo → 41.2741029, 16.4176091
+📍 ASL Napoli 1 Centro, direttore della struttura complessa Farmacia del P.O. San Paolo → 40.8471432, 14.2465535
+📍 ASL Napoli 1 Centro, 3  dirigente  medico  di  neuropsichiatria  infantile → 40.8471432, 14.2465535
+📍 ASL Napoli 1 Centro, direttore della struttura complessa Diagnostica  per  immagini  del   P.O. San Giovanni Bosco. → 40.8471432, 14.2465535
+📍 ASL Napoli 1 Centro, direttore della struttura complessa Direzione   medica di presidio del P.O. Ospedale del Mar → 40.8471432, 14.2465535
+📍 ASL Napoli 1 Centro, direttore  della struttura complessa Farmacia del P.O. San  Giovanni   Bosco. → 40.8471432, 14.2465535
+📍 ASL Napoli 1 Centro, direttore  della struttura complessa U.O.S.M. DD.SS.BB. 32 e 33. → 40.8471432, 14.2465535
+📍 ASL Napoli 1 Centro, direttore della struttura  complessa  Medicina  generale  del  P.O.   Santa Maria di Loreto → 40.8471432, 14.2465535
+📍 ASL di Salerno, 20 dirigente  medico,  disciplina  di  psichiatria → 40.6144609, 14.9736192
+📍 ASL Napoli 1 Centro, direttore della struttura  complessa  Gestione  rischio  clinico  e   qualita → 40.8471432, 14.2465535
+📍 ASL Napoli 1 Centro, direttore  della struttura complessa Chirurgia della mano  del  P.O.   dei Pellegrini. → 40.8471432, 14.2465535
+📍 ASL Napoli 1 Centro, direttore della struttura complessa Medicina  pubblica  valutativa,   legale e fiscale → 40.8471432, 14.2465535
+📍 ASL Napoli 1 Centro, 1 dirigente medico di chirurgia toracica → 40.8471432, 14.2465535
+📍 Universita' degli studi di Napoli L'Orientale, 1 ricercatore  , GSD 10/STAA-01 -  Culture  e  lingue  antiche  e   moderne dell'Africa e dell'Asia  occidentale  e  centrale → 40.8486473, 14.2551549
+📍 Azienda Ospedaliera «Sant'Anna e San Sebastiano» di Caserta, 5 posti di medico di medicina d'urgenza → 41.0869813, 14.3336646
+📍 Consiglio Nazionale delle Ricerche - Istituto per i Sistemi Agricoli e Forestali del Mediterraneo, 1 ricercatore → None, None
+📍 Azienda sanitaria locale di Salerno, 1 direttore medico urologo → 40.6144609, 14.9736192
+📍 Comune di Benevento, 3 posti di poliziotto municipale → 41.1299585, 14.7772123
+📍 Universita' degli studi  della  Campania  Luigi Vanvitelli, 1 ricercatore, GSD 09/IIND-05 - Impianti industriali meccanici → 41.0701436, 14.3214822
+📍 Istituto Nazionale di Astrofisica – INAF, 1 collaboratore tecnico di ricerca → 37.5288682, 15.0715980
+📍 Università del Sannio di Benevento, 3 ricercatori → 41.1298353, 14.7915146
+📍 Comune di San Felice a Cancello, 2 posti di istruttore amministrativo-contabile → 41.0118040, 14.4809693
+📍 Irccs Istituto Nazionale Tumori – Fondazione Pascale, 10 infermieri → None, None
+📍 Istituto degli endotipi in oncologia, metabolismo e immunologia «G. Salvatore» del CNR, una borsa di ricerca → 45.8093355, 8.6319814
+📍 Università di Napoli Federico II, 1 ricercatore → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 2 ricercatori → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 2 ricercatori → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 1 ricercatore → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 2 ricercatori → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 1 professore di seconda fascia → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 1 ricercatore → 40.8455637, 14.2579528
+📍 Università di Napoli Federico II, 1 ricercatore → 40.8455637, 14.2579528
+📍 Azienda sanitaria locale di Benevento, 3 posti per igienista dentale e podologo → 41.1274741, 14.7980314
+📍 Azienda Ospedaliera San Pio di Benevento, 2 posti di necroforo → 41.2476307, 14.7057054
+📍 Azienda sanitaria locale di Benevento, 17 medici → 41.1274741, 14.7980314
+📍 Azienda Ospedaliera San Pio di Benevento, 2 magazzinieri → 41.2476307, 14.7057054
+📍 Consiglio Nazionale Delle Ricerche - Istituto Degli Endotipi In Oncologia, Metabolismo E Immunologia G. Salvatore Di Napoli, 1 ricercatore → 40.8358846, 14.2487679
+📍 Consiglio Nazionale delle Ricerche - Istituto degli Endotipi In Oncologia, Metabolismo e Immunologia G. Salvatore di Napoli, 1 ricercatore → 40.8358846, 14.2487679
+📍 Consiglio Nazionale delle Ricerche - Istituto degli Endotipi In Oncologia, Metabolismo e Immunologia G. Salvatore di Napoli, 1 ricercatore → 40.8358846, 14.2487679
+📍 Consiglio Nazionale delle Ricerche - Istituto per il Rilevamento Elettromagnetico dell'Ambiente di Napoli, 1 ricercatore → 40.8358846, 14.2487679
+📍 Comune di Pollica, 1 operatore esperto assistenza agli ormeggi → 40.1909568, 15.0546621
+📍 Azienda Speciale Sele Inclusione – Azienda Territoriale per i Servizi Alla Persona, esperti (short list) → None, None
+📍 Unione dei Comuni della Romagna Forlivese – Unione Montana, 5 Collaboratore Tecnico → None, None
+📍 Asp Opus Civium, 2 Responsabile Attività Assistenziali → None, None
+📍 Comune di Riccione, 1  Istruttore Tecnico → 45.5006231, 9.1504912
+📍 Comune di Serramazzoni, 1 Istruttore Tecnico → 44.4224625, 10.7891470
+📍 Unione della Romagna Faentina, 1 Dirigente dell’Area Polizia Locale → 44.2421941, 11.7667341
+📍 Azienda ospedaliero-universitaria di Parma, 1  dirigente medico, disciplina di dermatologia e venereologia. → 44.6952006, 10.0979869
+📍 Azienda ospedaliero-universitaria di Parma , 1 dirigente medico, disciplina di medicina interna → 44.6952006, 10.0979869
+📍 Comune di Sarmato, 1 Funzionario Tecnico → 45.0604256, 9.4912595
+📍 Università di Bologna, 1 ricercatore, GSD  05/BIOS-03  -  Zoologia  e  antropologia → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore, GSD 05/BIOS-04 - Anatomia, biologia cellulare  e  biologia   dello  sviluppo  comparate → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore,  GSD  04/GEOS-01  -  Mineralogia,  petrologia,  geochimica,   vulcanologia, georisorse e applicazioni → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore,   GSD  09/IINF-05  -   Sistemi   di   elaborazione   delle   informazioni → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore,    GSD 05/BIOS-01 - Botanica → 44.4982886, 11.3544570
+📍 Azienda Unità Sanitaria Locale - Imola, 2 posti di medico ortopedico → 41.1268660, 16.5472681
+📍 Unione Comuni Del Sorbara, 1 Istruttore Amministrativo → 44.7297546, 11.0383247
+📍 Azienda Ospedaliero-Universitaria Policlinico di Sant'Orsola di Bologna, 2 ingegneri → 44.4927304, 11.3621300
+📍 Azienda Ospedaliero-Universitaria Policlinico di Sant'Orsola di Bologna, 1 medico pediatra → 44.4927304, 11.3621300
+📍 Azienda Ospedaliero-Universitaria Policlinico di Sant'Orsola di Bologna, 1 ricercatore → 44.4927304, 11.3621300
+📍 Università di Parma, 1 ricercatore → 44.8042514, 10.3352078
+📍 Unione dei Comuni della Romagna Forlivese – Unione Montana, 1  Istruttore Amministrativo Contabile → None, None
+📍 Comune di Fanano, 1 Istruttore Amministrativo → 44.2077372, 10.7938365
+📍 Unione dei comuni del distretto ceramico, 1 istruttore contabile → 44.5411019, 10.7829517
+📍 Comune di Castelfranco Emilia, 1 istruttore amministrativo → 44.5949319, 11.0528375
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Camera di Commercio Industria Artigianato e Agricoltura dell’Emilia,  12 posti appartenenti all’Area Professionale degli Istruttori → 44.5085853, 11.3651014
+📍 Unione dei comuni del distretto ceramico, 1 operatore amministrativo → 44.5411019, 10.7829517
+📍 Universita' di Bologna, tre  professori,  fascia   degli ordinari → 44.4982886, 11.3544570
+📍 Universita' degli studi di  Parma, 5 ricercatore → 44.8042514, 10.3352078
+📍 Azienda USL della Romagna, 1 dirigente medico di medicina interna → 44.2250400, 12.0508857
+📍 Universita' degli studi di  Parma,  9 ricercatore → 44.8042514, 10.3352078
+📍 Università di Ferrara,  un  professore  di  prima   fascia, GSD  06/MEDS-11  -  Psichiatria → 44.8333777, 11.6263972
+📍 Universita' degli studi di  Parma, 1 ricercatore  , GSD 06/MEDS-22  -   Diagnostica per immagini, radioterapia e  neuroradiologia → 44.8042514, 10.3352078
+📍 Università di Bologna, 2 ricercatore → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore  , GSD 06/MEDS-11  -  Psichiatria → 44.4982886, 11.3544570
+📍 Comune di Monghidoro, 1 specialista attività amministrative e contabili → 44.2017264, 11.3087018
+📍 Azienda Unità Sanitaria Locale di Ferrara, 1 biologo → 44.7667642, 11.8279390
+📍 Azienda Ospedaliero-Universitaria di Ferrara, 1 medico otorinolaringoiatra → 44.8002165, 11.6947326
+📍 Unione delle terre d'argine, 1 Collaboratore Farmacista → 44.7835938, 10.8853698
+📍 Provincia di Parma, 1 collaboratore tecnico → 44.6952006, 10.0979869
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 14/GSPS-07 - Sociologia della politica, del diritto e della devianza → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 12/GIUR-17 - Filosofia del diritto → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 12/GIUR-07 - Diritto e religione → 44.4982886, 11.3544570
+📍 Provincia di Ravenna, 3 funzionari servizi tecnici → 44.3640607, 12.0590095
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 12/GIUR-10 - Diritto dell'Unione europea → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 01/MATH-06 - Ricerca operativa → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 09/IINF-01 - Elettronica → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 09/IINF-04 - Automatica → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 09/IIND-08 - Ingegneria dell'energia elettrica → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 12/GIUR-04 - Diritto del lavoro → 44.4982886, 11.3544570
+📍 Azienda USL di Ferrara, direttore della struttura complessa  U.O.  Servizio   dipendenze patologiche → 44.7667642, 11.8279390
+📍 Azienda USL di Reggio  Emilia , 1 dirigente medico di medicina d'emergenza urgenza → 44.6086674, 10.5940667
+📍 Comune di Busseto, 1 Funzionario Tecnico → 45.4269007, 9.2509734
+📍 Provincia di Ferrara, 1 Geologo → 44.7667642, 11.8279390
+📍 Azienda USL della Romagna, 1 assistente sanitario → 44.2250400, 12.0508857
+📍 Comune di Sant’Agata Feltria, 1 collaboratore esperto tecnico → 43.8643024, 12.2079994
+📍 Unione Dei Comuni del Distretto Ceramico, 1 istruttore direttivo didattico → 44.5411019, 10.7829517
+📍 Unione Valnure e Valchero, 1  istruttore direttivo contabile → None, None
+📍 Universita’ degli Studi di Parma, 1 Collaboratori - Settore Amministrativo → 44.8042514, 10.3352078
+📍 Università di Bologna, 1 ricercatore  , GSD 02/PHYS-04 - Fisica teorica  della  materia,  modelli,   metodi matematici e applicazioni → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore  , GSD 05/BIOS-02 - Fisiologia vegetale → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore  , GSD 05/BIOS-06  -  Fisiologia → 44.4982886, 11.3544570
+📍 Università di Bologna, 2 ricercatore  , GSD 08/CEAR-01  -  Idraulica,  idrologia,  costruzioni   idrauliche   e   marittime → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore  , GSD 05/BIOS-11 -  Farmacologia → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore  , GSD 05/BIOS-07  -  Biochimica → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore  , GSD 06/MEDS-12 - Neurologia → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore  , 05/BIOS-08 - Biologia molecolare, → 44.4982886, 11.3544570
+📍 Azienda Pubblica di Servizi alla Persona Seneca, 4 Infermiere → None, None
+📍 Unione dei Comuni Bassa Reggiana, 1 Esperto in pianificazione finanziaria → None, None
+📍 Comune di Pianoro, 1 Operatore Esperto Amministrativo Applicato → 40.5573263, 16.6640141
+📍 Unione dei comuni Bassa Reggiana, 2 Geometra → None, None
+📍 Azienda Unità Sanitaria Locale di Reggio Emilia, 1 medico dermatologo → 44.6086674, 10.5940667
+📍 Azienda Ospedaliero-Universitaria di Bologna Policlinico S. Orsola, 1 ricercatore sanitario → 44.4901949, 11.3646051
+📍 Azienda Pubblica di Servizi alla Persona del distretto Cesena Valle Savio, 1  Istruttore Amministrativo Contabile → 44.0227193, 12.0141036
+📍 Comune di Busseto, 4 istruttore amministrativo contabile → 45.4269007, 9.2509734
+📍 Unione dei Comuni della Bassa Romagna  , 1 Coordinatore Pedagogico → 44.4733023, 11.9313352
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Unione dei Comuni dell’Appennino Bolognese, 2 Istruttore Tecnico → None, None
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Concorso collaboratore di ricerca Bologna 2025 presso ISPRA - Istituto Superiore per la Protezione e la Ricerca Ambientale : Bando pubblico per 1 posti → 44.4884737, 11.3560062
+📍 Comune di Vergato, 1 Operaio → 44.2826600, 11.1073100
+📍 Università di Bologna «Alma Mater Studiorum», 2 ricercatori → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 2 ricercatori → 44.4982886, 11.3544570
+📍 Concorso professore di seconda fascia Modena 2025 presso Università di Modena e Reggio Emilia : Bando pubblico per 1 posti → 44.6929104, 10.6272257
+📍 Asp Citta’ di Piacenza, 1 parrucchiere, acconciatore → 45.0567580, 9.6816855
+📍 Asp Citta’ di Piacenza, 6 specialisti in attivita’ educative → 45.0567580, 9.6816855
+📍 Azienda USL di Reggio Emilia  , direttori di varie strutture operative complesse → 44.6086674, 10.5940667
+📍 Università di Ferrara, 1 ricercatore,  GSD   06/MEDS-03 -  Microbiologia  e  microbiologia   clinic → 44.8333777, 11.6263972
+📍 Università di Ferrara, 1 ricercatore, GSD   06/MEDS-19 - Malattie dell'apparato locomotore e medicina fisica  e   riabilitativa → 44.8333777, 11.6263972
+📍 Università di Ferrara, 1 ricercatore,  GSD   05/BIOS-05 - Ecologia → 44.8333777, 11.6263972
+📍 Concorso tecnologo Parma 2025 presso Università di Parma : Bando pubblico per 1 posti → 44.8042514, 10.3352078
+📍 Università di Ferrara, 1 ricercatore,  GSD   10/ANGL-01 - Anglistica e angloamericanistica → 44.8333777, 11.6263972
+📍 Università di Ferrara, 1 ricercatore,  GSD   10/SPAN-01   Lingue,   letterature    e    culture    spagnola    e   ispano-americane → 44.8333777, 11.6263972
+📍 Università di Ferrara, 1 ricercatore, GSD   06/MEDS-25 - Medicina legale e del lavoro → 44.8333777, 11.6263972
+📍 Università di Ferrara, 1 ricercatore, GSD   10/ARTE-01  -  Storia  dell'arte → 44.8333777, 11.6263972
+📍 Università di Ferrara, 1 ricercatore,  GSD   11/PAED-02 - Ricerca educativa,  didattica,  pedagogia  speciale  e   pedagogia   sperimentale → 44.8333777, 11.6263972
+📍 Università di Ferrara, 1 ricercatore,  GSD   11/PSIC-01 - Psicologia generale,  neuropsicologia  e  neuroscienze   cognitive,   psicometria → 44.8333777, 11.6263972
+📍 Università di Bologna, 1 ricercatore, GSD   08/CEAR-08   -    Design,    tecnologia   dell'architettura, architettura tecnica  e  gestione  dell'ambiente   costruito → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore,    GSD   07/AGRI-01 - Economia agraria, alimentare ed estimo rurale → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore,   GSD   09/IINF-05 - Sistemi di elaborazione  delle  informazioni → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore, GSD  13/ECON-09  -  Economia  degli  intermediari   finanziari e finanza aziendale → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore,    GSD   08/CEAR-11  -  Restauro  e   storia   dell'architettura → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore, GSD   03/CHEM-02  -  Chimica  fisica → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore,  GSD   05/BIOS-07  -  Biochimica → 44.4982886, 11.3544570
+📍 Università di Bologna, 1 ricercatore, GSD   06/MEDS-09 - Malattie del sangue, oncologia e reumatologia → 44.4982886, 11.3544570
+📍 Universita’ degli Studi di Parma, 2 Collaboratori Esperti Linguistici → 44.8042514, 10.3352078
+📍 Università di Bologna, 1 ricercatore, GSD 08/CEAR-07 - Tecnica delle  costruzioni → 44.4982886, 11.3544570
+📍 Azienda Unità Sanitaria Locale di Parma, 1 direttore Rete ospedaliera e controlli → 44.6952006, 10.0979869
+📍 Unione delle terre d'argine, 4  Istruttori tecnici → 44.7835938, 10.8853698
+📍 Azienda Ospedaliero Universitaria di Modena, 1 medico reumatologo → 44.6373266, 10.9413050
+📍 Comune di Modena, 10 Istruttore Amministrativo → 44.6476530, 10.9451910
+📍 Università di Ferrara, 1 Dirigente di seconda fascia → 44.8333777, 11.6263972
+📍 Azienda Unità Sanitaria Locale di Reggio Emilia, 1 direttore medico del lavoro → 44.6086674, 10.5940667
+📍 Comune di Cento, 1 istruttore sistemi informatici → 44.7259079, 11.2834970
+📍 Comune di Mirandola, 1 Istruttore amministrativo → 45.9635650, 8.7569247
+📍 3 Funzionario Coordinatore Pedagogico → 44.5205620, 10.1986768
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 01/MATH-05 - Analisi numerica → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore → 44.4982886, 11.3544570
+📍 Università di Bologna «Alma Mater Studiorum», 1 ricercatore GSD 01/MATH-03 - Analisi matematica, probabilità e statistica matematica → 44.4982886, 11.3544570
+📍 Comune di Brugnera, 1 Istruttore → 45.9016292, 12.5463561
+📍 Comunita’ Collinare Del Friuli, 1 Istruttore Amministrativo Contabile → None, None
+📍 Comune di San Vito al Tagliamento, 1 operaio → 45.9198052, 12.8518931
+📍 Comunità del Collio, 1 Agente di Polizia Locale → 41.9089904, 12.5287968
+📍 Azienda per i Servizi alla Persona Daniele Moro, 2   Assistenti Sociali → 45.9621368, 12.9941383
+📍 Azienda    sanitaria universitaria Friuli centrale ,  direttore  della   SOC   Riabilitazione    Latisana-Palmanova    per     il     Dipartimento   riabilitativo → None, None
+📍 Azienda regionale  di  coordinamento, 5  educatore  professionale → 45.8620009, 11.2691379
+📍 Azienda sanitaria Friuli Occidentale, 1  dirigente  medico  con  funzioni  di  medico  competente → None, None
+📍 Istituto Nazionale di Astrofisica – INAF, 1 Collaboratore Tecnico → 45.6443178, 13.7738283
+📍 Istituto Nazionale di Astrofisica – INAF, 1 Collaboratore tecnico → 45.6443178, 13.7738283
+📍 Azienda sanitaria Friuli Occidentale di Pordenone, 1 medico oftalmologo → 45.9562503, 12.6597197
+📍 Comune di Grado, 1  istruttore tecnico → 45.6781065, 13.3979091
+📍 Comune  di  Grado, 2 istruttore contabile → 45.6781065, 13.3979091
+📍 Istituto Nazionale di Astrofisica, 1 Ricercatore → 45.6443178, 13.7738283
+📍 Azienda Sanitaria Universitaria Friuli Centrale di Udine, 3 posti di farmacista → 46.0634632, 13.2358377
+📍 SISSA di Trieste, 1 ricercatore  , GSD 05/BIOS-06 - Fisiologia, per l'Area neuroscienze → 45.6496485, 13.7772781
+📍 Azienda Sanitaria Universitaria Friuli Centrale di Udine, 5 posti di medico ortopedico → 46.0634632, 13.2358377
+📍 Azienda regionale di coordinamento per la salute di Udine, 10 posti per dietista e tecnico fisiopatologo → None, None
+📍 Comune  di Gorizia, 2 funzionario  finanziario → 45.9441278, 13.6252288
+📍 Comune di Gorizia, 1  funzionario   archivista → 45.9441278, 13.6252288
+📍 Concorso funzionario, tecnico scientifico Udine 2025 presso Università di Udine : Bando pubblico per 1 posti → 46.0697887, 13.2341173
+📍 Comune di Villesse, 1 Istruttore Direttivo Tecnico → 45.8603778, 13.4363805
+📍 Ordine degli Ingegneri della Provincia di Udine, 1 Funzionario → 46.0634632, 13.2358377
+📍 Comunità di Montagna delle Prealpi Friulane Orientali, 1 poliziotto municipale → None, None
+📍 Azienda Sanitaria Universitaria Friuli Centrale di Udine, 1 medico endocrinologo → 46.0634632, 13.2358377
+📍 A.S.P. Casa Degli Operai Vecchi Ed Inabili al Lavoro di Paluzza  , 1 collaboratore amministrativo -professionale → 46.5308146, 13.0182065
+📍 A.S.P. Casa Degli Operai Vecchi Ed Inabili al Lavoro di Paluzza, 1 cuoco → 46.5308146, 13.0182065
+📍 OGS, 3 Collaboratore Tecnico → None, None
+📍 Concorso funzionario di amministrazione Trieste 2025 presso Istituto Nazionale di Astrofisica : Bando pubblico per 1 posti → 45.6443178, 13.7738283
+📍 Comune di Pasian di Prato, 1  istruttore direttivo tecnico → 46.0594922, 13.1681381
+📍 Opera Pia Coianiz, 2 Operatore tecnico – aiutocuoco → None, None
+📍 Concorso Collaboratore tecnico Trieste 2025 presso Istituto Nazionale di Oceoanografia e di Geofisica Sperimentale Ogs : Bando pubblico per 2 posti → None, None
+📍 Comune di Maniago, 1 Istruttore Tecnico → 46.3214616, 12.3926652
+📍 Concorso Collaboratore tecnico Trieste 2025 presso Istituto Nazionale di Astrofisica : Bando pubblico per 1 posti → 45.6443178, 13.7738283
+📍 Casa per Anziani Umberto I, 4 operatore socio sanitario → 45.9557638, 12.6620858
+📍 Comune di Grado, 2 posti di istruttore amministrativo contabile → 45.6781065, 13.3979091
+📍 Università di Trieste, 1 ricercatore → 45.6601694, 13.7947925
+📍 Concorso collaboratore Udine 2025 presso Università di Udine : Bando pubblico per 1 posti → 46.0697887, 13.2341173
+📍 Università della Tuscia di Viterbo, 3 ricercatori → 42.4136549, 12.1134653
+📍 Ministero dell'Interno, 16 borse  di  studio → 41.8993636, 12.4937966
+📍 Ministero delle Infrastrutture e dei Trasporti, 1  aspirante pilota → 41.1301603, 16.8668844
+📍 Agenzia Regionale per la Protezione dell’Ambiente del Lazio, 5 posti per collaboratore tecnico professionale tecnico prevenzione ambiente assistente amministrativo operatore tecnico → None, None
+📍 Istituto Superiore per la Protezione e la Ricerca Ambientale, 1 collaboratore tecnico → None, None
+📍 Agenzia Regionale per la Protezione dell’Ambiente del Lazio, 1 collaboratore amministrativo professionale → None, None
+📍 Comune di Capodimonte, 1 funzionario tecnico → 42.5465270, 11.9047550
+📍 Azienda unita' sanitaria locale di Viterbo, 1  ingegnere  biomedico → 42.4929522, 11.9488136
+📍 Universita' di  Roma   La  Sapienza, 1 ricercatore  , GSD 06/MEDS-07,  per  il   Dipartimento di medicina clinica e molecolare → 41.9040431, 12.5176991
+📍 Comune di Palestrina, 1 poliziotto municipale → 41.8395128, 12.8888291
+📍 Universita' di Roma  La  Sapienza, 2 ricercatore , vari GSD e Dipartimenti → 41.9040431, 12.5176991
+📍 Università della Tuscia di Viterbo, 1 ricercatore → 42.4136549, 12.1134653
+📍 Libera universita' Maria SS. Assunta - LUMSA, Ammissione al corso di dottorato di ricerca in Mediterranean Studies.   History, Law & Economics -  XLI  ciclo → None, None
+📍 Azienda sanitaria locale Roma 4, 2 posti di medico di cure palliative → None, None
+📍 Libera Universita' Maria SS. Assunta - LUMSA, Ammissione al corso di dottorato di ricerca in Innovazione,  sviluppo   e benessere per l'individuo e le organizzazioni - XLI  ciclo → None, None
+📍 Università della Tuscia di Viterbo, 3 ricercatori → 42.4136549, 12.1134653
+📍 Libera  Universita'  Maria  SS.  Assunta  - LUMSA, Ammissione al corso di dottorato di ricerca in Scienze  dell'economia   civile.  Governance,  istituzioni  e  storia  -  XLI  ciclo → None, None
+📍 Libera Universita' Maria SS. Assunta - Lumsa, Ammissione al corso di dottorato di ricerca in Mediterranean Studies,   History, Law & Economics → None, None
+📍 Università della Tuscia di Viterbo, 6 ricercatori → 42.4136549, 12.1134653
+📍 Azienda sanitaria locale Roma 4, 3 posti di medico oncologo → None, None
+📍 Università «La Sapienza» di Roma, 3 ricercatori → 41.9040431, 12.5176991
+📍 Libera Universita' Maria SS. Assunta - LUMSA, Ammissione al corso di dottorato di ricerca in Contemporary             Humanism - XLI ciclo → None, None
+📍 Azienda Ospedaliero-Universitaria Policlinico Umberto I di Roma, 1 medico anestesista → 41.8933203, 12.4829321
+📍 Provincia Religiosa di San Pietro Ordine Ospedaliero di San Giovanni di Dio - Fatebenefratelli di Roma, 1 direttore di medicina interna → None, None
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 2 ricercatori → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università Campus Bio-Medico di Roma, 7 ricercatori → 41.7673727, 12.4695515
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Azienda regionale emergenza sanitaria - A.r.e.s. 118 - Roma, 9 posti di medico di medicina d'urgenza → None, None
+📍 Azienda sanitaria locale Roma 6 - Albano Laziale, 4 posti di collaboratore amministrativo → None, None
+📍 Ministro della cultura, acquisizione   della   qualifica   di   restauratore di beni culturali. → 41.8988228, 12.4805414
+📍 Università di RomaTor Vergata, 1 ricercatore  , per il  Dipartimento  di   biomedicina e prevenzione. → 41.8547047, 12.6226882
+📍 ASL Roma 3,  direttore della UOC  Cardiologia → None, None
+📍 UniCamillus, 1 ricercatore , GSD 06/MEDS-10    -   Gastroenterologia, malattie infettive e malattie  cutanee → None, None
+📍 Università  La Sapienza  di Roma, 1 ricercatore,  GSD   12/GIUR-15, per il Dipartimento di scienze giuridiche → 41.9040431, 12.5176991
+📍 Università  La Sapienza  di Roma, 1 ricercatore,   GSD  05/BIOS-06,  per  il  Dipartimento  di  medicina   molecolare → 41.9040431, 12.5176991
+📍 Universita' degli studi di Roma Tor Vergata, 1 ricercatore,   , per il  Dipartimento  di   medicina dei sistemi. → 41.8547047, 12.6226882
+📍 Università  La Sapienza  di Roma, 1 ricercatore,   GSD 11/HIST-04 - Scienze del libro, del  documento  e   storico-religiose → 41.9040431, 12.5176991
+📍 Agenzia per la cybersicurezza nazionale,  27 assistenti → None, None
+📍 Agenzia Nazionale di Valutazione del Sistema Universitario e della Ricerca, 1 funzionario informatico → None, None
+📍 Università degli Studi di Roma La Sapienza, 1 tecnologo → 41.9040431, 12.5176991
+📍 Azienda regionale emergenza sanitaria - A.r.e.s. 118 - Roma, 1 direttore U.O.C. Patrimonio e gestione risorse immobiliari e tecnologiche (revoca concorso) → None, None
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore GSD 10/ARCH-01 - Archeologia → 41.9040431, 12.5176991
+📍 Libera  Universita' Maria SS. Assunta - LUMSA, Ammissione al corso di dottorato di ricerca in Educazione,    linguaggi, culture - XLI ciclo → None, None
+📍 ISS Istituto Superiore di Sanità, 1 collaboratore tecnico centro di ricerca → 41.9052265, 12.5202191
+📍 ISS Istituto Superiore di Sanità, 1 ricercatore → 41.9052265, 12.5202191
+📍 Provincia di Rieti, 3 posti di poliziotto municipale → 42.4147363, 12.8858881
+📍 Comune di Rocca Priora, 1 operatore esperto → 41.7914841, 12.7544263
+📍 Azienda Policlinico Umberto I  di Roma, 2 dirigente medico, disciplina di neuropsichiatria infantile → 41.8933203, 12.4829321
+📍 Concorso ricercatore Roma 2025 presso Università «La Sapienza» di Roma : Bando pubblico per 1 posti → 41.9040431, 12.5176991
+📍 Azienda   sanitaria locale Roma 2 , 1 dirigente  medico,  disciplina  di  psichiatria → 38.1036385, 13.3576847
+📍 Agenzia Regionale per Lo Sviluppo e L’Innovazione dell’Agricoltura del Lazio, 2 posti di Esperto sistema autorizzativo agricolo regionale → None, None
+📍 Universita'  di  Roma  Tor  Vergata, 1 ricercatore, SSD MEDS-07/A - Malattie   dell'apparato  respiratorio → 41.8547047, 12.6226882
+📍 Azienda Policlinico Umberto I  di Roma, 2 dirigente medico, disciplina di pediatria → 41.8933203, 12.4829321
+📍 Azienda Policlinico Umberto I  di Roma, 3  dirigente  medico,  disciplina  di  pediatria → 41.8933203, 12.4829321
+📍 Università «La Sapienza» di Roma, 1 ricercatore, GSD   06/MEDS-26, per il Dipartimento di medicina sperimentale → 41.9040431, 12.5176991
+📍 Azienda   sanitaria locale Roma 2, 4 dirigente medico, disciplina di pediatria → 45.4027911, 11.8898975
+📍 Università «La Sapienza» di Roma, 1 professore  di  seconda   fascia,  GSD  06/MEDS-10 → 41.9040431, 12.5176991
+📍 Agenzia Regionale per Lo Sviluppo e L’Innovazione dell’Agricoltura del Lazio, 1 Esperto in cartografia digitale → None, None
+📍 Università «La Sapienza» di Roma, 1 ricercatore,  GSD   06/MEDS-08 → 41.9040431, 12.5176991
+📍 Agenzia Regionale per Lo Sviluppo e L’Innovazione dell’Agricoltura del Lazio, 1 Esperto in cartografia digitale → None, None
+📍 Universita' di  Roma  «La  Sapienza» , 1 ricercatore, GSD 06-MEDS/02,  per  il   Dipartimento di medicina molecolare. → 41.9040431, 12.5176991
+📍 Avviso di mobilità dirigente medico medicina trasfusionale Frosinone 2025 presso Azienda unita' sanitaria locale di Frosinone : Bando pubblico per 4 posti → None, None
+📍 Azienda Policlinico Umberto I  di Roma, 2 dirigente  medico,  disciplina  di  pediatria, nell'ambito   dell'oncologia → 41.8933203, 12.4829321
+📍 Università «La Sapienza» di Roma, 1 ricercatore, GSD 09/IIND-01 - Ingegneria aerospaziale   e  navale → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 4 ricercatore, vari GSD e   Dipartimenti. → 41.9040431, 12.5176991
+📍 Universita'  di  Roma  Tor  Vergata, 1 ricercatore → 41.8547047, 12.6226882
+📍 Universita' Roma Tre, Ammissione  ai  corsi  di  dottorato  di  ricerca  della   formazione           dottorale - 41° ciclo → 41.8647577, 12.4799580
+📍 Università Telematica Internazionale «Uninettuno», 1 ricercatore → None, None
+📍 Università Telematica Internazionale «Uninettuno», 1 ricercatore → None, None
+📍 Università di Roma «Foro Italico», 1 professore di seconda fascia → 41.9291779, 12.4560048
+📍 Università Telematica Internazionale «Uninettuno», 1 professore associato → None, None
+📍 Università Telematica Internazionale «Uninettuno», 1 professore associato → None, None
+📍 Università Telematica Internazionale «Uninettuno», 1 ricercatore → None, None
+📍 Istituto Nazionale per le Malattie Infettive «Lazzaro Spallanzani» di Roma, 1 medico di igiene epidemiologia e sanità pubblica → 41.8933203, 12.4829321
+📍 Azienda Ospedaliera «S. Camillo - Forlanini» di Roma, 6 posti di tecnico sanitario di laboratorio biomedico → 41.8933203, 12.4829321
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università di Cassino e del Lazio Meridionale, 6 ricercatori → None, None
+📍 Università «La Sapienza» di Roma, 2 ricercatori → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Università Europea di Roma, 1 professore di seconda fascia → 41.8791802, 12.3946472
+📍 Università della Tuscia di Viterbo, 1 ricercatore → 42.4136549, 12.1134653
+📍 Consiglio Nazionale delle Ricerche, 1 tecnologo → 41.9003509, 12.5125901
+📍 Istituto Superiore di Sanità, 1 ricercatore → 41.9052265, 12.5202191
+📍 Consiglio per la ricerca in agricoltura e l’analisi dell’economia agraria, 6 ricercatori → None, None
+📍 Istituto Superiore di Sanità, 1 tecnologo → 41.9052265, 12.5202191
+📍 Unicusano, 1  ricercatore,   GSD  11/PSIC-04,  per  il  Dipartimento  di   scienze   economiche,   psicologiche, della  comunicazione, → 41.9044036, 12.5146022
+📍 Azienda   ospedaliero-universitaria   Policlinico   Umberto    I, direttore complessa Farmacia → None, None
+📍 ASL Roma 4 Di Civitavecchia, 3 dirigente medico di pediatria → 42.0937524, 11.7922462
+📍 ASL Roma 4 Di Civitavecchia, 2  dirigenti  medici, medicina del lavoro e sicurezza degli ambienti del lavoro → 42.0937524, 11.7922462
+📍 Unicusano, 1 ricercatore,  GSD  11/PSIC-01,  per  il  Dipartimento  di   scienze   economiche,   psicologiche → 41.9044036, 12.5146022
+📍 UniCamillus, 1 ricercatore,  GSD  06/MEDS-16  -  Malattie   odontostomatologiche → None, None
+📍 Istituto Superiore di Sanità – ISS, 3 ricercatori → 41.9052265, 12.5202191
+📍 Istituto Superiore di Sanità – ISS, 2 ricercatori → 41.9052265, 12.5202191
+📍 ASL di  Viterbo, direttore della unita' operativa complessa Nefrologia e dialisi → 42.4929522, 11.9488136
+📍 Università «La Sapienza» di Roma, 1 ricercatore  ,  GSD   06/MEDS-13 - Chirurgia vascolare → 41.9040431, 12.5176991
+📍 ENEA, una borsa di studio → 41.8623673, 12.4427456
+📍 Conservatorio Statale di Musica di Latina, 1 Ispettore di orchestra → 41.3588029, 13.4235218
+📍 ASL Roma 4 Di Civitavecchia, 4 dirigente medico di  ostetricia  e  ginecologia → 42.0937524, 11.7922462
+📍 UniCamillus, 1 ricercatore , GSD 05/BIOS-11  -  Farmacologia → None, None
+📍 Consiglio per la ricerca in agricoltura e l’analisi dell’economia agraria, 1 consulente medico veterinario → None, None
+📍 Istituto di farmacologia  traslazionale  del  CNR,  una borsa di ricerca → None, None
+📍 Universita' telematica San Raffaele Roma, 22 ricercatore → None, None
+📍 Universita'  telematica San Raffaele Roma, 28  professori  di   seconda fascia, vari GSD e Dipartimenti. → None, None
+📍 Ministero del turismo, 2 ricercatori → None, None
+📍 Università «La Sapienza» di Roma, 1 ricercatore → 41.9040431, 12.5176991
+📍 Agenzia Nazionale per i Servizi Sanitari Regionali – AGENAS, 2 posti di Collaboratore Amministrativo Professionale → None, None
+📍 Università di Cassino e del Lazio Meridionale, 2 ricercatori → None, None
+📍 Consiglio Nazionale delle Ricerche Istituto di Biologia e Patologia Molecolari, 1 ricercatore → None, None
+📍 Consiglio Nazionale delle Ricerche Istituto di Biologia e Patologia Molecolari, 1 ricercatore → None, None
+📍 Consiglio Nazionale delle Ricerche - Istituto di Scienze e Tecnologie della Cognizione - Roma, 2 ricercatori → None, None
+📍 Provincia di Imperia, 14 Istruttori Amministrativi → 43.9583753, 7.8667427
+📍 Concorso funzionario amministrativo Genova 2025 presso Università di Genova : Bando pubblico per 1 posti → 44.4148861, 8.9266707
+📍 Concorso impiegato amministrativo Genova 2025 presso Autorita' di sistema portuale del mar ligure occidentale di genova : Bando pubblico per 1 posti → None, None
+📍 Comune di Borzonasca , 1 Operatore Tecnico Esperto → 44.4222480, 9.3865700
+📍 Autorita' di sistema portuale del mar ligure occidentale di Genova,  1 posizione di impiegato amministrativo → None, None
+📍 Azienda sociosanitaria ligure 5 - La Spezia, 2  ingegnere sistemi  edilizi → None, None
+📍 Azienda sociosanitaria Ligure 5 - La Spezia, 2 ingegnere elettrico → None, None
+📍 Ospedale Policlinico San Martino - Genova, 2 posti di tecnico della fisiopatologia cardiocircolatoria e perfusione vascolare → 44.4094689, 8.9730883
+📍 Ospedale Policlinico San Martino - Genova, 1 medico chirurgo vascolare → 44.4094689, 8.9730883
+📍 1 tecnico sanitario di laboratorio biomedico → None, None
+📍 Istituto Giannina Gaslini, 1 collaboratore professionale di ricerca sanitaria → 43.7898854, 11.2375649
+📍 Ospedale Policlinico San Martino - Genova, 1 ricercatore → 44.4094689, 8.9730883
+📍 Comune di Cengio, 1 Istruttore Amministrativo-Contabile → 45.4307536, 9.2464075
+📍 Regione Liguria – Settore risorse umane, 3 Operatore esperto → 44.4067353, 8.9337199
+📍 Regione Liguria – Settore risorse umane, 3 Operatore esperto → 44.4067353, 8.9337199
+📍 Regione Liguria – Settore risorse umane, 2 Operatore esperto → 44.4067353, 8.9337199
+📍 Comune di Savona, 2 Operaio professionale → 44.3074620, 8.4813776
+📍 Comune di La Spezia, 1 istruttore tecnico - geometra → 44.1701805, 9.6123510
+📍 Comune di Fascia, 1 operaio → 44.5910660, 9.2034486
+📍 Università di Genova, 4 ricercatori → 44.4148861, 8.9266707
+📍 Comune di Lavagna, 3 Agenti di Polizia Locale → 45.7699707, 13.6224469
+📍 Comune di Serra Ricco, 1 istruttore → 44.5188233, 8.9516139
+📍 Comune di Zoagli, 1 istruttore tecnico → 45.5130154, 9.1309454
+📍 Ente Ospedaliero «Ospedali Galliera» di Genova, 1 biologo → 44.3995249, 8.9415855
+📍 Concorso collaboratore di ricerca Genova 2025 presso Stazione Zoologica «Anton Dohrn» : Bando pubblico per 2 posti → 40.8327245, 14.2356296
+📍 Comune di Zoagli, 1  istruttore tecnico → 45.5130154, 9.1309454
+📍 Comune di Ceriale, 1  Addetto servizi socio-assistenziali → 41.8380599, 12.2084144
+📍 Azienda Socio-Sanitaria Ligure 2 di Savona, 1 direttore medico pneumologo (revoca concorso) → 44.2334238, 8.2525727
+📍 Azienda Socio-Sanitaria Ligure 5 di La Spezia, 10 posti di tecnico sanitario di radiologia medica → 44.2383660, 9.6912326
+📍 Provincia di Savona,  1 Funzionario amministrativo → 44.2334238, 8.2525727
+📍 Camera di commercio industria  artigianato  e  agricoltura  di Genova, mediatore marittimo → None, None
+📍 Comune di Mele , 1 Operatore Esperto → 40.5492388, 8.3295830
+📍 Comune di Arcola, 1 Istruttore tecnico → 44.1160992, 9.9077850
+📍 Università di Genova, dottorato di ricerca - XLI ciclo → 44.4148861, 8.9266707
+📍 Comune di Andora, 1 istruttore tecnico → 43.9822167, 8.1294215
+📍 Agenzia Regionale per la Protezione dell’Ambiente Ligure, 1 Assistente Tecnico → 43.8730244, 8.0097668
+📍 Regione Liguria, 1 direttore generale delle Aziende sanitarie liguri e dell'IRCCS Ospedale Policlinico San Martino → 44.4067353, 8.9337199
+📍 Comune di Valbrevenna, 1 Operatore Esperto → 44.5605766, 9.0916029
+📍 Comune di Milano, 19 Assistente Sociale → 45.4641943, 9.1896346
+📍 Universita'  cattolica  del  Sacro Cuore, Ammissione ai corsi di dottorato di ricerca in  Criminologia,  Social   work and personal social services e  Sociologia → 45.4618543, 9.1770563
+📍 Comune di Usmate Velate, 1  Funzionario di vigilanza → 45.6506411, 9.3614145
+📍 Scuola Universitaria Superiore Iuss di Pavia, ammissione ciclo di studio 2025-2026 → 45.0368546, 9.1378251
+📍 Scuola Universitaria Superiore Iuss di Pavia, ammissione ciclo di studio 2025-2026 → 45.0368546, 9.1378251
+📍 Concorso collaboratore di amministrazione Milano 2025 presso Istituto Nazionale di Astrofisica : Bando pubblico per 1 posti → 45.7058593, 9.4282385
+📍 Comune di Casalbuttano ed Uniti, 1 istruttore tecnico → 45.2456450, 9.9739188
+📍 Comune di Busto Arsizio, 3 Istruttore Tecnico → 45.6119320, 8.8518269
+📍 Comune di Desio, 1 Funzionario amministrativo contabile → 45.6201555, 9.2088361
+📍 Comune di Busto Arsizio, 2 Assistente Sociale → 45.6119320, 8.8518269
+📍 Comunita’ Montana del Piambello, 1  Funzionario Assistente Sociale → 45.9006112, 8.8619409
+📍 Universita’ degli Studi di Milano – Bicocca, 1 Funzionario, settore  professionale scientifico-tecnologico → 45.5182760, 9.2139042
+📍 Camera di commercio di Bergamo,  1 Funzionario servizi promozionali per l’impresa e il territorio → 45.6963723, 9.6707101
+📍 Camera di Commercio di Bergamo, 2 Istruttore servizi anagrafici e di regolazione del mercato → 45.6963723, 9.6707101
+📍 Comune di Lainate, 1 Funzionario di Polizia Locale → 45.5709300, 9.0270637
+📍 Politecnico  di Milano, 1 ricercatore,   GSD  09/IBIO-01  -   Bioingegneria → 45.4790288, 9.2322104
+📍 Comune di Parabiago, 1 Funzionario di Polizia locale → 45.5568552, 8.9503528
+📍 Comune di Parabiago, 1 istruttore tecnico → 45.5568552, 8.9503528
+📍 ATS dell'Insubria , 1 elettricista → None, None
+📍 ASST di Bergamo Est, 1 dirigente medico, disciplina di gastroenterologia → 37.5751144, 12.7412763
+📍 A.S.S.T. Rhodense, 1  ingegnere gestionale → None, None
+📍 Politecnico di Milano, 1 ricercatore,   GSD   08/CEAR-08   -   Design,    tecnologia   dell'architettura, architettura tecnica  e  gestione  dell'ambiente   costruito → 45.4790288, 9.2322104
+📍 Politecnico  di Milano, 1 ricercatore,   GSD  09/IIND-04  -  Tecnologie  e  sistemi  di   lavorazione → 45.4790288, 9.2322104
+📍 Comune di Iseo, 1 Agente di Polizia Locale → 45.6578017, 10.0433070
+📍 A.S.S.T. Rhodense, 1 collaboratore   amministrativo   professionale → None, None
+📍 ASST Nord Milano , 1  tecnico   della   riabilitazione   psichiatrica → None, None
+📍 ATS dell'Insubria, direttore della  struttura  complessa  Area  salute   mentale → None, None
+📍 ASST Valcamonica, 1 infermiere → None, None
+📍 ASST di Mantova, 1  Collaboratore Tecnico Professionale → 45.1692628, 10.6708365
+📍 Comune di Parabiago, 2 Funzionario amministrativo → 45.5568552, 8.9503528
+📍 Politecnico di Milano, 1 ricercatore, GSD 09/IMIS-01 - Misure → 45.4790288, 9.2322104
+📍 Comune di Parabiago, 1 Funzionario tecnico → 45.5568552, 8.9503528
+📍 ATS dell'Insubria  , 1 dirigente fisico → None, None
+📍 Politecnico di Milano, 1 ricercatore,   GSD 09/IINF-05 -Sistemi  di  elaborazione  delle   informazioni → 45.4790288, 9.2322104
+📍 Comune di Parabiago, 1 Agente di Polizia locale → 45.5568552, 8.9503528
+📍 Agenzia di tutela della salute di Bergamo, 15 tecnico della   prevenzione  nell'ambiente  e  nei  luoghi  di  lavoro → None, None
+📍 Agenzia Regionale per la Protezione dell’Ambiente della Lombardia, 2 collaboratore tecnico professionale → None, None
+📍 Comune di Crema, 3 Istruttore Amministrativo Contabile → 45.3633067, 9.6865267
+📍 Azienda  socio-sanitaria territoriale  Ovest  Milanese,  1  dirigente medico, disciplina di ematologia → 44.4105529, 12.1906262
+📍 Politecnico di Milano, 1 ricercatore,   GSD  09/IBIO-01  -   Bioingegneria → 45.4790288, 9.2322104
+📍 Agenzia di tutela della salute di Bergamo, direttore della  struttura   complessa   Servizio   igiene   della   produzione, trasformazione,  commercializzazione,  conservazione  e   trasporto degli alimenti di origine animale → None, None
+📍 ASST di Bergamo Est,  direttore  di   struttura complessa, per la SC Distretto della Valle Seriana → 37.5751144, 12.7412763
+📍 ASST di Bergamo Est, 1 dirigente amministrativo → 37.5751144, 12.7412763
+📍 Comune di Pieve Emanuele, 1 istruttore tecnico → 45.3559126, 9.2020722
+📍 Comune di Lonate Pozzolo, 1  istruttore  tecnico → 45.6043358, 8.8157022
+📍 Comune di Villachiara, 1 Istruttore Amministrativo → 45.3553750, 9.9309660
+📍 Comune di Cuvio, 1 Collaboratore tecnico manutentivo → 45.8960048, 8.7329793
+📍 Comune di Limido Comasco, 1 istruttore tecnico → 45.6891740, 8.9798380
+📍 Comune di Limido Comasco, 1 ASSISTENTE SOCIALE → 45.6891740, 8.9798380
+📍 Scuola Universitaria Superiore Iuss Di Pavia, 1 ricercatore → 45.0368546, 9.1378251
+📍 Università di Brescia, 1 professore di prima fascia → 45.5650024, 10.2315824
+📍 Fondazione I.R.C.C.S. Istituto Neurologico «Carlo Besta» di Milano, 1 ricercatore → 45.4641943, 9.1896346
+📍 Azienda socio sanitaria territoriale di Lecco, 1 direttore medico psichiatra → 45.9005485, 9.4120248
+📍 Fondazione IRCCS Policlinico «San Matteo» di Pavia, 1 assistente tecnico → 45.0368546, 9.1378251
+📍 Agenzia di tutela della salute di Brescia, 1 informatico → None, None
+📍 Fondazione IRCCS Policlinico «San Matteo» di Pavia, 4 posti ricercatore e collaboratore → 45.0368546, 9.1378251
+📍 Comune di Lezzeno, 1 istruttore tecnico → 45.9462974, 9.1946840
+📍 Azienda Socio-Sanitaria Territoriale di Pavia, 4 posti di ostetrica → 45.0368546, 9.1378251
+📍 Scuola Universitaria Superiore Iuss Di Pavia, 1 ricercatore → 45.0368546, 9.1378251
+📍 Fondazione IRCCS Policlinico «San Matteo» di Pavia, 1 tecnico sanitario di radiologia medica → 45.0368546, 9.1378251
+📍 Università di Bergamo, 6 ricercatori → 45.6869036, 9.6613356
+📍 Azienda socio sanitaria territoriale di Crema, 1 medico geriatra → 45.3628280, 9.6874573
+📍 Politecnico di Milano, 1 ricercatore → 45.4790288, 9.2322104
+📍 Politecnico di Milano, 2 ricercatori → 45.4790288, 9.2322104
+📍 Azienda socio sanitaria territoriale di Lecco, 1 direttore della S.C. Cure Primarie → 45.9005485, 9.4120248
+📍 Politecnico di Milano, 1 ricercatore  GSD 09/IMAT-01 - Scienza e tecnologia dei materiali → 45.4790288, 9.2322104
+📍 Azienda di Servizi alla Persona del Basso Lodigiano di Codogno, 6 posti di operatore socio sanitario → None, None
+📍 Comune di Pozzaglio ed Uniti, 1  funzionario specialista in attività amministrative → 45.2110158, 10.0462002
+📍 Comune di Sumirago, 1 Istruttore Tecnico → 45.7392252, 8.7810037
+📍 Politecnico di Milano, 1 ricercatore → 45.4790288, 9.2322104
+📍 Politecnico di Milano, 2 ricercatori → 45.4790288, 9.2322104
+📍 Comune di Lumezzane, 1 Istruttore economico finanziario → 45.6528851, 10.2284136
+📍 Provincia di Lecco, 1 Istruttore tecnico → 45.9005485, 9.4120248
+📍 Concorso funzionario amministrativo Pavia 2025 presso Università di Pavia : Bando pubblico per 1 posti → 45.1867853, 9.1561451
+📍 Asst Centro Specialistico Ortopedico Traumatologico Gaetano Pini Cto, 2 Infermiere Pediatrico → None, None
+📍 Asst Centro Specialistico Ortopedico Traumatologico Gaetano Pini Cto, 10 Infermiere → None, None
+📍 Comune di Curno, 1 Funzionario Amministrativo → 45.6915142, 9.6109659
+📍 Universita' degli studi  di  Milano, 1 ricercatore,   GSD  06/MEDS-22  -  Diagnostica  per  immagini,   radioterapia e neuroradiologia → 45.4790288, 9.2322104
+📍 Libera universita' di lingue e comunicazione IULM, 1 ricercatore  , GSD  10/COMP-01   - Compartistica e teoria  della  letteratura → None, None
+📍 Asst Centro Specialistico Ortopedico Traumatologico Gaetano Pini Cto,   1 Tecnico sanitario di laboratorio biomedico → None, None
+📍 Asp Istituti Milanesi Martinitt e Stelline e Pio Albergo Trivulzio di Milano, 1 Dirigente Amministrativo → 45.4641943, 9.1896346
+📍 Comune di Curno, 1 istruttore amministrativo → 45.6915142, 9.6109659
+📍 Comune di San Giuliano Milanese, 1 istruttore informatico → 45.3949933, 9.2842979
+📍 Universita' degli studi  di  Milano, 1 ricercatore  , GSD 06/MEDS-16 - Malattie odontostomatologiche → 45.4790288, 9.2322104
+📍 Universita' degli studi di Pavia, Ammissione al corso di dottorato di ricerca di  interesse  nazionale,   41° ciclo → 45.1867853, 9.1561451
+📍 Universita' degli studi  di  Milano, 3 ricercatore  ,  vari  GSD → 45.4790288, 9.2322104
+📍 Comune di Solbiate Olona, 1 Funzionario – Vice Commissario di Polizia Locale → 45.6282645, 8.8496818
+📍 ASST  di  Mantova, 23 dirigente medico  di  di  medicina  d'emergenza-urgenza → 45.1692628, 10.6708365
+📍 ASST  Sette  Laghi, 1 dirigente medico   di   medicina trasfusionale → 43.7087754, 10.4412571
+📍 Comune di Montichiari, 1 Agente di Polizia Locale → 45.4849384, 9.1404184
+📍 Politecnico di Milano, 1 ricercatore,   GSD 08/CEAR-09 -  Progettazione  architettonica → 45.4790288, 9.2322104
+📍 Politecnico di Milano, 1 ricercatore,   GSD 08/CEAR-06 - Scienza delle costruzioni → 45.4790288, 9.2322104
+📍 Fondazione IRCCS San Gerardo dei Tintori di Monza, direttore della  struttura   complessa Qualita'  accreditamento  Internal  Auditing  e  gestione   rischio clinico. → 45.6395418, 9.2788304
+📍 Fondazione  IRCCS  Ca'  Granda  Ospedale Maggiore Policlinico, 1 dirigente medico   di  medicina   trasfusionale → 43.7087754, 10.4412571
+📍 ASST  Sette  Laghi , 1 dirigente medico  di   cardiologia → 41.9050870, 12.5112092
+📍 ASST  di  Mantova, 1 dirigente psicologo → 45.1692628, 10.6708365
+📍 Universita' degli studi dell'Insubria, 2 ricercatore → None, None
+📍 Comune di Brugherio, 1 Funzionario → 45.5635592, 9.2329314
+📍 ASST Lariana, 3 dirigente medico di chirurgia generale → 43.9072786, 12.9067231
+📍 Comune di Ponte San Pietro, 1 Funzionario Tecnico → 45.6977541, 9.5872254
+📍 Politecnico di Milano, 1 ricercatore, GSD 01/MATH-01 - Logica matematica, didattica  e   storia della matematica → 45.4790288, 9.2322104
+📍 Politecnico di Milano, 1 ricercatore,   GSD     09/IEGE-01     -      Ingegneria   economico-gestionale → 45.4790288, 9.2322104
+📍 Politecnico di Milano, 1 ricercatore,  GSD  09/IIND-04  -  Tecnologie  e  sistemi  di   lavorazione → 45.4790288, 9.2322104
+📍 Fondazione IRCCS San Gerardo dei Tintori di Monza, 1 dirigente medico di  chirurgia   vascolare → 45.6395418, 9.2788304
+📍 Politecnico di Milano, 1 ricercatore, GSD 08/CEAR-09 -  Progettazione  architettonica → 45.4790288, 9.2322104
+📍 Agenzia Regionale per la Protezione dell’Ambiente della Lombardia, 11 Collaboratore Tecnico Professionale → None, None
+📍 Universita' degli studi dell'Insubria , 6 ricercatori → None, None
+📍 Politecnico di Milano, 1 ricercatore,   GSD   08/CEAR-08   -   Design,    tecnologia   dell'architettura, architettura tecnica  e  gestione  dell'ambiente   costruito → 45.4790288, 9.2322104
+📍 Università di Bergamo, 1 professore  di  seconda   fascia, GSD 13/ECON-07 - Economia e gestione delle imprese → 45.6869036, 9.6613356
+📍 Università di Brescia, 1 ricercatore, GSD 06/MEDS-09  -  Malattie  del   sangue, oncologia e reumatologia → 45.5650024, 10.2315824
+📍 ATS della Citta' metropolitana di Milano, direttore della  struttura  complessa   SC Interventi di Welfare → 45.4641943, 9.1896346
+📍 ASST Papa Giovanni XXIII di  Bergamo , direttore della SC Laboratorio di microbiologia e virologia → 45.7566557, 9.7542192
+📍 ASST  di  Mantova, 1 dirigente medico  di  psichiatria → 45.1692628, 10.6708365
+📍 ASST  di  Mantova, 1 dirigente medico  di   neurologia → 45.1692628, 10.6708365
+📍 Fondazione  IRCCS  Ca'  Granda  Ospedale Maggiore Policlinico, 1 dirigente medico   di audiologia   e foniatria → 41.1204907, 14.7980292
+📍 ASST Sette Laghi , 1 dirigente medico di   endocrinologia → 45.0522244, 7.6662021
+📍 Comune di Mozzate, 1 funzionario amministrativo → 45.6749863, 8.9559338
+📍 ATS della Citta' metropolitana di Milano, direttore della  struttura  complessa   SC Programmazione e ricomposizione rete socio-sanitaria e  social → 45.4641943, 9.1896346
+📍 Politecnico di Milano, 1 ricercatore,  GSD  09/IMAT-01  -  Scienza  e  tecnologia  dei   materiali → 45.4790288, 9.2322104
+📍 Fondazione  IRCCS  Ca'  Granda  Ospedale Maggiore Policlinico, 1 ortottista → None, None
+📍 ASST  di  Mantova, 1 dirigente medico  di patologia clinica → 45.1692628, 10.6708365
+📍 Comune di Marcignago, 1 Istruttore Tecnico → 45.2547256, 9.0778714
+📍 Provincia di Lecco, 3 Funzionari → 45.9005485, 9.4120248
+📍 Provincia di Lecco, 5  Operai specializzati → 45.9005485, 9.4120248
+📍 Provincia di Lecco, 4 Istruttori Amministrativi → 45.9005485, 9.4120248
+📍 Comune di Castel di Lama , 1 funzionario tecnico → 42.8689207, 13.7126878
+📍 Parco Nazionale dei Monti Sibillini, 1 assistente amministrativo → 42.9144515, 13.1884698
+📍 Comune di Gradara, 1 istruttore amministrativo → 43.9412267, 12.7733473
+📍 Provincia di Ancona, 1  Istruttore di Polizia Locale → 43.4801189, 13.2187279
+📍 Comune di Cupra Marittima, 1 Istruttore Amministrativo → 43.0250805, 13.8590653
+📍 Universita’ degli Studi di Urbino ”Carlo Bo”, Funzionario - Settore amministrativo-gestionale, → 43.8431241, 13.0146341
+📍 Università Politecnica delle Marche, 8 ricercatori → 42.9159861, 13.9016404
+📍 Università di Macerata, 3 posti di ricercatore → 43.3008028, 13.4549052
+📍 Unione Montana Marca di Camerino, 5 posti di assistente sociale → 43.1357641, 13.0683092
+📍 Comune di Pollenza, 1 agente di Polizia Locale → 43.2677749, 13.3477918
+📍 Unione Montana Marca di Camerino, 5 Assistente Sociale → 43.1357641, 13.0683092
+📍 Comune di Macerata, 1 Educatore dei nidi d’infanzia → 43.2997488, 13.4536091
+📍 Concorso tecnico scientifico Pesaro Urbino 2025 presso Università di Urbino «Carlo Bo» : Bando pubblico per 1 posti → 43.8431241, 13.0146341
+📍 Asp Ambito 9, 1 Operatore Esperto → None, None
+📍 Comune di Cartoceto, 1 collaboratore tecnico manutentivo → 43.7656630, 12.8834580
+📍 AST Fermo,  direttore di struttura complessa  di  medicina  e   chirurgia d'accettazione e d'urgenza → None, None
+📍 Comune di Porto San Giorgio,  1 Istruttore Amministrativo-Contabile → 43.1846148, 13.7960779
+📍 Comune di Amandola, 1  Agente di Polizia Locale → 42.9799650, 13.3560847
+📍 Concorso funzionario, tecnico informatico Ancona 2025 presso Università Politecnica delle Marche : Bando pubblico per 1 posti → 42.9159861, 13.9016404
+📍 Parco Nazionale dei Monti Sibillini, 1 Funzionario informatica → 42.9144515, 13.1884698
+📍 Provincia di Ancona, 1 Funzionario Tecnico → 43.4801189, 13.2187279
+📍 Azienda Sanitaria Territoriale di Ancona, 1  direttore medico di medicina interna → 43.4801189, 13.2187279
+📍 Comune di Trecastelli, 1  istruttore tecnico → 43.6868126, 13.1098223
+📍 Università di Urbino «Carlo Bo», 1 professore di seconda fascia → 43.8431241, 13.0146341
+📍 Concorso collaboratore Macerata 2025 presso Università di Camerino : Bando pubblico per 1 posti → 42.9342831, 13.8924868
+📍 Azienda Sanitaria Territoriale di Pesaro Urbino, 1 medico organizzazione dei servizi sanitari di base → 43.6941127, 12.7014437
+📍 Azienda Sanitaria Territoriale di Ancona, 1 direttore di struttura complessa U.O.C. Medicina interna → 43.4801189, 13.2187279
+📍 Azienda Sanitaria Territoriale di Ascoli Piceno, 1 medico di malattie metaboliche e diabetologia → 42.8834204, 13.5395930
+📍 Azienda Sanitaria Territoriale di Ascoli Piceno, 2 posti di medico di radiodiagnostica → 42.8834204, 13.5395930
+📍 Azienda Sanitaria Territoriale di Ascoli Piceno, 2 posti di medico urologo → 42.8834204, 13.5395930
+📍 Azienda Sanitaria Territoriale di Ascoli Piceno, 3 posti di medico di medicina d'urgenza → 42.8834204, 13.5395930
+📍 Azienda Sanitaria Territoriale di Ascoli Piceno, 2 posti di medico anestesista → 42.8834204, 13.5395930
+📍 Azienda Sanitaria Territoriale di Ascoli Piceno, 1 medico nefrologo → 42.8834204, 13.5395930
+📍 Azienda Sanitaria Territoriale di Ascoli Piceno, 1 medico di radioterapia → 42.8834204, 13.5395930
+📍 Concorso collaboratore amministrativo Pesaro Urbino 2025 presso Università di Urbino «Carlo Bo» : Bando pubblico per 1 posti → 43.8431241, 13.0146341
+📍 Universita' degli Studi del Molise, Ammissione  ai  corsi  di  dottorato  di  ricerca,  XLI  ciclo → None, None
+📍 Università del Molise in Campobasso, 9 ricercatori → None, None
+📍 Comune di Pozzilli, 1 istruttore tecnico → 41.5114220, 14.0625170
+📍 Comune di Isernia, 1 funzionario amministrativo → 41.4213338, 14.0769891
+📍 Comune di Bosco Marengo, 1 Istruttore Tecnico Geometra → 44.8255510, 8.6772480
+📍 Concorso direttore di struttura, Medico Radiologo, Medico Pediatra Torino 2025 presso Azienda Ospedaliero-Universitaria Città Della Salute e della Scienza di Torino : Bando pubblico per 1 posti → 38.4371909, 15.9037685
+📍 Azienda sanitaria Zero, 12   infermiere  pediatrico → None, None
+📍 Azienda sanitaria Zero, 10 fisioterapista → None, None
+📍 Comune di Verbania, 1 ingegnere, architetto → 45.5155174, 9.0308107
+📍 Azienda sanitaria locale AT di Asti, 5 dirigente medico di medicina d'emergenza-urgenza → 44.8260126, 8.2026863
+📍 Concorso medico di medicina interna Torino 2025 presso Azienda Sanitaria Locale To5 - Chieri : Bando pubblico per 1 posti → 45.0520341, 7.6667266
+📍 Azienda  sanitaria  locale  VC , 1 ingegnere clinico → None, None
+📍 Azienda sanitaria Zero, 11 logopedista → None, None
+📍 Azienda sanitaria Zero, 13 ostetrica → None, None
+📍 Azienda  sanitaria  locale AT di Asti, 2 dirigente medico di neurologia → 44.8260126, 8.2026863
+📍 Azienda sanitaria Zero , 1 dirigente delle professioni sanitarie infermieristiche → None, None
+📍 Azienda  sanitaria Zero, 13 tecnico della prevenzione nell'ambiente e  nei  luoghi  di   lavoro → 41.8367053, 12.4651239
+📍 Azienda sanitaria Zero, 7  assistente sanitario → None, None
+📍 Comune di Collegno, 1 Educatore servizi per la prima infanzia → 45.7538762, 7.2940296
+📍 Università di Torino, 1 ricercatore → 45.0699309, 7.6903562
+📍 Comune di Pieve Vergonte, 1 istruttore tecnico → 46.0061717, 8.2664651
+📍 Comune di Pieve Vergonte, 1 Autista → 46.0061717, 8.2664651
+📍 Azienda sanitaria Locale TO4 di Chivasso, 1 veterinario → 45.1909588, 7.8871864
+📍 Università di Torino, 1 professore di seconda fascia → 45.0699309, 7.6903562
+📍 Università di Torino, 1 professore di prima fascia → 45.0699309, 7.6903562
+📍 Università di Torino, 1 professore di seconda fascia → 45.0699309, 7.6903562
+📍 Università di Torino, 2 ricercatori → 45.0699309, 7.6903562
+📍 Università di Torino, 2 ricercatori → 45.0699309, 7.6903562
+📍 Politecnico di Torino, 3 ricercatori → 45.0636974, 7.6575263
+📍 Politecnico di Torino, 3 ricercatori → 45.0636974, 7.6575263
+📍 Azienda Ospedaliera Nazionale «SS. Antonio e Biagio e Cesare Arrigo» di Alessandria, 1 medico di chirurgia generale → 44.8349533, 8.7450304
+📍 Azienda Sanitaria Locale Bi di Biella, 2 posti di medico neurologo → 45.5669538, 8.0869120
+📍 Azienda Ospedaliera Nazionale «SS. Antonio e Biagio e Cesare Arrigo» di Alessandria, 1 medico di chirurgia generale → 44.8349533, 8.7450304
+📍 Azienda Sanitaria Locale Bi di Biella, 3 posti di medico geriatra → 45.5669538, 8.0869120
+📍 Concorso funzionario amministrativo Torino 2025 presso Politecnico di Torino : Bando pubblico per 3 posti → 45.0636974, 7.6575263
+📍 Politecnico di Torino, 1 Funzionari, settore professionale amministrativo-gestionale → 45.0636974, 7.6575263
+📍 Concorso funzionario, tecnico informatico Torino 2025 presso Politecnico di Torino : Bando pubblico per 1 posti → 45.0636974, 7.6575263
+📍 Politecnico di Torino, 1 Funzionari, settore professionale tecnico – informatico → 45.0636974, 7.6575263
+📍 Concorso funzionario, tecnico informatico Torino 2025 presso Politecnico di Torino : Bando pubblico per 3 posti → 45.0636974, 7.6575263
+📍 Comune di Casalborgone, 1 Operatore esperto → 45.1304510, 7.9404260
+📍 Concorso funzionario, tecnico informatico Torino 2025 presso Politecnico di Torino : Bando pubblico per 1 posti → 45.0636974, 7.6575263
+📍 Comune di Prascorsano, 1 Funzionario Economico Finanziario → 45.3676505, 7.6157353
+📍 Comune di Verbania, 1 funzionario → 45.5155174, 9.0308107
+📍 Universita’ degli Studi del Piemonte Orientale, 2 Collaboratori, Settore tecnico → 45.3274710, 8.4246373
+📍 Comune di Bolzano Novarese, 1 operaio addetto al servizio tecnico manutentivo → 45.7627855, 8.4451747
+📍 Comune di Valenza, 2  Agente di Polizia locale → 45.0144203, 8.6461898
+📍 Azienda  sanitaria locale AL, 1  dirigente   medico,   disciplina   malattie   metaboliche    e   diabetologia → None, None
+📍 Azienda ospedaliero-universitaria  Maggiore della Carita', 1 dirigente biologo → None, None
+📍 Università di Torino, 1 Funzionari – settore socio-sanitario → 45.0699309, 7.6903562
+📍 Azienda Sanitaria Locale «Vc» di Vercelli, 2 posti di medico dermatologo → 45.5553826, 8.3462837
+📍 Azienda Sanitaria Locale At - Asti, 1 legale → None, None
+📍 Universita’ degli Studi di Torino, 1 tecnologo → 45.0699309, 7.6903562
+📍 Azienda Sanitaria Locale At - Asti, 1 direttore di struttura complessa Malattie endocrine e del metabolismo → None, None
+📍 Azienda Sanitaria Locale «Vc» di Vercelli, 2 posti di medico ortopedico → 45.5553826, 8.3462837
+📍 Comune di Quargnento, 1 Istruttore amministrativo-contabile → 44.9449657, 8.4873857
+📍 Azienda Sanitaria Locale At - Asti, 1 giornalista → None, None
+📍 Università di Torino, 6 ricercatori → 45.0699309, 7.6903562
+📍 Concorso dirigente ambientale Torino 2025 presso Agenzia Regionale per la Protezione dell’Ambiente : Bando pubblico per 1 posti → 43.8730244, 8.0097668
+📍 Azienda Sanitaria Locale «Vc» di Vercelli, 1 medico cardiologo → 45.5553826, 8.3462837
+📍 Azienda sanitaria Locale TO4 di Chivasso, 1 medico neurologo → 45.1909588, 7.8871864
+📍 Azienda Sanitaria Locale At - Asti, 1 medico psichiatra (riapertura termini) → None, None
+📍 Comune di Cavour, 1 operatore amministrativo → 44.1971288, 8.0300609
+📍 Conservatorio statale di musica A. Vivaldi di Alessandria, insegnante → 40.8492407, 14.2526298
+📍 Camera di commercio di Torino, 1 Funzionario di processi organizzativi e di supporto → 45.0651633, 7.6865293
+📍 Comune di Domodossola, 1 Istruttore Amministrativo → 45.4819123, 9.1624425
+📍 Azienda sanitaria Zero, 8 collaboratore  tecnico   professionale   -   informatico   sistemista → None, None
+📍 Unione Montana dei Comuni della Valsesia, 1 collaboratore amministrativo esperto → 45.8138774, 8.2572961
+📍 Concorso logopedista Verbano Cusio Ossola 2025 presso Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna : Bando pubblico per 1 posti → None, None
+📍 A.S.L. TO3, direttore della struttura complessa,  disciplina  di  medicina  del   lavoro e sicurezza degli ambienti di lavoro → None, None
+📍 Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna, 1 tecnico della prevenzione nell'ambiente e nei luoghi di  lavoro → 41.8367053, 12.4651239
+📍 Comune di Mappano, 1 Funzionario contabile → 45.1477917, 7.7064607
+📍 Azienda Sanitaria Locale To5 - Chieri, 3 dirigente medico di medicina d'emergenza-urgenza → None, None
+📍 A.S.L. BI di Biella, 1 ingegnere clinico → 45.5669538, 8.0869120
+📍 Comune di Mondovi, 1 Funzionario amministrativo-contabile → 44.3881453, 7.8301689
+📍 Comune di Biella, 1  Educatore dei servizi educativi per l’infanzia → 45.6707126, 8.1704249
+📍 Azienda Ospedaliero-Universitaria «Maggiore della Carità» di Novara, 1 collaboratore tecnico professionale - ingegnere clinico → 45.5842500, 8.5459970
+📍 Azienda Ospedaliero-Universitaria «San Luigi Gonzaga» di Orbassano, 1 medico neurologo → 45.0072629, 7.5369192
+📍 Comune di Biella, 2 Istruttore tecnico → 45.6707126, 8.1704249
+📍 Azienda sanitaria locale AL - Alessandria, 1 direttore della struttura complessa Farmacia ospedaliera → None, None
+📍 Comune di Cameri, 1 Funzionario Tecnico → 45.4996737, 8.6604512
+📍 Concorso ricercatore Torino 2025 presso Istituto Nazionale di Ricerca Metrologica : Bando pubblico per 1 posti → 45.0149034, 7.6402170
+📍 Azienda  ospedaliera  in  Cuneo, 1  operatore tecnico specializzato → None, None
+📍 Azienda sanitaria Zero, direttore della struttura complessa Emergenza sanitaria territoriale 118 → None, None
+📍 Azienda  ospedaliera  in  Cuneo, 1 tecnico della prevenzione nell'ambiente e nei luoghi di  lavoro → 41.8367053, 12.4651239
+📍 Azienda sanitaria Zero, direttore  della  struttura  complessa   Gestione sanitaria manifestazioni di massa → 44.0359323, 10.1395519
+📍 Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna, 1 ingegnere/architetto → None, None
+📍 Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna, 4 posti di medico anestesista → None, None
+📍 Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna, 1 assistente sanitario → None, None
+📍 Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna, 3 posti di medico di medicina trasfusionale → None, None
+📍 Azienda Sanitaria Locale Cn1 - Cuneo, 1 avvocato → 44.3212575, 7.6794273
+📍 Concorso funzionario amministrativo Torino 2025 presso Università di Torino : Bando pubblico per 6 posti → 45.0699309, 7.6903562
+📍 Comune di Monesiglio, 1  istruttore tecnico → 44.4650370, 8.1185420
+📍 Comune di Biella, 2  Istruttore tecnico → 45.6707126, 8.1704249
+📍 Consorzio Ovest Solidale, 3 Istruttore Direttivo Assistente Sociale → None, None
+📍 Comune di Borgomanero, 4 Istruttore Servizi amministrativo-contabili → 45.3271197, 8.8395663
+📍 Comune di Vinovo, 2 Istruttore tecnico → 44.9482927, 7.6338469
+📍 Comune di Biella, 1 Educatore → 45.6707126, 8.1704249
+📍 Azienda Sanitaria Locale «Vc» di Vercelli, 1 dirigente medico → 45.5553826, 8.3462837
+📍 Azienda sanitaria Locale TO4 di Chivasso, 1 medico ematologo → 45.1909588, 7.8871864
+📍 Comune di Alba, 1 Istruttore Contabile Tributario → 44.7009613, 8.0356802
+📍 Comune di Busano, 1 Istruttore Amministrativo-contabile → 45.3294385, 7.6557322
+📍 Comune di Martina Franca, 1 poliziotto municipale → 40.7042378, 17.3399908
+📍 Comune di San Marzano di San Giuseppe, 1 istruttore tecnico geometra → 40.4544250, 17.5056070
+📍 Ordine degli Architetti Pianificatori Paesaggisti e Conservatori della Provincia di Bari, 1 assistente amministrativo → 41.1128165, 16.8995853
+📍 Comune di Massafra, 1 istruttore amministrativo → 40.5888311, 17.1169895
+📍 Comune di Nardò, 1 avvocato → 40.1850218, 18.0365819
+📍 Università Aldo Moro di Bari, 1 ricercatore → 41.1094881, 16.8816878
+📍 Comune di Castellana Grotte, 1 Specialista Amministrativo Contabile → 40.8864310, 17.1654950
+📍 Azienda Ospedaliero-Universitaria Ospedali Riuniti di Foggia, 1 dirigente ingegnere → 41.5028105, 15.4528939
+📍 Universita' degli studi di Bari Aldo Moro, Ammissione ai  corsi  di  dottorato  di  ricerca → 41.1094881, 16.8816878
+📍 Università Aldo Moro di Bari, 2 ricercatore → 41.1094881, 16.8816878
+📍 Comune di Latiano, 1 funzionario tecnico → 40.5537831, 17.7182220
+📍 Universita'  del  Salento,  5 ricercatore → 40.3586434, 18.1655240
+📍 Comune di Lizzano, 1 autista scuolabus → 44.1615719, 10.8936831
+📍 Comune di Ruvo di Puglia, 1 istruttore tecnico perito agrario → 41.1170062, 16.4845603
+📍 Comune di Specchia, 2 posti di assistente sociale → 39.9406865, 18.2967417
+📍 Comune di Ruvo di Puglia, 1 istruttore tecnico → 41.1170062, 16.4845603
+📍 ARCA - Nord Salento, 1 istruttore tecnico informatico → None, None
+📍 Comune di Noicattaro, 3 posti per collaboratore amministrativo e poliziotto municipale → 41.0322873, 16.9877123
+📍 Concorso professore di prima fascia Bari 2025 presso Politecnico di Bari : Bando pubblico per 1 posti → 41.1089092, 16.8785783
+📍 Concorso ricercatore Bari 2025 presso Politecnico di Bari : Bando pubblico per 1 posti → 41.1089092, 16.8785783
+📍 Azienda sanitaria locale di Foggia, 13 dirigente medico, area sanita', disciplina di  ginecologia   e ostetricia → 41.5028105, 15.4528939
+📍 Comune di Rutigliano, 1 funzionario → 41.0111589, 17.0054792
+📍 Regione Puglia, 1 dirigente della struttura speciale audit e coordinamento controlli fondi europei → 41.1209555, 16.8825604
+📍 Regione Puglia, 1 dirigente della struttura speciale supervisione controlli interni → 41.1209555, 16.8825604
+📍 Azienda Ospedaliero-Universitaria Policlinico Riuniti di Foggia, 1 medico psichiatra → 41.5028105, 15.4528939
+📍 Politecnico di Bari, 1 tecnologo → 41.1089092, 16.8785783
+📍 Istituto Tumori Giovanni Paolo II-irccs-Bari, 1 ricercatore → 41.1065039, 16.8580402
+📍 Istituto Tumori Giovanni Paolo II-irccs-Bari, 1 ricercatore → 41.1065039, 16.8580402
+📍 Comune di Melendugno, 1 funzionario tecnico → 40.2742353, 18.3376480
+📍 Comune di Cannole, 1 funzionario tecnico → 40.1662250, 18.3660300
+📍 Comune di Veglie, 1 assistente sociale → 40.3351260, 17.9652190
+📍 Comune di Surbo, 1 funzionario tecnico → 40.3960280, 18.1334220
+📍 Comune di Cisternino, 1 esperto amministrativo contabile → 40.7394859, 17.4284994
+📍 Azienda Sanitaria Locale di Taranto, 11 posti di medico pediatra → 40.4565097, 17.5098081
+📍 Azienda Sanitaria Locale di Taranto, 52 posti di medico → 40.4565097, 17.5098081
+📍 Agenzia Regionale Strategica per La Salute Ed Il Sociale, 1 direttore medico di Igiene, Epidemiologia e Sanità Pubblica → 41.9028258, 12.5124274
+📍 Parco Naturale Regionale Molentargius-Saline, 1 Direttore del Parco → 39.2194077, 9.1624839
+📍 Azienda Regionale Della Salute Regione Sardegna, 22 posti di Tecnico Sanitario di Laboratorio Biomedico → None, None
+📍 Comune di Sant’Antioco, 2 posti di istruttore tecnico → 39.0665058, 8.4553808
+📍 Comune di Sestu, 1 poliziotto municipale → 39.2999301, 9.0920980
+📍 Comune di Uta, 1 operatore esperto → 39.2919815, 8.9540939
+📍 Azienda Regionale della Salute Regione Sardegna, 3 posti di medico legale → 39.2521430, 9.1032892
+📍 ARES  Sardegna, 23 dirigente farmacista → 39.2521430, 9.1032892
+📍 Comune di Villamar, 1 assistente sociale → 39.6178802, 8.9621320
+📍 Comune di Silanus, 1 collaboratore amministrativo → 40.2904582, 8.8894811
+📍 Comune di Silanus, 2 posti di operaio → 40.2904582, 8.8894811
+📍 Comune di Villamassargia, 1 Funzionario Operatore Sociale → 39.2758994, 8.6404754
+📍 Universita' di  Sassari , 1 professore  di  seconda   fascia,   GSD   06/MEDS-15    -    Neurochirurgia    e    chirurgia   maxillo-facciale → 40.3128187, 9.3104899
+📍 Parco Naturale Regionale Molentargius-Saline, 1 amministrativo → 39.2194077, 9.1624839
+📍 Comune di Scano di Montiferro, 1 istruttore tecnico → 40.2163106, 8.5842954
+📍 Comune di Monastir, 1 istruttore amministrativo → 39.3871686, 9.0440531
+📍 Consiglio Notarile dei Distretti Riuniti di Cagliari, Lanusei e Oristano, 1 impiegato amministrativo → 39.2171994, 9.1133110
+📍 Unione Dei Comuni del Coros, 1 direttore artistico → None, None
+📍 Comune di Elmas, 1 funzionario amministrativo contabile → 39.2708516, 9.0487831
+📍 Comune di Elmas, 2 posti di istruttore tecnico → 39.2708516, 9.0487831
+📍 Comune di Aglientu, 1 poliziotto municipale → 41.0795730, 9.1127190
+📍 Comune di Samassi, 1 istruttore amministrativo-contabile → 39.4819634, 8.9074020
+📍 Ministero dell’Istruzione – Ufficio Scolastico Regionale per la Sicilia, personale ATA – Indizione dei concorsi nell’anno scolastico 2024/2025 – Graduatorie a.s. 2025/2026 → 41.8850759, 12.4701420
+📍 Regione Sicilia, 16 posti di funzionario di controllo di gestione → 38.1409150, 13.3485711
+📍 Regione Sicilia, 63 posti di funzionario economico finanziario → 38.1409150, 13.3485711
+📍 Comune di Taormina, 4 assistenti sociali → 45.5003316, 9.1906573
+📍 Comune di Gravina di Catania, 1 poliziotto municipale → 37.5603691, 15.0617632
+📍 Istituto Nazionale di Astrofisica – INAF, 1 collaboratore tecnico → 37.5288682, 15.0715980
+📍 Comune di Palermo, 29 posti per funzionario tecnico → 38.1112268, 13.3524434
+📍 Comune di Gravina di Catania, 1 istruttore amministrativo-contabile → 37.5603691, 15.0617632
+📍 Comune di Palermo, 1 dirigente tecnico → 38.1112268, 13.3524434
+📍 Comune di Palermo, 64 posti per funzionario amministrativo funzionario legale funzionario contabile → 38.1112268, 13.3524434
+📍 Università di Catania, 1 ricercatore → 37.5295157, 15.0672216
+📍 Istituto Regionale del Vino e dell’Olio, 12 posti per Assistenti e Funzionari → None, None
+📍 Universita' degli  studi  di  Palermo, 2 ricercatore → 38.0333906, 12.5348262
+📍 Concorso medico chirurgo Catania 2025 presso Azienda Ospedaliero-Universitaria Policlinico «Gaspare Rodolico» di Catania : Bando pubblico per 4 posti → None, None
+📍 ASP Ragusa, 10 dirigente medico, varie discipline → None, None
+📍 Università di Catania, 1 ricercatore → 37.5295157, 15.0672216
+📍 Comune di Nicolosi, 1 istruttore direttivo amministrativo → 41.4680628, 12.9033811
+📍 Ministero dell’Agricoltura, della sovranità alimentare e delle foreste, 1 dirigente di seconda fascia → 41.9054066, 12.4944306
+📍 Azienda sanitaria provinciale di  Catania, direttore  della  unita'   operativa complessa Cure primarie e integrazione  socio  sanitaria → 37.5082371, 15.0839029
+📍 Comune di Nicolosi, 1 istruttore direttivo amministrativo → 41.4680628, 12.9033811
+📍 Università di Catania, 2 ricercatori → 37.5295157, 15.0672216
+📍 Università di Catania, 1 ricercatore → 37.5295157, 15.0672216
+📍 Comune di Trapani, 5 posti per coordinatore e operatore → 37.6923645, 12.7895129
+📍 Azienda Sanitaria Provinciale di Ragusa, 1 medico chirurgo generale → 36.9256833, 14.7307456
+📍 Università di Messina, 1 ricercatore → 38.2296362, 15.5511037
+📍 Cnr Istituto di Tecnologie Avanzate per l’Energia “Nicola Giordano”, 1 ricercatore → None, None
+📍 Universita' degli studi di Catania, 1 ricercatore,   GSD  04/GEOS-04  -   Geofisica → 37.5295157, 15.0672216
+📍 Comune di Mazzarra’ Sant’Andrea, 1 istruttore tecnico → 38.0884630, 15.1335830
+📍 Universita'  degli  studi  di  Catania, 1 ricercatore ,  GSD  13/ECON-01  -   Economia politica → 37.5295157, 15.0672216
+📍 Comune di Gagliano Castelferrato, 1 funzionario amministrativo → 37.7103507, 14.5356897
+📍 Consiglio Nazionale delle Ricerche - Istituto per la Microelettronica e Microsistemi di Catania, 1 ricercatore → 37.5023612, 15.0873718
+📍 Irccs Centro Neurolesi Bonino Pulejo, medico neurologo e Medico di Medicina Fisica e Riabilitativa → None, None
+📍 Scuola superiore Sant'Anna di Pisa, 1 ricercatore  , GSD 13/ECON-07 - Economia  e   gestione delle imprese → 43.4714722, 10.6797912
+📍 Imt - Alti Studi Lucca, dottorato di interesse nazionale in Cybersicurezza - XLI ciclo → 43.8461091, 10.5111261
+📍 Azienda Unità Sanitaria Locale Toscana Centro, 1 biologo → None, None
+📍 Università degli Studi di Firenze, 10 posti di collaboratore amministrativo → 43.7783667, 11.2600543
+📍 Azienda Unità Sanitaria Locale Toscana Centro, 1 medico oncologo → None, None
+📍 Universita'  degli  studi  di  Firenze , 1 professore  ordinario,   GSD 13/STEC-01 -  Storia  dell'economia → 43.7783667, 11.2600543
+📍 Istituto di geoscienze e georisorse  del  CNR,  una  borsa  di   ricerca → None, None
+📍 Consiglio Nazionale delle Ricerche - Istituto di Chimica dei Composti Organometallici di Sesto Fiorentino, 1 ricercatore → None, None
+📍 Scuola normale superiore di Pisa, 1 ricercatore → 43.7196862, 10.4003980
+📍 Scuola Universitaria Superiore Sant'Anna di Pisa, 1 ricercatore → 43.4714722, 10.6797912
+📍 Unione di Comuni Montana Colline Metallifere, 1 istruttore direttivo amministrativo → 43.0469861, 10.8860622
+📍 Azienda Pubblica di Servizi alla Persona Montedomini – Sant’Ambrogio – Fuligno – Bigallo, 2 assistenti amministrativi → None, None
+📍 ESTAR, 1 dirigente medico di pediatria → 45.4027911, 11.8898975
+📍 Università di Pisa, 2 posti di ricercatore → 43.7221587, 10.5227771
+📍 Concorso ricercatore Pisa 2025 presso Università di Pisa : Bando pubblico per 1 posti → 43.7221587, 10.5227771
+📍 Comune di Montaione, 1 giardiniere → 43.5529373, 10.9127727
+📍 Comune di Gambassi Terme, 1 funzionario tecnico → 43.5391127, 10.9540750
+📍 Comune di Campiglia Marittima, 1 poliziotto municipale → 43.0590371, 10.6170685
+📍 ESTAR, 1 tecnico prevenzione ambiente → None, None
+📍 ESTAR, 1 tecnico di neurofisiopatologia → 42.5563658, 12.6560834
+📍 Estar, 1 direttore medico urologo → None, None
+📍 ESTAR, 1 dirigente statistico → None, None
+📍 Estar, 1 ostetrica → None, None
+📍 Società della Salute della Valdinievole, 2 posti di Assistente Sociale → None, None
+📍 Comune di Colle di Val d’Elsa, 1 Funzionario Contabile → 43.4214724, 11.1176701
+📍 Estar, 1 infermiere → None, None
+📍 Imt - Alti Studi Lucca, 1 ricercatore → 43.8461091, 10.5111261
+📍 Imt - Alti Studi Lucca, 1 ricercatore → 43.8461091, 10.5111261
+📍 Unione Montana Dei Comuni del Mugello, 1 conduttore macchine complesse → 44.0513414, 11.4388722
+📍 Azienda Unità Sanitaria Locale Toscana Centro, 1 ingegnere → None, None
+📍 Comune di Piancastagnaio, 1 istruttore tecnico → 42.8493805, 11.6919119
+📍 ESTAR, 1 operatore sociosanitario → None, None
+📍 Comune di Montevarchi, 1 funzionario tecnico → 43.5221459, 11.5670641
+📍 Azienda pubblica di servizi alla persona «istituto Maria Redditi» Sinalunga, 1 farmacista → None, None
+📍 Azienda Unità Sanitaria Locale Toscana Sud Est, 1 dirigente medico → None, None
+📍 Comune di Bagno a Ripoli, 1 istruttore amministrativo contabile → 43.7513079, 11.3197242
+📍 Comune di Bagno a Ripoli, 1 funzionario amministrativo-contabile → 43.7513079, 11.3197242
+📍 Istituto Nazionale di documentazione, Innovazione e Ricerca Educativa, 1 tecnico informatico → 41.8862103, 12.4764323
+📍 Comune di Firenze, 4 posti di Funzionario Coordinatore Pedagogico → 43.7511398, 11.3053409
+📍 Scuola Normale Superiore, 1 collaboratore tecnico scientifico → 43.7196862, 10.4003980
+📍 Università di Pisa, 1 operatore → 43.7221587, 10.5227771
+📍 Cnr Istituto di Chimica dei Composti Organo Metallici, 1 ricercatore → None, None
+📍 Azienda Regionale per il Diritto allo Studio Universitario, 6 posti di istruttore amministrativo → 43.3188536, 11.3291721
+📍 Istituto di linguistica computazionale Antonio Zampolli, una borsa di ricerca → None, None
+📍 CNR-sItituto  di  linguistica   computazionale Antonio Zampolli, una borsa di ricerca → None, None
+📍 Conservatorio di musica “Rinaldo Franci” di Siena, 1 accompagnatore al pianoforte → None, None
+📍 Concorso ricercatore Siena 2025 presso Università di Siena : Bando pubblico per 1 posti → 43.3312172, 11.3214578
+📍 Comune di Loro Ciuffenna, 1 istruttore tecnico → 43.5932435, 11.6315305
+📍 Comune di San Gimignano, 1 geologo → 43.4614514, 10.9984918
+📍 Scuola Normale Superiore, 2 ricercatore → 43.7196862, 10.4003980
+📍 Ordine dei Biologi della Toscana e dell'Umbria di Firenze, 1 impiegato → 43.7697955, 11.2556404
+📍 Agenzia delle Entrate, 20 Funzionari, famiglia professionale funzionario giuridico-tributario → 46.0892702, 11.1163291
+📍 Agenzia delle Entrate, 22 Assistenti → 46.0892702, 11.1163291
+📍 Università di Trento, un  professore  di  seconda   fascia, GSD 09/IIND-01 - Ingegneria aerospaziale e navale → 45.8836839, 11.0234208
+📍 Università di Trento ,  due  professori  di  prima   fascia, vari GSD → 45.8836839, 11.0234208
+📍 Università di Trento, 1 ricercatore,  GSD  05/BIOS-08  -   Biologia molecolare → 45.8836839, 11.0234208
+📍 Libera Università di Bolzano Freie Universitat Bozen, 23 ricercatore → 46.4982980, 11.3501018
+📍 Libera  universita'  di Bolzano , 1 ricercatore → 46.4982980, 11.3501018
+📍 Azienda provinciale per i servizi sanitari , 1 dirigente medico, disciplina di genetica medica → 39.2104395, 9.1370805
+📍 Università di Trento, 7 ricercatore → 45.8836839, 11.0234208
+📍 Azienda Sanitaria dell'Alto Adige, direttore di unita' operativa complessa → 46.4987092, 11.3406768
+📍 Università di Trento, 3  professori  di  prima   fascia → 45.8836839, 11.0234208
+📍 Concorso funzionario amministrativo Trento 2025 presso Università di Trento : Bando pubblico per 2 posti → 45.8836839, 11.0234208
+📍 Istituto Zooprofilattico Sperimentale delle Venezie di Legnaro, 1 assistente amministrativo → 45.3485187, 11.9571797
+📍 Azienda Sanitaria dell'Alto Adige, 1 direttore della U.O.C. Laboratorio di patologia clinica → 46.4987092, 11.3406768
+📍 Azienda Provinciale per i Servizi Sanitari della Provincia Autonoma di Trento, 1 medico ematologo → 46.1029536, 11.1297425
+📍 Comune di Foligno , 1 programmatore di sistema → 42.9559744, 12.7034782
+📍 Università di Perugia, Ammissione  ai  corsi  di  dottorato  di  ricerca,  XLI  ciclo → 43.1148526, 12.3895193
+📍 Università di Perugia, Ammissione al corso di dottorato di ricerca in «Catalisi e  energia»,   XLI ciclo → 43.1148526, 12.3895193
+📍 Comune di Bastia Umbra, 1 Funzionario di Vigilanza → 43.0677554, 12.5495816
+📍 Agenzia Regionale per la Protezione dell’Ambiente dell’Umbria, 1 assistente amministrativo → None, None
+📍 Comune di Spoleto, 2 ingegneri/architetti → 42.7293715, 12.7357325
+📍 Comune di Valfabbrica, 1 istruttore amministrativo/contabile → 43.1588972, 12.6008960
+📍 Universita' per  stranieri  di  Perugia, Ammissione al corso di dottorato di ricerca → 43.1148526, 12.3895193
+📍 Universita' per  stranieri  di  Perugia, Amissione al corso di dottorato di ricerca in  Frontier  sciences  in   sustainability, diplomacy and  international  cooperation → 43.1148526, 12.3895193
+📍 Comune di Città della Pieve, 1 poliziotto municipale → 42.9527338, 12.0043260
+📍 Comune di Scheggino, 1 istruttore tecnico → 42.7126416, 12.8312393
+📍 Comune di Marsciano, 2 posti di funzionario socio-educativo → 42.9105115, 12.3377232
+📍 Azienda Ospedaliera «S. Maria» di Terni, 1 medico di medicina d'urgenza → 42.5563226, 12.6562709
+📍 Consiglio Nazionale delle Ricerche - Istituto di Ricerca per la Protezione Idrogeologica di Perugia, 1 ricercatore → None, None
+📍 Autorita’ di Bacino Distrettuale Delle Alpi Orientali, 2 ingegnere → None, None
+📍 Autorita’ di Bacino Distrettuale Delle Alpi Orientali, 2 geologo → None, None
+📍 Universita’ degli Studi di Verona, 1  Funzionario, Settore professionale scientifico – tecnologico → 45.4363394, 11.0030301
+📍 Università di Verona, 1 Funzionario – settore professionale scientifico → 45.4363394, 11.0030301
+📍 Concorso funzionario, tecnico scientifico Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4009079, 11.8733987
+📍 Unione Montana Feltrina, 1 operatore esperto tecnico - manutentivo → None, None
+📍 Concorso tecnologo Treviso 2025 presso Istituto Nazionale di Fisica Nucleare : Bando pubblico per 1 posti → 45.3548820, 11.9487644
+📍 Comune di Cartura, 1 Funzionario Tecnico → 45.2683900, 11.8568100
+📍 Casa di Riposo San Giorgio, 14 Operatore Addetto all’Assistenza → 44.7104755, 7.6867612
+📍 Comune di San Stino di Livenza, 1 Istruttore amministrativo-contabile → 45.7310782, 12.6800084
+📍 Università «Ca'Foscari» di Venezia, 2 posti di ricercatore → 45.4344957, 12.3264484
+📍 Istituto Nazionale di Astrofisica – INAF, 1 Ricercatore → 45.4019565, 11.8688328
+📍 Universita' di Verona, 1 ricercatore,   GSD 06/MEDS-09  -  Malattie  del   sangue, oncologia e reumatologia → 45.4363394, 11.0030301
+📍 Azienda  ULSS  n.   3   Serenissima,  direttore  di  struttura   complessa   UOC   Anestesia  e  rianimazione → None, None
+📍 Universita’ degli Studi di Padova, 10 Collaboratori, Settore professionale Amministrativo → 45.4009079, 11.8733987
+📍 Concorso ricercatore Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4009079, 11.8733987
+📍 Azienda  ULSS  n.   3   Serenissima,   direttore  di  struttura   complessa   UOC   Ostetricia  e  ginecologia → None, None
+📍 Comune di Caerano di San Marco, 1 Funzionario Servizi Amministrativo- Contabili → 45.7859102, 12.0010378
+📍 Provincia di Padova, 2 Istruttore amministrativo → 45.3914080, 11.8058487
+📍 Comune di Noventa Vicentina, 1 manutentore di edifici e infrastruttore → 45.2906283, 11.5398835
+📍 Comune di Villafranca Padovana, 2 Istruttore Tecnico → 45.4952002, 11.7973187
+📍 Azienda Zero di Padova, 1 direttore dell'unità operativa complessa Autorizzazione all'esercizio e organismo tecnicamente accreditante → 45.4142864, 11.8791326
+📍 Centro servizi alla Persona CR Morelli Bugna, 1 Parrucchiere → None, None
+📍 Comune di Montebelluna, 2  funzionario servizi tecnici → 45.7762844, 12.0452878
+📍 Comune di Miane, 1 Funzionario amministrativo contabile → 45.9443206, 12.0938559
+📍 Casa di soggiorno e Pensionato della Citta’ Murata, 5 Infermiere → None, None
+📍 Comune di Martellago, 1 istruttore informatico → None, None
+📍 Comune di Valeggio sul Mincio , 1 Operatori Esperti – Profilo Tecnico → 45.3537509, 10.7345460
+📍 Comune di Cerea, 2  Istruttore amministrativo contabile → 45.1920049, 11.2129287
+📍 Esu di Padova, 1  istruttore amministrativo contabile → 45.3914080, 11.8058487
+📍 Università degli Studi di Padova, 1  Funzionari, Settore Scientifico-tecnologico → 45.4009079, 11.8733987
+📍 Consorzio Isola di Ariano per I Servizi Sociali, 1  Istruttore Amministrativo-Contabile → None, None
+📍 Unione Montana Feltrina, 1 istruttore amministrativo contabile → None, None
+📍 Universita’ degli Studi di Padova, 1 Funzionari, Settore Scientifico-tecnologico → 45.4009079, 11.8733987
+📍 Concorso tecnologo Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4009079, 11.8733987
+📍 Comune di Cortina D’ Ampezzo, 1 Funzionario Tavolare → 45.4353695, 9.2082799
+📍 Comune di Conegliano, 1 Istruttore Tecnico → 45.4914273, 9.2248757
+📍 Accademia di Belle Arti di Venezia, 1 Assistente → 45.4286325, 12.3304880
+📍 Istituto  per  le  tecnologie  della costruzione , una borsa di ricerca → 45.8093355, 8.6319814
+📍 Comune di Cortina D’ Ampezzo, 3 Istruttori Tecnici → 45.4353695, 9.2082799
+📍 Concorso tecnologo Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4009079, 11.8733987
+📍 Comune di Domegge di Cadore,  1 Istruttore di Polizia Locale → 46.4603762, 12.4158245
+📍 Comune di Rovigo, 1 agente di polizia locale → 45.0710313, 11.7900026
+📍 Comune di Bassano del Grappa, 1  Istruttore amministrativo-contabile → 45.6041705, 8.8693541
+📍 Università di Verona, 1 ricercatore → 45.4363394, 11.0030301
+📍 Provincia di Rovigo, 1 Istruttore direttivo tecnico → 44.9777098, 12.2726835
+📍 Azienda Ospedaliera Universitaria Integrata di Verona, 1 direttore medico di radioterapia → 45.4424977, 10.9857377
+📍 Azienda Ospedaliera Universitaria Integrata di Verona, 1 medico nucleare → 45.4424977, 10.9857377
+📍 Università di Padova, 9 ricercatori → 45.4009079, 11.8733987
+📍 IPAB Andrea Danielato , 1 Coordinatore dei servizi → None, None
+📍 Comune di Schiavon, 1  Istruttore amministrativo → 45.6977089, 11.6442826
+📍 Pensionato Pietro e Santa Scarmignan, 1 cuoco → None, None
+📍 Comune di Polesella, 1  istruttore amministrativo- contabile → 44.9640818, 11.7501773
+📍 Opere Pie d'Onigo di Pederobba, 1 infermiere (proroga termini) → 45.8695205, 11.9695508
+📍 Comune di Thiene, 1 Funzionario amministrativo → 45.7122347, 11.4852633
+📍 Comune di Cartura, 1 Funzionario Amministrativo Contabile → 45.2683900, 11.8568100
+📍 Comune di Concordia Sagittaria , 1 Istruttore di Polizia Locale → 45.7561044, 12.8449558
+📍 Comune di Isola della Scala, 1 Agente di Polizia Locale → 45.4889872, 9.1876540
+📍 Comune di Este, 1 Funzionario Tecnico → 45.4387407, 9.2043251
+📍 Comune di Polesella, 1  istruttore tecnico → 44.9640818, 11.7501773
+📍 Concorso professore di prima fascia Venezia 2025 presso Università «Ca'Foscari» di Venezia : Bando pubblico per 1 posti → 45.4344957, 12.3264484
+📍 Università Ca’ Foscari Venezia , 1 Collaboratore – Settore della comunicazione e informazione, → 45.4344957, 12.3264484
+📍 Comune di Montecchio Precalcino, 2 istruttore tecnico → 45.6657810, 11.5633020
+📍 Comune di Cerro Veronese, 1 Istruttore Amministrativo Bibliotecario → 45.5713167, 11.0305775
+📍 Università di Padova, 17 ricercatore → 45.4009079, 11.8733987
+📍 Comune di Cortina D’ Ampezzo, 3 operaio specializzato → 45.4353695, 9.2082799
+📍 Comune di Sovizzo, 2 Istruttore Amministrativo → 45.5280283, 11.4456338
+📍 Provincia di Treviso, 1 Funzionario Tecnico → 45.8066913, 12.2063158
+📍 Comune di Marostica, 1 Istruttore tecnico → 45.7473182, 11.6559327
+📍 Casa di Riposo A. Galvan di Pontelongo, 1 istruttore amministrativo → 46.0845304, 11.2375172
+📍 Camera di Commercio Industria Artigianato Agricoltura di Treviso Belluno, 4 Istruttori Comparto Funzioni Locali → None, None
+📍 Comune di Monastier di Treviso, 1 Funzionario Tecnico → 45.6500759, 12.4337702
+📍 Istituto Zooprofilattico Sperimentale delle Venezie di Legnaro, 1 dirigente delle professioni sanitarie → 45.3485187, 11.9571797
+📍 Ipab di Vicenza, 1 Infermiere → 45.5486991, 11.5520499
+📍 Pia Opera Croce Verde Padova, 2 istruttore tecnico amministrativo → None, None
+📍 Comune di Campolongo Maggiore, 1 Operatore Operaio Esperto → 45.3305355, 12.0483135
+📍 Consiglio Nazionale delle Ricerche - Istituto di Neuroscienze di Pisa, 1 ricercatore → None, None
+📍 Unione Montana Feltrina, 1 istruttore amministrativo contabile → None, None
+📍 Unione Montana Feltrina, 1 istruttore amministrativo → None, None
+📍 Comune di Cortina D’ Ampezzo,  1 Funzionario Tecnico → 45.4353695, 9.2082799
+📍 Comune di Monselice, 3 Istruttori Tecnici → 45.2417684, 11.7508534
+📍 Unione Montana Feltrina, 1 Funzionario Amministrativo Contabile → None, None
+📍 Unione Montana Feltrina, 1 istruttore tecnico → None, None
+📍 Comune di Cortina D’ Ampezzo,  3 Agenti di Polizia Locale → 45.4353695, 9.2082799
+📍 Comune di Sanguinetto, 2 Istruttore tecnico → 45.1845007, 11.1511359
+📍 Unione Montana Feltrina, 1 istruttore amministrativo → None, None
+📍 Conservatorio Statale di Musica Cesare Pollini, 2 Assistente → 45.4095231, 11.8795821
+✅ File salvato: /home/user/mappa-concorsi/concorsi_geolocalizzati.json
