@@ -12908,3 +12908,369 @@ selenium.common.exceptions.WebDriverException: Message: Process unexpectedly clo
 📍 Unione Montana Feltrina, 1 istruttore amministrativo → None, None
 📍 Conservatorio Statale di Musica Cesare Pollini, 2 Assistente → 45.4095231, 11.8795821
 ✅ File salvato: /home/user/mappa-concorsi/concorsi_geolocalizzati.json
+[main 80e5c4d] 🤖 Aggiornamento automatico dati
+ 3 files changed, 1632 insertions(+), 2 deletions(-)
+To https://github.com/projectsmassaro/mappa-concorsi.git
+   e63970e..80e5c4d  main -> main
+❌ Errore Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot18138076029:AAF_HpgEHF4rdmKddTzrImJqiLehAUVuMDA/sendMessage
+[2025-07-10 16:00:01] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
+[2025-07-10 16:00:02] ❌ Errore in /home/user/mappa-concorsi/scarica_regioni.py: Command '['python3', '/home/user/mappa-concorsi/scarica_regioni.py']' returned non-zero exit status 1.
+[2025-07-10 16:00:02] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+[2025-07-10 20:52:02] ✅ Completato: /home/user/mappa-concorsi/geolocalizza.py
+[2025-07-10 20:52:02] 🔄 Git add/commit/push...
+[2025-07-10 20:52:04] ✅ Dati pushati su Git
+[2025-07-10 20:52:04] 📨 Invio notifica Telegram...
+[2025-07-10 20:52:06] ✅ Notifica Telegram inviata
+📍 Concorso direttore di struttura, Medico Radiologo, Medico Pediatra Torino 2025 presso Azienda Ospedaliero-Universitaria Città Della Salute e della Scienza di Torino : Bando pubblico per 1 posti → 38.4371909, 15.9037685
+📍 Azienda sanitaria Zero, 12   infermiere  pediatrico → None, None
+📍 Azienda sanitaria Zero, 10 fisioterapista → None, None
+📍 Comune di Verbania, 1 ingegnere, architetto → 45.5155174, 9.0308107
+📍 Azienda sanitaria locale AT di Asti, 5 dirigente medico di medicina d'emergenza-urgenza → 44.8260126, 8.2026863
+📍 Concorso medico di medicina interna Torino 2025 presso Azienda Sanitaria Locale To5 - Chieri : Bando pubblico per 1 posti → 45.0520341, 7.6667266
+📍 Azienda  sanitaria  locale  VC , 1 ingegnere clinico → None, None
+📍 Azienda sanitaria Zero, 11 logopedista → None, None
+📍 Azienda sanitaria Zero, 13 ostetrica → None, None
+📍 Azienda  sanitaria  locale AT di Asti, 2 dirigente medico di neurologia → 44.8260126, 8.2026863
+📍 Azienda sanitaria Zero , 1 dirigente delle professioni sanitarie infermieristiche → None, None
+📍 Azienda  sanitaria Zero, 13 tecnico della prevenzione nell'ambiente e  nei  luoghi  di   lavoro → 41.8367053, 12.4651239
+📍 Azienda sanitaria Zero, 7  assistente sanitario → None, None
+📍 Comune di Collegno, 1 Educatore servizi per la prima infanzia → 45.7538762, 7.2940296
+📍 Università di Torino, 1 ricercatore → 45.0699309, 7.6903562
+📍 Comune di Pieve Vergonte, 1 istruttore tecnico → 46.0061717, 8.2664651
+📍 Comune di Pieve Vergonte, 1 Autista → 46.0061717, 8.2664651
+📍 Azienda sanitaria Locale TO4 di Chivasso, 1 veterinario → 45.1909588, 7.8871864
+📍 Università di Torino, 1 professore di seconda fascia → 45.0699309, 7.6903562
+📍 Università di Torino, 1 professore di prima fascia → 45.0699309, 7.6903562
+📍 Università di Torino, 1 professore di seconda fascia → 45.0699309, 7.6903562
+📍 Università di Torino, 2 ricercatori → 45.0699309, 7.6903562
+📍 Università di Torino, 2 ricercatori → 45.0699309, 7.6903562
+📍 Politecnico di Torino, 3 ricercatori → 45.0636974, 7.6575263
+📍 Politecnico di Torino, 3 ricercatori → 45.0636974, 7.6575263
+📍 Azienda Ospedaliera Nazionale «SS. Antonio e Biagio e Cesare Arrigo» di Alessandria, 1 medico di chirurgia generale → 44.8349533, 8.7450304
+📍 Azienda Sanitaria Locale Bi di Biella, 2 posti di medico neurologo → 45.5669538, 8.0869120
+📍 Azienda Ospedaliera Nazionale «SS. Antonio e Biagio e Cesare Arrigo» di Alessandria, 1 medico di chirurgia generale → 44.8349533, 8.7450304
+📍 Azienda Sanitaria Locale Bi di Biella, 3 posti di medico geriatra → 45.5669538, 8.0869120
+📍 Concorso funzionario amministrativo Torino 2025 presso Politecnico di Torino : Bando pubblico per 3 posti → 45.0636974, 7.6575263
+📍 Politecnico di Torino, 1 Funzionari, settore professionale amministrativo-gestionale → 45.0636974, 7.6575263
+📍 Concorso funzionario, tecnico informatico Torino 2025 presso Politecnico di Torino : Bando pubblico per 1 posti → 45.0636974, 7.6575263
+📍 Politecnico di Torino, 1 Funzionari, settore professionale tecnico – informatico → 45.0636974, 7.6575263
+📍 Concorso funzionario, tecnico informatico Torino 2025 presso Politecnico di Torino : Bando pubblico per 3 posti → 45.0636974, 7.6575263
+📍 Comune di Casalborgone, 1 Operatore esperto → 45.1304510, 7.9404260
+📍 Concorso funzionario, tecnico informatico Torino 2025 presso Politecnico di Torino : Bando pubblico per 1 posti → 45.0636974, 7.6575263
+📍 Comune di Prascorsano, 1 Funzionario Economico Finanziario → 45.3676505, 7.6157353
+📍 Comune di Verbania, 1 funzionario → 45.5155174, 9.0308107
+📍 Universita’ degli Studi del Piemonte Orientale, 2 Collaboratori, Settore tecnico → 45.3274710, 8.4246373
+📍 Comune di Bolzano Novarese, 1 operaio addetto al servizio tecnico manutentivo → 45.7627855, 8.4451747
+📍 Comune di Valenza, 2  Agente di Polizia locale → 45.0144203, 8.6461898
+📍 Azienda  sanitaria locale AL, 1  dirigente   medico,   disciplina   malattie   metaboliche    e   diabetologia → None, None
+📍 Azienda ospedaliero-universitaria  Maggiore della Carita', 1 dirigente biologo → None, None
+📍 Università di Torino, 1 Funzionari – settore socio-sanitario → 45.0699309, 7.6903562
+📍 Azienda Sanitaria Locale «Vc» di Vercelli, 2 posti di medico dermatologo → 45.5553826, 8.3462837
+📍 Azienda Sanitaria Locale At - Asti, 1 legale → None, None
+📍 Universita’ degli Studi di Torino, 1 tecnologo → 45.0699309, 7.6903562
+📍 Azienda Sanitaria Locale At - Asti, 1 direttore di struttura complessa Malattie endocrine e del metabolismo → None, None
+📍 Azienda Sanitaria Locale «Vc» di Vercelli, 2 posti di medico ortopedico → 45.5553826, 8.3462837
+📍 Comune di Quargnento, 1 Istruttore amministrativo-contabile → 44.9449657, 8.4873857
+📍 Azienda Sanitaria Locale At - Asti, 1 giornalista → None, None
+📍 Università di Torino, 6 ricercatori → 45.0699309, 7.6903562
+📍 Concorso dirigente ambientale Torino 2025 presso Agenzia Regionale per la Protezione dell’Ambiente : Bando pubblico per 1 posti → 43.8730244, 8.0097668
+📍 Azienda Sanitaria Locale «Vc» di Vercelli, 1 medico cardiologo → 45.5553826, 8.3462837
+📍 Azienda sanitaria Locale TO4 di Chivasso, 1 medico neurologo → 45.1909588, 7.8871864
+📍 Azienda Sanitaria Locale At - Asti, 1 medico psichiatra (riapertura termini) → None, None
+📍 Comune di Cavour, 1 operatore amministrativo → 44.1971288, 8.0300609
+📍 Conservatorio statale di musica A. Vivaldi di Alessandria, insegnante → 40.8492407, 14.2526298
+📍 Camera di commercio di Torino, 1 Funzionario di processi organizzativi e di supporto → 45.0651633, 7.6865293
+📍 Comune di Domodossola, 1 Istruttore Amministrativo → 45.4819123, 9.1624425
+📍 Azienda sanitaria Zero, 8 collaboratore  tecnico   professionale   -   informatico   sistemista → None, None
+📍 Unione Montana dei Comuni della Valsesia, 1 collaboratore amministrativo esperto → 45.8138774, 8.2572961
+📍 Concorso logopedista Verbano Cusio Ossola 2025 presso Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna : Bando pubblico per 1 posti → None, None
+📍 A.S.L. TO3, direttore della struttura complessa,  disciplina  di  medicina  del   lavoro e sicurezza degli ambienti di lavoro → None, None
+📍 Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna, 1 tecnico della prevenzione nell'ambiente e nei luoghi di  lavoro → 41.8367053, 12.4651239
+📍 Comune di Mappano, 1 Funzionario contabile → 45.1477917, 7.7064607
+📍 Azienda Sanitaria Locale To5 - Chieri, 3 dirigente medico di medicina d'emergenza-urgenza → None, None
+📍 A.S.L. BI di Biella, 1 ingegnere clinico → 45.5669538, 8.0869120
+📍 Comune di Mondovi, 1 Funzionario amministrativo-contabile → 44.3881453, 7.8301689
+📍 Comune di Biella, 1  Educatore dei servizi educativi per l’infanzia → 45.6707126, 8.1704249
+📍 Azienda Ospedaliero-Universitaria «Maggiore della Carità» di Novara, 1 collaboratore tecnico professionale - ingegnere clinico → 45.5842500, 8.5459970
+📍 Azienda Ospedaliero-Universitaria «San Luigi Gonzaga» di Orbassano, 1 medico neurologo → 45.0072629, 7.5369192
+📍 Comune di Biella, 2 Istruttore tecnico → 45.6707126, 8.1704249
+📍 Azienda sanitaria locale AL - Alessandria, 1 direttore della struttura complessa Farmacia ospedaliera → None, None
+📍 Comune di Cameri, 1 Funzionario Tecnico → 45.4996737, 8.6604512
+📍 Concorso ricercatore Torino 2025 presso Istituto Nazionale di Ricerca Metrologica : Bando pubblico per 1 posti → 45.0149034, 7.6402170
+📍 Azienda  ospedaliera  in  Cuneo, 1  operatore tecnico specializzato → None, None
+📍 Azienda sanitaria Zero, direttore della struttura complessa Emergenza sanitaria territoriale 118 → None, None
+📍 Azienda  ospedaliera  in  Cuneo, 1 tecnico della prevenzione nell'ambiente e nei luoghi di  lavoro → 41.8367053, 12.4651239
+📍 Azienda sanitaria Zero, direttore  della  struttura  complessa   Gestione sanitaria manifestazioni di massa → 44.0359323, 10.1395519
+📍 Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna, 1 ingegnere/architetto → None, None
+📍 Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna, 4 posti di medico anestesista → None, None
+📍 Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna, 1 assistente sanitario → None, None
+📍 Azienda Sanitaria Locale del Verbano Cusio Ossola - Omegna, 3 posti di medico di medicina trasfusionale → None, None
+📍 Azienda Sanitaria Locale Cn1 - Cuneo, 1 avvocato → 44.3212575, 7.6794273
+📍 Concorso funzionario amministrativo Torino 2025 presso Università di Torino : Bando pubblico per 6 posti → 45.0699309, 7.6903562
+📍 Comune di Monesiglio, 1  istruttore tecnico → 44.4650370, 8.1185420
+📍 Comune di Biella, 2  Istruttore tecnico → 45.6707126, 8.1704249
+📍 Consorzio Ovest Solidale, 3 Istruttore Direttivo Assistente Sociale → None, None
+📍 Comune di Borgomanero, 4 Istruttore Servizi amministrativo-contabili → 45.3271197, 8.8395663
+📍 Comune di Vinovo, 2 Istruttore tecnico → 44.9482927, 7.6338469
+📍 Comune di Biella, 1 Educatore → 45.6707126, 8.1704249
+📍 Azienda Sanitaria Locale «Vc» di Vercelli, 1 dirigente medico → 45.5553826, 8.3462837
+📍 Azienda sanitaria Locale TO4 di Chivasso, 1 medico ematologo → 45.1909588, 7.8871864
+📍 Comune di Alba, 1 Istruttore Contabile Tributario → 44.7009613, 8.0356802
+📍 Comune di Busano, 1 Istruttore Amministrativo-contabile → 45.3294385, 7.6557322
+📍 Comune di Martina Franca, 1 poliziotto municipale → 40.7042378, 17.3399908
+📍 Comune di San Marzano di San Giuseppe, 1 istruttore tecnico geometra → 40.4544250, 17.5056070
+📍 Ordine degli Architetti Pianificatori Paesaggisti e Conservatori della Provincia di Bari, 1 assistente amministrativo → 41.1128165, 16.8995853
+📍 Comune di Massafra, 1 istruttore amministrativo → 40.5888311, 17.1169895
+📍 Comune di Nardò, 1 avvocato → 40.1850218, 18.0365819
+📍 Università Aldo Moro di Bari, 1 ricercatore → 41.1094881, 16.8816878
+📍 Comune di Castellana Grotte, 1 Specialista Amministrativo Contabile → 40.8864310, 17.1654950
+📍 Azienda Ospedaliero-Universitaria Ospedali Riuniti di Foggia, 1 dirigente ingegnere → 41.5028105, 15.4528939
+📍 Universita' degli studi di Bari Aldo Moro, Ammissione ai  corsi  di  dottorato  di  ricerca → 41.1094881, 16.8816878
+📍 Università Aldo Moro di Bari, 2 ricercatore → 41.1094881, 16.8816878
+📍 Comune di Latiano, 1 funzionario tecnico → 40.5537831, 17.7182220
+📍 Universita'  del  Salento,  5 ricercatore → 40.3586434, 18.1655240
+📍 Comune di Lizzano, 1 autista scuolabus → 44.1615719, 10.8936831
+📍 Comune di Ruvo di Puglia, 1 istruttore tecnico perito agrario → 41.1170062, 16.4845603
+📍 Comune di Specchia, 2 posti di assistente sociale → 39.9406865, 18.2967417
+📍 Comune di Ruvo di Puglia, 1 istruttore tecnico → 41.1170062, 16.4845603
+📍 ARCA - Nord Salento, 1 istruttore tecnico informatico → None, None
+📍 Comune di Noicattaro, 3 posti per collaboratore amministrativo e poliziotto municipale → 41.0322873, 16.9877123
+📍 Concorso professore di prima fascia Bari 2025 presso Politecnico di Bari : Bando pubblico per 1 posti → 41.1089092, 16.8785783
+📍 Concorso ricercatore Bari 2025 presso Politecnico di Bari : Bando pubblico per 1 posti → 41.1089092, 16.8785783
+📍 Azienda sanitaria locale di Foggia, 13 dirigente medico, area sanita', disciplina di  ginecologia   e ostetricia → 41.5028105, 15.4528939
+📍 Comune di Rutigliano, 1 funzionario → 41.0111589, 17.0054792
+📍 Regione Puglia, 1 dirigente della struttura speciale audit e coordinamento controlli fondi europei → 41.1209555, 16.8825604
+📍 Regione Puglia, 1 dirigente della struttura speciale supervisione controlli interni → 41.1209555, 16.8825604
+📍 Azienda Ospedaliero-Universitaria Policlinico Riuniti di Foggia, 1 medico psichiatra → 41.5028105, 15.4528939
+📍 Politecnico di Bari, 1 tecnologo → 41.1089092, 16.8785783
+📍 Istituto Tumori Giovanni Paolo II-irccs-Bari, 1 ricercatore → 41.1065039, 16.8580402
+📍 Istituto Tumori Giovanni Paolo II-irccs-Bari, 1 ricercatore → 41.1065039, 16.8580402
+📍 Comune di Melendugno, 1 funzionario tecnico → 40.2742353, 18.3376480
+📍 Comune di Cannole, 1 funzionario tecnico → 40.1662250, 18.3660300
+📍 Comune di Veglie, 1 assistente sociale → 40.3351260, 17.9652190
+📍 Comune di Surbo, 1 funzionario tecnico → 40.3960280, 18.1334220
+📍 Comune di Cisternino, 1 esperto amministrativo contabile → 40.7394859, 17.4284994
+📍 Azienda Sanitaria Locale di Taranto, 11 posti di medico pediatra → 40.4565097, 17.5098081
+📍 Azienda Sanitaria Locale di Taranto, 52 posti di medico → 40.4565097, 17.5098081
+📍 Agenzia Regionale Strategica per La Salute Ed Il Sociale, 1 direttore medico di Igiene, Epidemiologia e Sanità Pubblica → 41.9028258, 12.5124274
+📍 Parco Naturale Regionale Molentargius-Saline, 1 Direttore del Parco → 39.2194077, 9.1624839
+📍 Azienda Regionale Della Salute Regione Sardegna, 22 posti di Tecnico Sanitario di Laboratorio Biomedico → None, None
+📍 Comune di Sant’Antioco, 2 posti di istruttore tecnico → 39.0665058, 8.4553808
+📍 Comune di Sestu, 1 poliziotto municipale → 39.2999301, 9.0920980
+📍 Comune di Uta, 1 operatore esperto → 39.2919815, 8.9540939
+📍 Azienda Regionale della Salute Regione Sardegna, 3 posti di medico legale → 39.2521430, 9.1032892
+📍 ARES  Sardegna, 23 dirigente farmacista → 39.2521430, 9.1032892
+📍 Comune di Villamar, 1 assistente sociale → 39.6178802, 8.9621320
+📍 Comune di Silanus, 1 collaboratore amministrativo → 40.2904582, 8.8894811
+📍 Comune di Silanus, 2 posti di operaio → 40.2904582, 8.8894811
+📍 Comune di Villamassargia, 1 Funzionario Operatore Sociale → 39.2758994, 8.6404754
+📍 Universita' di  Sassari , 1 professore  di  seconda   fascia,   GSD   06/MEDS-15    -    Neurochirurgia    e    chirurgia   maxillo-facciale → 40.3128187, 9.3104899
+📍 Parco Naturale Regionale Molentargius-Saline, 1 amministrativo → 39.2194077, 9.1624839
+📍 Comune di Scano di Montiferro, 1 istruttore tecnico → 40.2163106, 8.5842954
+📍 Comune di Monastir, 1 istruttore amministrativo → 39.3871686, 9.0440531
+📍 Consiglio Notarile dei Distretti Riuniti di Cagliari, Lanusei e Oristano, 1 impiegato amministrativo → 39.2171994, 9.1133110
+📍 Unione Dei Comuni del Coros, 1 direttore artistico → None, None
+📍 Comune di Elmas, 1 funzionario amministrativo contabile → 39.2708516, 9.0487831
+📍 Comune di Elmas, 2 posti di istruttore tecnico → 39.2708516, 9.0487831
+📍 Comune di Aglientu, 1 poliziotto municipale → 41.0795730, 9.1127190
+📍 Comune di Samassi, 1 istruttore amministrativo-contabile → 39.4819634, 8.9074020
+📍 Ministero dell’Istruzione – Ufficio Scolastico Regionale per la Sicilia, personale ATA – Indizione dei concorsi nell’anno scolastico 2024/2025 – Graduatorie a.s. 2025/2026 → 41.8850759, 12.4701420
+📍 Regione Sicilia, 16 posti di funzionario di controllo di gestione → 38.1409150, 13.3485711
+📍 Regione Sicilia, 63 posti di funzionario economico finanziario → 38.1409150, 13.3485711
+📍 Comune di Taormina, 4 assistenti sociali → 45.5003316, 9.1906573
+📍 Comune di Gravina di Catania, 1 poliziotto municipale → 37.5603691, 15.0617632
+📍 Istituto Nazionale di Astrofisica – INAF, 1 collaboratore tecnico → 37.5288682, 15.0715980
+📍 Comune di Palermo, 29 posti per funzionario tecnico → 38.1112268, 13.3524434
+📍 Comune di Gravina di Catania, 1 istruttore amministrativo-contabile → 37.5603691, 15.0617632
+📍 Comune di Palermo, 1 dirigente tecnico → 38.1112268, 13.3524434
+📍 Comune di Palermo, 64 posti per funzionario amministrativo funzionario legale funzionario contabile → 38.1112268, 13.3524434
+📍 Università di Catania, 1 ricercatore → 37.5295157, 15.0672216
+📍 Istituto Regionale del Vino e dell’Olio, 12 posti per Assistenti e Funzionari → None, None
+📍 Universita' degli  studi  di  Palermo, 2 ricercatore → 38.0333906, 12.5348262
+📍 Concorso medico chirurgo Catania 2025 presso Azienda Ospedaliero-Universitaria Policlinico «Gaspare Rodolico» di Catania : Bando pubblico per 4 posti → None, None
+📍 ASP Ragusa, 10 dirigente medico, varie discipline → None, None
+📍 Università di Catania, 1 ricercatore → 37.5295157, 15.0672216
+📍 Comune di Nicolosi, 1 istruttore direttivo amministrativo → 41.4680628, 12.9033811
+📍 Ministero dell’Agricoltura, della sovranità alimentare e delle foreste, 1 dirigente di seconda fascia → 41.9054066, 12.4944306
+📍 Azienda sanitaria provinciale di  Catania, direttore  della  unita'   operativa complessa Cure primarie e integrazione  socio  sanitaria → 37.5082371, 15.0839029
+📍 Comune di Nicolosi, 1 istruttore direttivo amministrativo → 41.4680628, 12.9033811
+📍 Università di Catania, 2 ricercatori → 37.5295157, 15.0672216
+📍 Università di Catania, 1 ricercatore → 37.5295157, 15.0672216
+📍 Comune di Trapani, 5 posti per coordinatore e operatore → 37.6923645, 12.7895129
+📍 Azienda Sanitaria Provinciale di Ragusa, 1 medico chirurgo generale → 36.9256833, 14.7307456
+📍 Università di Messina, 1 ricercatore → 38.2296362, 15.5511037
+📍 Cnr Istituto di Tecnologie Avanzate per l’Energia “Nicola Giordano”, 1 ricercatore → None, None
+📍 Universita' degli studi di Catania, 1 ricercatore,   GSD  04/GEOS-04  -   Geofisica → 37.5295157, 15.0672216
+📍 Comune di Mazzarra’ Sant’Andrea, 1 istruttore tecnico → 38.0884630, 15.1335830
+📍 Universita'  degli  studi  di  Catania, 1 ricercatore ,  GSD  13/ECON-01  -   Economia politica → 37.5295157, 15.0672216
+📍 Comune di Gagliano Castelferrato, 1 funzionario amministrativo → 37.7103507, 14.5356897
+📍 Consiglio Nazionale delle Ricerche - Istituto per la Microelettronica e Microsistemi di Catania, 1 ricercatore → 37.5023612, 15.0873718
+📍 Irccs Centro Neurolesi Bonino Pulejo, medico neurologo e Medico di Medicina Fisica e Riabilitativa → None, None
+📍 Scuola superiore Sant'Anna di Pisa, 1 ricercatore  , GSD 13/ECON-07 - Economia  e   gestione delle imprese → 43.4714722, 10.6797912
+📍 Imt - Alti Studi Lucca, dottorato di interesse nazionale in Cybersicurezza - XLI ciclo → 43.8461091, 10.5111261
+📍 Azienda Unità Sanitaria Locale Toscana Centro, 1 biologo → None, None
+📍 Università degli Studi di Firenze, 10 posti di collaboratore amministrativo → 43.7783667, 11.2600543
+📍 Azienda Unità Sanitaria Locale Toscana Centro, 1 medico oncologo → None, None
+📍 Universita'  degli  studi  di  Firenze , 1 professore  ordinario,   GSD 13/STEC-01 -  Storia  dell'economia → 43.7783667, 11.2600543
+📍 Istituto di geoscienze e georisorse  del  CNR,  una  borsa  di   ricerca → None, None
+📍 Consiglio Nazionale delle Ricerche - Istituto di Chimica dei Composti Organometallici di Sesto Fiorentino, 1 ricercatore → None, None
+📍 Scuola normale superiore di Pisa, 1 ricercatore → 43.7196862, 10.4003980
+📍 Scuola Universitaria Superiore Sant'Anna di Pisa, 1 ricercatore → 43.4714722, 10.6797912
+📍 Unione di Comuni Montana Colline Metallifere, 1 istruttore direttivo amministrativo → 43.0469861, 10.8860622
+📍 Azienda Pubblica di Servizi alla Persona Montedomini – Sant’Ambrogio – Fuligno – Bigallo, 2 assistenti amministrativi → None, None
+📍 ESTAR, 1 dirigente medico di pediatria → 45.4027911, 11.8898975
+📍 Università di Pisa, 2 posti di ricercatore → 43.7221587, 10.5227771
+📍 Concorso ricercatore Pisa 2025 presso Università di Pisa : Bando pubblico per 1 posti → 43.7221587, 10.5227771
+📍 Comune di Montaione, 1 giardiniere → 43.5529373, 10.9127727
+📍 Comune di Gambassi Terme, 1 funzionario tecnico → 43.5391127, 10.9540750
+📍 Comune di Campiglia Marittima, 1 poliziotto municipale → 43.0590371, 10.6170685
+📍 ESTAR, 1 tecnico prevenzione ambiente → None, None
+📍 ESTAR, 1 tecnico di neurofisiopatologia → 42.5563658, 12.6560834
+📍 Estar, 1 direttore medico urologo → None, None
+📍 ESTAR, 1 dirigente statistico → None, None
+📍 Estar, 1 ostetrica → None, None
+📍 Società della Salute della Valdinievole, 2 posti di Assistente Sociale → None, None
+📍 Comune di Colle di Val d’Elsa, 1 Funzionario Contabile → 43.4214724, 11.1176701
+📍 Estar, 1 infermiere → None, None
+📍 Imt - Alti Studi Lucca, 1 ricercatore → 43.8461091, 10.5111261
+📍 Imt - Alti Studi Lucca, 1 ricercatore → 43.8461091, 10.5111261
+📍 Unione Montana Dei Comuni del Mugello, 1 conduttore macchine complesse → 44.0513414, 11.4388722
+📍 Azienda Unità Sanitaria Locale Toscana Centro, 1 ingegnere → None, None
+📍 Comune di Piancastagnaio, 1 istruttore tecnico → 42.8493805, 11.6919119
+📍 ESTAR, 1 operatore sociosanitario → None, None
+📍 Comune di Montevarchi, 1 funzionario tecnico → 43.5221459, 11.5670641
+📍 Azienda pubblica di servizi alla persona «istituto Maria Redditi» Sinalunga, 1 farmacista → None, None
+📍 Azienda Unità Sanitaria Locale Toscana Sud Est, 1 dirigente medico → None, None
+📍 Comune di Bagno a Ripoli, 1 istruttore amministrativo contabile → 43.7513079, 11.3197242
+📍 Comune di Bagno a Ripoli, 1 funzionario amministrativo-contabile → 43.7513079, 11.3197242
+📍 Istituto Nazionale di documentazione, Innovazione e Ricerca Educativa, 1 tecnico informatico → 41.8862103, 12.4764323
+📍 Comune di Firenze, 4 posti di Funzionario Coordinatore Pedagogico → 43.7511398, 11.3053409
+📍 Scuola Normale Superiore, 1 collaboratore tecnico scientifico → 43.7196862, 10.4003980
+📍 Università di Pisa, 1 operatore → 43.7221587, 10.5227771
+📍 Cnr Istituto di Chimica dei Composti Organo Metallici, 1 ricercatore → None, None
+📍 Azienda Regionale per il Diritto allo Studio Universitario, 6 posti di istruttore amministrativo → 43.3188536, 11.3291721
+📍 Istituto di linguistica computazionale Antonio Zampolli, una borsa di ricerca → None, None
+📍 CNR-sItituto  di  linguistica   computazionale Antonio Zampolli, una borsa di ricerca → None, None
+📍 Conservatorio di musica “Rinaldo Franci” di Siena, 1 accompagnatore al pianoforte → None, None
+📍 Concorso ricercatore Siena 2025 presso Università di Siena : Bando pubblico per 1 posti → 43.3312172, 11.3214578
+📍 Comune di Loro Ciuffenna, 1 istruttore tecnico → 43.5932435, 11.6315305
+📍 Comune di San Gimignano, 1 geologo → 43.4614514, 10.9984918
+📍 Scuola Normale Superiore, 2 ricercatore → 43.7196862, 10.4003980
+📍 Ordine dei Biologi della Toscana e dell'Umbria di Firenze, 1 impiegato → 43.7697955, 11.2556404
+📍 Agenzia delle Entrate, 20 Funzionari, famiglia professionale funzionario giuridico-tributario → 46.0892702, 11.1163291
+📍 Agenzia delle Entrate, 22 Assistenti → 46.0892702, 11.1163291
+📍 Università di Trento, un  professore  di  seconda   fascia, GSD 09/IIND-01 - Ingegneria aerospaziale e navale → 45.8836839, 11.0234208
+📍 Università di Trento ,  due  professori  di  prima   fascia, vari GSD → 45.8836839, 11.0234208
+📍 Università di Trento, 1 ricercatore,  GSD  05/BIOS-08  -   Biologia molecolare → 45.8836839, 11.0234208
+📍 Libera Università di Bolzano Freie Universitat Bozen, 23 ricercatore → 46.4982980, 11.3501018
+📍 Libera  universita'  di Bolzano , 1 ricercatore → 46.4982980, 11.3501018
+📍 Azienda provinciale per i servizi sanitari , 1 dirigente medico, disciplina di genetica medica → 39.2104395, 9.1370805
+📍 Università di Trento, 7 ricercatore → 45.8836839, 11.0234208
+📍 Azienda Sanitaria dell'Alto Adige, direttore di unita' operativa complessa → 46.4987092, 11.3406768
+📍 Università di Trento, 3  professori  di  prima   fascia → 45.8836839, 11.0234208
+📍 Concorso funzionario amministrativo Trento 2025 presso Università di Trento : Bando pubblico per 2 posti → 45.8836839, 11.0234208
+📍 Istituto Zooprofilattico Sperimentale delle Venezie di Legnaro, 1 assistente amministrativo → 45.3485187, 11.9571797
+📍 Azienda Sanitaria dell'Alto Adige, 1 direttore della U.O.C. Laboratorio di patologia clinica → 46.4987092, 11.3406768
+📍 Azienda Provinciale per i Servizi Sanitari della Provincia Autonoma di Trento, 1 medico ematologo → 46.1029536, 11.1297425
+📍 Comune di Foligno , 1 programmatore di sistema → 42.9559744, 12.7034782
+📍 Università di Perugia, Ammissione  ai  corsi  di  dottorato  di  ricerca,  XLI  ciclo → 43.1148526, 12.3895193
+📍 Università di Perugia, Ammissione al corso di dottorato di ricerca in «Catalisi e  energia»,   XLI ciclo → 43.1148526, 12.3895193
+📍 Comune di Bastia Umbra, 1 Funzionario di Vigilanza → 43.0677554, 12.5495816
+📍 Agenzia Regionale per la Protezione dell’Ambiente dell’Umbria, 1 assistente amministrativo → None, None
+📍 Comune di Spoleto, 2 ingegneri/architetti → 42.7293715, 12.7357325
+📍 Comune di Valfabbrica, 1 istruttore amministrativo/contabile → 43.1588972, 12.6008960
+📍 Universita' per  stranieri  di  Perugia, Ammissione al corso di dottorato di ricerca → 43.1148526, 12.3895193
+📍 Universita' per  stranieri  di  Perugia, Amissione al corso di dottorato di ricerca in  Frontier  sciences  in   sustainability, diplomacy and  international  cooperation → 43.1148526, 12.3895193
+📍 Comune di Città della Pieve, 1 poliziotto municipale → 42.9527338, 12.0043260
+📍 Comune di Scheggino, 1 istruttore tecnico → 42.7126416, 12.8312393
+📍 Comune di Marsciano, 2 posti di funzionario socio-educativo → 42.9105115, 12.3377232
+📍 Azienda Ospedaliera «S. Maria» di Terni, 1 medico di medicina d'urgenza → 42.5563226, 12.6562709
+📍 Consiglio Nazionale delle Ricerche - Istituto di Ricerca per la Protezione Idrogeologica di Perugia, 1 ricercatore → None, None
+📍 Autorita’ di Bacino Distrettuale Delle Alpi Orientali, 2 ingegnere → None, None
+📍 Autorita’ di Bacino Distrettuale Delle Alpi Orientali, 2 geologo → None, None
+📍 Universita’ degli Studi di Verona, 1  Funzionario, Settore professionale scientifico – tecnologico → 45.4363394, 11.0030301
+📍 Università di Verona, 1 Funzionario – settore professionale scientifico → 45.4363394, 11.0030301
+📍 Concorso funzionario, tecnico scientifico Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4009079, 11.8733987
+📍 Unione Montana Feltrina, 1 operatore esperto tecnico - manutentivo → None, None
+📍 Concorso tecnologo Treviso 2025 presso Istituto Nazionale di Fisica Nucleare : Bando pubblico per 1 posti → 45.3548820, 11.9487644
+📍 Comune di Cartura, 1 Funzionario Tecnico → 45.2683900, 11.8568100
+📍 Casa di Riposo San Giorgio, 14 Operatore Addetto all’Assistenza → 44.7104755, 7.6867612
+📍 Comune di San Stino di Livenza, 1 Istruttore amministrativo-contabile → 45.7310782, 12.6800084
+📍 Università «Ca'Foscari» di Venezia, 2 posti di ricercatore → 45.4344957, 12.3264484
+📍 Istituto Nazionale di Astrofisica – INAF, 1 Ricercatore → 45.4019565, 11.8688328
+📍 Universita' di Verona, 1 ricercatore,   GSD 06/MEDS-09  -  Malattie  del   sangue, oncologia e reumatologia → 45.4363394, 11.0030301
+📍 Azienda  ULSS  n.   3   Serenissima,  direttore  di  struttura   complessa   UOC   Anestesia  e  rianimazione → None, None
+📍 Universita’ degli Studi di Padova, 10 Collaboratori, Settore professionale Amministrativo → 45.4009079, 11.8733987
+📍 Concorso ricercatore Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4009079, 11.8733987
+📍 Azienda  ULSS  n.   3   Serenissima,   direttore  di  struttura   complessa   UOC   Ostetricia  e  ginecologia → None, None
+📍 Comune di Caerano di San Marco, 1 Funzionario Servizi Amministrativo- Contabili → 45.7859102, 12.0010378
+📍 Provincia di Padova, 2 Istruttore amministrativo → 45.3914080, 11.8058487
+📍 Comune di Noventa Vicentina, 1 manutentore di edifici e infrastruttore → 45.2906283, 11.5398835
+📍 Comune di Villafranca Padovana, 2 Istruttore Tecnico → 45.4952002, 11.7973187
+📍 Azienda Zero di Padova, 1 direttore dell'unità operativa complessa Autorizzazione all'esercizio e organismo tecnicamente accreditante → 45.4142864, 11.8791326
+📍 Centro servizi alla Persona CR Morelli Bugna, 1 Parrucchiere → None, None
+📍 Comune di Montebelluna, 2  funzionario servizi tecnici → 45.7762844, 12.0452878
+📍 Comune di Miane, 1 Funzionario amministrativo contabile → 45.9443206, 12.0938559
+📍 Casa di soggiorno e Pensionato della Citta’ Murata, 5 Infermiere → None, None
+📍 Comune di Martellago, 1 istruttore informatico → 45.5466448, 12.1576784
+📍 Comune di Valeggio sul Mincio , 1 Operatori Esperti – Profilo Tecnico → 45.3537509, 10.7345460
+📍 Comune di Cerea, 2  Istruttore amministrativo contabile → 45.1920049, 11.2129287
+📍 Esu di Padova, 1  istruttore amministrativo contabile → 45.3914080, 11.8058487
+📍 Università degli Studi di Padova, 1  Funzionari, Settore Scientifico-tecnologico → 45.4009079, 11.8733987
+📍 Consorzio Isola di Ariano per I Servizi Sociali, 1  Istruttore Amministrativo-Contabile → None, None
+📍 Unione Montana Feltrina, 1 istruttore amministrativo contabile → None, None
+📍 Universita’ degli Studi di Padova, 1 Funzionari, Settore Scientifico-tecnologico → 45.4009079, 11.8733987
+📍 Concorso tecnologo Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4009079, 11.8733987
+📍 Comune di Cortina D’ Ampezzo, 1 Funzionario Tavolare → 45.4353695, 9.2082799
+📍 Comune di Conegliano, 1 Istruttore Tecnico → 45.4914273, 9.2248757
+📍 Accademia di Belle Arti di Venezia, 1 Assistente → 45.4286325, 12.3304880
+📍 Istituto  per  le  tecnologie  della costruzione , una borsa di ricerca → 45.8093355, 8.6319814
+📍 Comune di Cortina D’ Ampezzo, 3 Istruttori Tecnici → 45.4353695, 9.2082799
+📍 Concorso tecnologo Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4009079, 11.8733987
+📍 Comune di Domegge di Cadore,  1 Istruttore di Polizia Locale → 46.4603762, 12.4158245
+📍 Comune di Rovigo, 1 agente di polizia locale → 45.0710313, 11.7900026
+📍 Comune di Bassano del Grappa, 1  Istruttore amministrativo-contabile → 45.6041705, 8.8693541
+📍 Università di Verona, 1 ricercatore → 45.4363394, 11.0030301
+📍 Provincia di Rovigo, 1 Istruttore direttivo tecnico → 44.9777098, 12.2726835
+📍 Azienda Ospedaliera Universitaria Integrata di Verona, 1 direttore medico di radioterapia → 45.4424977, 10.9857377
+📍 Azienda Ospedaliera Universitaria Integrata di Verona, 1 medico nucleare → 45.4424977, 10.9857377
+📍 Università di Padova, 9 ricercatori → 45.4009079, 11.8733987
+📍 IPAB Andrea Danielato , 1 Coordinatore dei servizi → None, None
+📍 Comune di Schiavon, 1  Istruttore amministrativo → 45.6977089, 11.6442826
+📍 Pensionato Pietro e Santa Scarmignan, 1 cuoco → None, None
+📍 Comune di Polesella, 1  istruttore amministrativo- contabile → 44.9640818, 11.7501773
+📍 Opere Pie d'Onigo di Pederobba, 1 infermiere (proroga termini) → 45.8695205, 11.9695508
+📍 Comune di Thiene, 1 Funzionario amministrativo → 45.7122347, 11.4852633
+📍 Comune di Cartura, 1 Funzionario Amministrativo Contabile → 45.2683900, 11.8568100
+📍 Comune di Concordia Sagittaria , 1 Istruttore di Polizia Locale → 45.7561044, 12.8449558
+📍 Comune di Isola della Scala, 1 Agente di Polizia Locale → 45.4889872, 9.1876540
+📍 Comune di Este, 1 Funzionario Tecnico → 45.4387407, 9.2043251
+📍 Comune di Polesella, 1  istruttore tecnico → 44.9640818, 11.7501773
+📍 Concorso professore di prima fascia Venezia 2025 presso Università «Ca'Foscari» di Venezia : Bando pubblico per 1 posti → 45.4344957, 12.3264484
+📍 Università Ca’ Foscari Venezia , 1 Collaboratore – Settore della comunicazione e informazione, → 45.4344957, 12.3264484
+📍 Comune di Montecchio Precalcino, 2 istruttore tecnico → 45.6657810, 11.5633020
+📍 Comune di Cerro Veronese, 1 Istruttore Amministrativo Bibliotecario → 45.5713167, 11.0305775
+📍 Università di Padova, 17 ricercatore → 45.4009079, 11.8733987
+📍 Comune di Cortina D’ Ampezzo, 3 operaio specializzato → 45.4353695, 9.2082799
+📍 Comune di Sovizzo, 2 Istruttore Amministrativo → 45.5280283, 11.4456338
+📍 Provincia di Treviso, 1 Funzionario Tecnico → 45.8066913, 12.2063158
+📍 Comune di Marostica, 1 Istruttore tecnico → 45.7473182, 11.6559327
+📍 Casa di Riposo A. Galvan di Pontelongo, 1 istruttore amministrativo → 46.0845304, 11.2375172
+📍 Camera di Commercio Industria Artigianato Agricoltura di Treviso Belluno, 4 Istruttori Comparto Funzioni Locali → None, None
+📍 Comune di Monastier di Treviso, 1 Funzionario Tecnico → 45.6500759, 12.4337702
+📍 Istituto Zooprofilattico Sperimentale delle Venezie di Legnaro, 1 dirigente delle professioni sanitarie → 45.3485187, 11.9571797
+📍 Ipab di Vicenza, 1 Infermiere → 45.5486991, 11.5520499
+📍 Pia Opera Croce Verde Padova, 2 istruttore tecnico amministrativo → None, None
+📍 Comune di Campolongo Maggiore, 1 Operatore Operaio Esperto → 45.3305355, 12.0483135
+📍 Consiglio Nazionale delle Ricerche - Istituto di Neuroscienze di Pisa, 1 ricercatore → None, None
+📍 Unione Montana Feltrina, 1 istruttore amministrativo contabile → None, None
+📍 Unione Montana Feltrina, 1 istruttore amministrativo → None, None
+📍 Comune di Cortina D’ Ampezzo,  1 Funzionario Tecnico → 45.4353695, 9.2082799
+📍 Comune di Monselice, 3 Istruttori Tecnici → 45.2417684, 11.7508534
+📍 Unione Montana Feltrina, 1 Funzionario Amministrativo Contabile → None, None
+📍 Unione Montana Feltrina, 1 istruttore tecnico → None, None
+📍 Comune di Cortina D’ Ampezzo,  3 Agenti di Polizia Locale → 45.4353695, 9.2082799
+📍 Comune di Sanguinetto, 2 Istruttore tecnico → 45.1845007, 11.1511359
+📍 Unione Montana Feltrina, 1 istruttore amministrativo → None, None
+📍 Conservatorio Statale di Musica Cesare Pollini, 2 Assistente → 45.4095231, 11.8795821
+✅ File salvato: /home/user/mappa-concorsi/concorsi_geolocalizzati.json
