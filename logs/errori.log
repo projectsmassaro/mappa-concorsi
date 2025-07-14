@@ -111,3 +111,5 @@ INFO:root:[2025-07-04 20:04:32] 🚀 Eseguo: /home/user/mappa-concorsi/geolocali
 [2025-07-11 21:53:54.318256] ❌ Errore geocoding 'Azienda Ospedaliero-Universitaria Città Della Salute e della Scienza di Torino, Piemonte': HTTPSConnectionPool(host='nominatim.openstreetmap.org', port=443): Max retries exceeded with url: /search?q=Azienda+Ospedaliero-Universitaria+Citt%C3%A0+Della+Salute+e+della+Scienza+di+Torino%2C+Piemonte&format=json&limit=1&countrycodes=it (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x706083edff70>: Failed to resolve 'nominatim.openstreetmap.org' ([Errno -2] Name or service not known)"))
 [2025-07-12 08:00:01.820737] ❌ Errore nell'avviare Firefox: Message: Process unexpectedly closed with status 1
 
+[2025-07-13 20:00:02.459810] ❌ Errore nell'avviare Firefox: Message: Process unexpectedly closed with status 1
+
