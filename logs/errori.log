@@ -194,3 +194,6 @@ INFO:root:[2025-07-04 20:04:32] 🚀 Eseguo: /home/user/mappa-concorsi/geolocali
 [2025-07-18 20:38:34.139460] ❌ Errore geocoding 'Università di Udine, Friuli Venezia Giulia': 503 Server Error: Service Unavailable for url: https://nominatim.openstreetmap.org/search?q=Universit%C3%A0+di+Udine%2C+Friuli+Venezia+Giulia&format=json&limit=1&countrycodes=it
 [2025-07-18 20:39:08.136609] ❌ Errore geocoding 'Università della Tuscia di Viterbo, Lazio': 503 Server Error: Service Unavailable for url: https://nominatim.openstreetmap.org/search?q=Universit%C3%A0+della+Tuscia+di+Viterbo%2C+Lazio&format=json&limit=1&countrycodes=it
 [2025-07-18 20:42:31.711671] ❌ Errore geocoding 'Comune di Capodimonte, Lazio': 500 Server Error: Internal Server Error for url: https://nominatim.openstreetmap.org/search?q=Comune+di+Capodimonte%2C+Lazio&format=json&limit=1&countrycodes=it
+[2025-07-19 12:00:01.981329] ❌ Errore nell'avviare Firefox: Message: Process unexpectedly closed with status 1
+
+[2025-07-19 12:15:41.356984] ❌ Errore geocoding 'Università di Udine, Friuli Venezia Giulia': 503 Server Error: Service Unavailable for url: https://nominatim.openstreetmap.org/search?q=Universit%C3%A0+di+Udine%2C+Friuli+Venezia+Giulia&format=json&limit=1&countrycodes=it
