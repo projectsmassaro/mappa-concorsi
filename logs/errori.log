@@ -7,3 +7,12 @@ INFO:root:[2025-06-22 11:08:27] ✅ Dati pushati su Git
 INFO:root:[2025-06-22 11:13:00] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
 INFO:root:[2025-06-22 11:15:27] ✅ Completato: /home/user/mappa-concorsi/scarica_regioni.py
 INFO:root:[2025-06-22 11:15:27] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+INFO:root:[2025-07-30 10:22:21] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
+INFO:root:[2025-07-30 10:24:49] ✅ Completato: /home/user/mappa-concorsi/scarica_regioni.py
+INFO:root:[2025-07-30 10:24:49] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+INFO:root:[2025-07-30 10:29:21] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
+INFO:root:[2025-07-30 10:31:47] ✅ Completato: /home/user/mappa-concorsi/scarica_regioni.py
+INFO:root:[2025-07-30 10:31:47] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+INFO:root:[2025-07-30 10:33:36] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
+INFO:root:[2025-07-30 10:36:03] ✅ Completato: /home/user/mappa-concorsi/scarica_regioni.py
+INFO:root:[2025-07-30 10:36:03] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
