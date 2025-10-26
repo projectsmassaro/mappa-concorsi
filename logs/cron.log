@@ -149744,3 +149744,255 @@ selenium.common.exceptions.WebDriverException: Message: Process unexpectedly clo
 📍 Concorso funzionario, tecnico scientifico Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4066496, 11.8774407
 📍 Università di Verona,  30  borse  di dottorato  nazionale  in  Scienze   motorie e sportive di cui nove riservate a dipendenti di imprese → 45.4363394, 11.0030301
 ✅ File salvato: concorsi_geolocalizzati.json
+[main d330234] 🤖 Aggiornamento automatico dati
+ 1 file changed, 1747 insertions(+)
+To https://github.com/projectsmassaro/mappa-concorsi.git
+   ae36461..d330234  main -> main
+❌ Errore Telegram: 401 Client Error: Unauthorized for url: https://api.telegram.org/bot18138076029:AAF_HpgEHF4rdmKddTzrImJqiLehAUVuMDA/sendMessage
+[2025-10-26 00:00:01] 🚀 Eseguo: /home/user/mappa-concorsi/scarica_regioni.py
+[2025-10-26 00:00:01] ❌ Errore in /home/user/mappa-concorsi/scarica_regioni.py: Command '['python3', '/home/user/mappa-concorsi/scarica_regioni.py']' returned non-zero exit status 1.
+[2025-10-26 00:00:01] 🚀 Eseguo: /home/user/mappa-concorsi/geolocalizza.py
+[2025-10-26 10:29:00] ✅ Completato: /home/user/mappa-concorsi/geolocalizza.py
+[2025-10-26 10:29:00] 🔄 Git add/commit/push...
+[2025-10-26 10:29:04] ✅ Dati pushati su Git
+[2025-10-26 10:29:04] 📨 Invio notifica Telegram...
+[2025-10-26 10:29:06] ✅ Notifica Telegram inviata
+📍 Azienda Regionale Della Salute Regione Sardegna, 1 Tecnico della Fisiopatologia Cardiocircolatoria e Perfusione Cardiovascolare → None, None
+📍 Azienda Regionale Della Salute Regione Sardegna, 1 Tecnico della Fisiopatologia Cardiocircolatoria e Perfusione Cardiovascolare → None, None
+📍 Azienda Regionale Della Salute Regione Sardegna, 2 posti di Terapista Occupazionale → None, None
+📍 Azienda Regionale della Salute della Sardegna di Selargius, 1 direttore medico ortopedico → None, None
+📍 ARES  Sardegna, 55  dirigente  medico,  varie  discipline → None, None
+📍 Parco Naturale Regionale Molentargius-Saline, 1 Direttore del Parco → 39.2194077, 9.1624839
+📍 Ministero dell’Istruzione – Ufficio Scolastico Regionale per la Sicilia, personale ATA – Indizione dei concorsi nell’anno scolastico 2024/2025 – Graduatorie a.s. 2025/2026 → None, None
+📍 Azienda Ospedaliera «Papardo» di Messina,  direttore di struttura complessa di Centrale operativa 118 → 38.2640076, 15.5969987
+📍 Comune di Ragusa, 2 posti di istruttore tecnico geometra → 36.7724744, 14.8340821
+📍 Ministero delle Infrastrutture e dei Trasporti, 2 allievo ormeggiatore → None, None
+📍 Comune di Ragusa, 1 funzionario tecnico → 36.7724744, 14.8340821
+📍 Azienda Sanitaria Provinciale di Caltanissetta, direttori di strutture (riapertura termini) → 37.4832200, 14.0598898
+📍 Istituto Nazionale di Astrofisica – INAF, 1 ricercatore → 37.5288682, 15.0715980
+📍 Comune di Catania, 1 pedagogista → 37.5235717, 15.1160006
+📍 Istituto di Tecnologie Avanzate per l’Energia “Nicola Giordano” (ITAE) del Consiglio Nazionale delle Ricerche, 1 ricercatore → None, None
+📍 Istituto Nazionale di Astrofisica – INAF, 1 coadiutore tecnico → 37.5288682, 15.0715980
+📍 Comune di Pantelleria, 5 operatori ecologici → 36.8320849, 11.9450913
+📍 Comune di Pantelleria, 1 istruttore tecnico → 36.8320849, 11.9450913
+📍 Azienda Ospedaliera di Rilievo Nazionale e di Alta Specializzazione «Garibaldi» - Catania, 1 direttore medico otorinolaringoiatra → None, None
+📍 Comune di Caltagirone, 1 dirigente finanziario → None, None
+📍 Istituto Superiore di Studi Musicali Vincenzo Bellini di Caltanissetta, 1 accompagnatore al pianoforte → None, None
+📍 Provincia Religiosa di San Pietro Ordine Ospedaliero di San Giovanni di Dio Fatebenefratelli, direttore  di  struttura  complessa di cardiologia → None, None
+📍 Azienda  ospedaliera  universitaria   «Paolo Giaccone» di Palermo, 1  dirigente medico di geriatria → None, None
+📍 Consiglio Nazionale delle Ricerche – CNR, 1 ricercatore → None, None
+📍 Concorso direttore medico Agrigento 2025 presso Azienda Sanitaria Provinciale - Agrigento : Bando pubblico per 1 posti → None, None
+📍 Istituto  di bioimmagini e  sistemi  biologici  complessi  (IBSBC)  del  CNR,  due borse di ricerca → None, None
+📍 Ordine Degli Ingegneri della Provincia di Enna, 2 posti di assistente di amministrazione → None, None
+📍 Istituto Nazionale di Fisica Nucleare, 1 Collaboratore Tecnico → 37.5241626, 15.0708497
+📍 Conservatorio di Musica di Stato “V. Bellini” di Caltanissetta, 1 docente → None, None
+📍 Azienda sanitaria provinciale di Catania, 12  dirigente  medico   di   ginecologia e ostetricia → 37.5082371, 15.0839029
+📍 Stazione Zoologica, 1 operatore tecnico → None, None
+📍 Stazione Zoologica, 1 collaboratore di amministrazione → None, None
+📍 Istituto Nazionale di Fisica Nucleare, 1 collaboratore tecnico → 37.5241626, 15.0708497
+📍 Regione Sicilia, 16 posti di funzionario di controllo di gestione → 38.1409150, 13.3485711
+📍 Regione Sicilia, 63 posti di funzionario economico finanziario → 38.1409150, 13.3485711
+📍 Azienda Sanitaria Provinciale di Ragusa, 7 posti per medico geriatra e medico di medicina interna → None, None
+📍 Comune di Taormina, 4 assistenti sociali → None, None
+📍 Comune di Gravina di Catania, 1 poliziotto municipale → None, None
+📍 Istituto Nazionale di Astrofisica – INAF, 1 collaboratore tecnico → 37.5288682, 15.0715980
+📍 Comune di Cefalù, 1 addetto stampa → None, None
+📍 Scuola superiore Sant'Anna di Pisa, 1 ricercatore  , GSD 13/ECON-07 - Economia  e   gestione delle imprese → None, None
+📍 Scuola superiore Sant'Anna di Pisa, 2 ricercatore , vari  GSD → 43.7206078, 10.4026444
+📍 Imt Alti Studi di Lucca, 1 funzionario → 43.8461091, 10.5111261
+📍 Provincia di Pistoia, 1 funzionario amministrativo → 43.9740957, 10.8687081
+📍 Comune di Montale, 1 funzionario poliziotto municipale → 43.9348394, 11.0216392
+📍 Università degli Studi di Firenze, 1 Funzionario settore scientifico-tecnologico → 43.7946262, 11.1777642
+📍 Universita’ degli Studi di Firenze, 1 Funzionario settore scientifico-tecnologico → 43.7946262, 11.1777642
+📍 Imt - Alti Studi Lucca, dottorato di interesse nazionale in Cybersicurezza - XLI ciclo → 43.8461091, 10.5111261
+📍 Comune di Campiglia Marittima, 2 posti di istruttore amministrativo → 43.0590371, 10.6170685
+📍 Comune di Buti, 1 funzionario tecnico → None, None
+📍 Consiglio Nazionale delle Ricerche - Istituto di Scienze del Patrimonio Culturale di Napoli, 1 ricercatore → None, None
+📍 Consiglio Nazionale delle Ricerche - Istituto di Scienze del Patrimonio Culturale di Napoli, 1 ricercatore → None, None
+📍 Agenzia Regionale Toscana per l'impiego (ARTI),  1 Operatore esperto amministrativo → None, None
+📍 ESTAR, 5 dirigente medico   di medicina  d'emergenza-urgenza → None, None
+📍 ESTAR, 5 dirigente medico   di   psichiatria → None, None
+📍 ESTAR, 1 dirigente  veterinario → None, None
+📍 ESTAR, 5 dirigente medico  di   chirurgia   generale → None, None
+📍 ESTAR, 3 dirigente medico di  igiene,   epidemiologia e sanita' pubblica → None, None
+📍 ESTAR, 1 dirigente  veterinario disciplina  di   sanita' animale → None, None
+📍 ESTAR, 5 dirigente medico di   anestesia e rianimazione → None, None
+📍 ESTAR, 5 dirigente medico di   cardiologia → None, None
+📍 ESTAR, 2 dirigente medico di geriatria → None, None
+📍 ESTAR, 1 dirigente  veterinario disciplina  di   igiene  della  produzione,   trasformazione → None, None
+📍 ESTAR, 4 dirigente medico di patologia clinica → None, None
+📍 ESTAR, 4 dirigente medico di nefrologia → None, None
+📍 Comune di Bucine, 1 funzionario tecnico → None, None
+📍 Provincia di Pisa, 1 funzionario tecnico → 43.4714722, 10.6797912
+📍 Ente Parco Regionale Migliarino San Rossore Massaciuccoli, 1 funzionario amministrativo → None, None
+📍 ESTAR, 2 dirigente medico di medicina   interna → None, None
+📍 Estar, 1 medico di medicina interna → None, None
+📍 Comune di Agliana, 1 istruttore direttivo contabile → 43.9027204, 11.0064682
+📍 Istituto Nazionale di Astrofisica – INAF, 1 collaboratore tecnico di ricerca → None, None
+📍 Comune di Sovicille, 1 cuoco → None, None
+📍 Cnr Istituto Nazionale di Ottica, 1 tecnologo → None, None
+📍 Cnr Istituto Nazionale di Ottica, 2 ricercatori → None, None
+📍 Comune di Capraia Isola, 1 istruttore amministrativo → 43.0481801, 9.8434014
+📍 Comune di Montevarchi, 2 posti di poliziotto municipale → 43.5221459, 11.5670641
+📍 ESTAR, 1 dirigente medico di neurologia → None, None
+📍 Unione Comuni Valdichiana Senese, 1 istruttore direttivo tecnico geologo → 43.1872245, 11.7994261
+📍 Comune di PIsa, 1 comandante di polizia municipale → 43.7154102, 10.4010062
+📍 Comune di Montelupo Fiorentino, 2 posti di istruttore amministrativo → None, None
+📍 Universita' degli studi di Firenze, Ammissione ai corsi di dottorato di ricerca, corsi Pegaso, XLI ciclo → 43.7946262, 11.1777642
+📍 Comune di Campi Bisenzio, 12 posti di amministrativo → None, None
+📍 Istituto per  la  bioeconomia  del  CNR, una borsa di ricerca → None, None
+📍 Istituto per la BioEconomia del  CNR, una borsa di ricerca → None, None
+📍 Istituto per la BioEconomia del  CNR , una borsa di ricerca → None, None
+📍 Istituto nanoscienze (NANO) del  CNR, una borsa di ricerca → None, None
+📍 Istituto di neuroscienze del CNR, una borsa di ricerca → None, None
+📍 ESTAR, 1 fisioterapista → None, None
+📍 Estar, 1 direttore della struttura complessa Radiologia → None, None
+📍 Estar, 1 direttore della struttura complessa Terapia intensiva neonatale → None, None
+📍 Consiglio Naz, ionale delle Ricerche Istituto Nazionale di Ottica Applicata di Firenze1 ricercatore → None, None
+📍 Consiglio Nazionale delle Ricerche - Istituto dei Sistemi Complessi di Roma, 1 ricercatore → None, None
+📍 Azienda Unità Sanitaria Locale Toscana Centro, 1 biologo → None, None
+📍 Università degli Studi di Firenze, 10 posti di collaboratore amministrativo → 43.7946262, 11.1777642
+📍 Azienda Unità Sanitaria Locale Toscana Centro, 1 medico oncologo → None, None
+📍 Agenzia delle Dogane e dei Monopoli , 1 Funzionario tecnico professionale → None, None
+📍 Università di Trento, 2 ricercatore, vari GSD e Dipartimenti → 46.4986083, 11.3504836
+📍 Concorso funzionario, tecnico scientifico Trento 2025 presso Università di Trento : Bando pubblico per 1 posti → 46.4986083, 11.3504836
+📍 Università di Trento, 1 funzionario tecnico → 46.4986083, 11.3504836
+📍 Azienda Provinciale per i Servizi Sanitari , 5 tecnico  sanitario   di   radiologia medica → None, None
+📍 Azienda Provinciale per i Servizi Sanitari , 1  tecnico  sanitario   di   laboratorio  biomedico → None, None
+📍 Azienda Sanitaria dell'Alto Adige, 1 direttore della UOC Servizio pneumologico aziendale → None, None
+📍 Libera Università di Bolzano Freie Universitat Bozen, 13 posti di ricercatore → None, None
+📍 Azienda Provinciale per i Servizi Sanitari , 1 dirigente   medico, disciplina di cardiochirurgia → None, None
+📍 Azienda Sanitaria dell'Alto Adige, direttore  di varie unita' operative complesse → None, None
+📍 Agenzia delle Entrate, 20 Funzionari, famiglia professionale funzionario giuridico-tributario → 46.0892702, 11.1163291
+📍 Agenzia delle Entrate, 22 Assistenti → 46.0892702, 11.1163291
+📍 Libera Università di Bolzano Freie Universitat Bozen, 2 posti di professore di prima fascia → None, None
+📍 Azienda Sanitaria dell'Alto Adige, 1 direttore UOC → None, None
+📍 Azienda provinciale per i servizi sanitari, 1 dirigente medico  di   malattie metaboliche e diabetologia → None, None
+📍 Azienda provinciale per i servizi sanitari, 1 ortottista  assistente  in   oftalmologia → None, None
+📍 Azienda provinciale per i servizi sanitari, 1 ortottista assistente in oftalmologia → None, None
+📍 Azienda provinciale per i servizi sanitari, 1  tecnico della prevenzione nell'ambiente e   nei luoghi di lavoro → None, None
+📍 Azienda provinciale per i servizi sanitari, 1 dirigente  delle  professioni  sanitarie → None, None
+📍 Azienda provinciale per i servizi sanitari,  1 tecnico  della  prevenzione   nell'ambiente  e  nei  luoghi  di  lavoro → None, None
+📍 Comune di Calvi dell’Umbria, 1 Collaboratore Professionale Tecnico Specializzato → None, None
+📍 Azienda ospedaliera S. Maria di Terni, 1 tecnico sanitario di radiologia medica → 42.5563226, 12.6562709
+📍 A.U.S.L. Umbria 2, 11 dirigente  medico,  disciplina  di   gastroenterologia → None, None
+📍 A.U.S.L. Umbria 2, 1 dirigente medico, disciplina di igiene, epidemiologia e  sanita'   pubblica, → None, None
+📍 Azienda Unità Sanitaria Locale Umbria 2, 1 collaboratore tecnico professionale ingegnere elettronico → None, None
+📍 Azienda Unità Sanitaria Locale Umbria 2 di Terni, 2 posti di medico pediatra → None, None
+📍 Azienda Unità Sanitaria Locale Umbria 2 di Terni, 1 collaboratore tecnico professionale - ingegnere elettronico → None, None
+📍 Universita' degli studi di Perugia, un  professore  di  prima   fascia, GSD  09/IIND-06  -  Macchine  e  sistemi  per  l'energia  e   l'ambiente → 43.1148526, 12.3895193
+📍 Universita' degli studi di Perugia, un  professore  di  prima   fascia, GSD 09/IEGE-01 - Ingegneria  economico-gestionale → 43.1148526, 12.3895193
+📍 Comune di Foligno , 1 programmatore di sistema → None, None
+📍 Comune di Selvazzano Dentro, 1 istruttore amministrativo contabile → None, None
+📍 Comune di Cison di Valmarino, 1 agente di polizia locale → 45.9706229, 12.1432025
+📍 Comune di Vedelago, 1 funzionario amministrativo contabile → None, None
+📍 Ipab G. Bisognin Servizi Socio Assistenziali , 2 operatore socio sanitario → None, None
+📍 Comune di Malcesine, 1 specialista in attivita’ tecniche → None, None
+📍 Camera di Commercio, Industria, Artigianato e Agricoltura di Vicenza, 5 Istruttore Specialista Anagrafico, di Regolazione del Mercato e dei Servizi di E-Government → None, None
+📍 Casa Assistenza Anziani , 2 Cuoco → None, None
+📍 Comune di Badia Polesine, 1 Istruttore Tecnico → 45.0943333, 11.4913398
+📍 Residenza per Anziani di Oderzo, 2 Operatore Socio Sanitario → None, None
+📍 Comune di Pozzonovo, 1 Funzionario Tecnico → None, None
+📍 Unione Montana Feltrina, 1 Agente di Polizia Locale → None, None
+📍 Casa di Ricovero Muzan, 1 infermiere → 45.6574059, 11.4024146
+📍 Casa di Ricovero Muzan, 1 operatore socio-sanitario → 45.6574059, 11.4024146
+📍 Comune di Santo Stefano di Cadore, 1 Funzionario Amministrativo Contabile → 46.5576859, 12.5498025
+📍 Centro Residenziale per Anziani di Cittadella, 1 Infermiere → None, None
+📍 Università di Padova, 3 professori di prima fascia → 45.4066496, 11.8774407
+📍 Concorso Collaboratore tecnico Padova 2025 presso Istituto Nazionale di Astrofisica : Bando pubblico per 1 posti → 45.4019565, 11.8688328
+📍 Università di Padova, 2 professori di prima fascia → 45.4066496, 11.8774407
+📍 Università di Padova, 10 ricercatori → 45.4066496, 11.8774407
+📍 Università di Padova, 1 professore di prima fascia, GSD 02/PHYS-03 → 45.4066496, 11.8774407
+📍 Concorso tecnologo Padova 2025 presso Istituto Nazionale di Astrofisica : Bando pubblico per 1 posti → 45.4019565, 11.8688328
+📍 Comune di Tombolo,  1 Istruttore Amministrativo-contabile → 45.6474092, 11.8252104
+📍 Agenzia veneta per i pagamenti – AVEPA , 5 Funzionari Amministrativi → None, None
+📍 Agenzia veneta per i pagamenti – AVEPA, 5 Istruttori tecnici agroforestali → None, None
+📍 Comune di Fossalta di Piave, 1 Istruttore Tecnico → None, None
+📍 Comune di Brendola, 1 Istruttore Tecnico → None, None
+📍 Avviso di mobilità funzionario, tecnico scientifico Verona 2025 presso Università di Verona : Bando pubblico per 1 posti → 45.4363394, 11.0030301
+📍 Pia Opera Croce Verde Padova , 4 autista di ambulanza → None, None
+📍 Comune di Monteforte D’Alpone, 1 istruttore tecnico → 45.4223872, 11.2849806
+📍 Università di Verona, 1  Funzionario – settore professionale scientifico → 45.4363394, 11.0030301
+📍 Centro Servizi per Anziani di Monselice , 1 Psicologo → None, None
+📍 Comune di Ponte nelle Alpi, 1 Istruttore Amministrativo → None, None
+📍 Comune di Auronzo di Cadore, 1  Funzionario Specialista dell’Area della Vigilanza → None, None
+📍 Comune di Nanto, 1 ragioniere → 45.4245069, 11.5920119
+📍 Azienda U.L.SS. n. 7 Pedemontana, direttore dell'unita' operativa  complessa  Medicina  trasfusionale → None, None
+📍 Universita' di Verona, 1 ricercatore  ,  GSD  10/LATI-01  -  Lingua  e   letteratura latina → 45.4363394, 11.0030301
+📍 Comune di Venezia, 2 Collaboratore Tecnico con mansioni di motoscafista → 45.2732457, 12.3010422
+📍 Azienda   ospedaliera   universitaria integrata - Verona,  direttore   della   struttura   complessa di Farmacia → None, None
+📍 Comune di Masera’ di Padova,  1 Istruttore Amministrativo → None, None
+📍 Ipab di Vicenza, 1 Infermiere → 45.5486991, 11.5520499
+📍 Provincia di Rovigo, 1 Funzionario Amministrativo → 44.9777098, 12.2726835
+📍 Comune di Padova, 1 Istruttore di Polizia Locale e 1 Funzionario tecnico → 45.4171823, 11.8762354
+📍 Istituto Assistenza Anziani Verona, 2  Istruttore Amministrativo → 45.4358085, 10.9874048
+📍 Azienda ULSS n. 2 Marca trevigiana, 2 posti di operatore tecnico → None, None
+📍 Altavita Ira, 10  Operatore Socio sanitario → None, None
+📍 Azienda ULSS n. 2 Marca trevigiana, 2 posti di operatore tecnico → None, None
+📍 Altavita Ira, 2 Infermiere → None, None
+📍 Regione Veneto, 10  Funzionario amministrativo → 45.4781169, 12.2530442
+📍 Regione Veneto, 10 Istruttori economici → 45.4781169, 12.2530442
+📍 Azienda unita' locale sociosanitaria n. 2 Marca Trevigiana, direttore di struttura complessa  per   l'U.O. Medicina trasfusionale → None, None
+📍 Azienda Zero, 2 dirigente medico  di cardiochirurgia → 45.4142864, 11.8791326
+📍 Azienda unita' locale socio-sanitaria n. 2 Marca  Trevigiana, 2 assistente amministrativo → None, None
+📍 Azienda unita' locale sociosanitaria n. 2 Marca Trevigiana , 1 magazziniere → None, None
+📍 Azienda Zero, 12 dirigente medico  di organizzazione  dei  servizi  sanitari  di   base → 45.4142864, 11.8791326
+📍 Azienda Zero, 3 dirigente medico   di  endocrinologia → 45.4142864, 11.8791326
+📍 Azienda U.L.SS. n. 7 Pedemontana,   direttore dell'unita' operativa complessa Oculistica → None, None
+📍 Azienda Zero, 9 dirigente medico di igiene, epidemiologia e sanita'  pubblica → 45.4142864, 11.8791326
+📍 Azienda  Zero,  1 dirigente  ingegnere  elettrico → 45.4142864, 11.8791326
+📍 Istituto Servizi Assistenziali Cima Colbacchini, 3 Operatori Socio Sanitari → None, None
+📍 Azienda U.L.S.S. n. 2 Marca Trevigiana, direttore di struttura complessa  per   l'U.O. Ortopedia e traumatologia → None, None
+📍 ULSS n. 8 Berica, direttore   dell'U.O.C.   Pediatria   Arzignano   Montecchio → None, None
+📍 Azienda Zero, 5 dirigente medico di direzione medica di presidio  ospedaliero → 45.4142864, 11.8791326
+📍 Istituto Assistenza Anziani Verona, 18 Infermiere → 45.4358085, 10.9874048
+📍 Comune di Castelnovo Bariano, 1 istruttore – agente di polizia locale → 45.0269016, 11.2869360
+📍 Regione Veneto, 3 Istruttori Tecnici → 45.4781169, 12.2530442
+📍 Comune di Silea, 1  Istruttore Amministrativo Contabile → None, None
+📍 Comune di Asiago, 1 Archivista Bibliotecario → None, None
+📍 Provincia di Padova, 4 Operatore Esperto tecnico → 45.3914080, 11.8058487
+📍 Regione del Veneto, 3 Istruttori Amministrativo – Contabili → 45.4781169, 12.2530442
+📍 Provincia di Padova, 2 Istruttore informatico → 45.3914080, 11.8058487
+📍 Provincia di Padova, 2 Istruttore tecnico → 45.3914080, 11.8058487
+📍 Ipab di Vicenza, 1 Operatore socio-sanitario → 45.5486991, 11.5520499
+📍 Azienda unità locale socio sanitaria 9 - Scaligera, 1 direttore medico di igiene → None, None
+📍 Comune di Codogne’, 1 Istruttore amministrativo contabile → 45.8707206, 12.4294912
+📍 Comune di San Biagio di Callalta, 1 assistente sociale → None, None
+📍 Universita' di Verona, 1  professore  di  seconda   fascia, GSD 06/MEDS-10 - Gastroenterologia,  malattie  infettive  e   malattie cutanee → 45.4363394, 11.0030301
+📍 Azienda Zero , 6 dirigente medico  disciplina di malattie infettive → 45.4142864, 11.8791326
+📍 Azienda Zero , 4 dirigente medico veterinario → 45.4142864, 11.8791326
+📍 Citta’ Metropolitana di Venezia, 2 coordinatore amministrativo → 45.4551388, 12.2505972
+📍 Azienda Zero di Padova , 8 dirigente biologo → 45.4142864, 11.8791326
+📍 Azienda  ULSS  n.  6  Euganea , direttore   dell'unita' operativa complessa  Infanzia  adolescenza  famiglia  e   consultori Distretto Padova Sud → None, None
+📍 Azienda  ULSS  n.  6  Euganea, direttore   dell'unita' operativa complessa di Psichiatria → None, None
+📍 Azienda Zero , 1 dirigente analista → 45.4142864, 11.8791326
+📍 Azienda Zero ,  1  giornalista  pubblico → 45.4142864, 11.8791326
+📍 Università di Padova, 4  professori di seconda fascia → 45.4066496, 11.8774407
+📍 Universita' di Verona, un  professore  di  prima   fascia, GSD 13/ECON-02 - Politica economica → 45.4363394, 11.0030301
+📍 Università di Padova, 5 ricercatore → 45.4066496, 11.8774407
+📍 Azienda Zero , 11 dirigente medico di oncologia → 45.4142864, 11.8791326
+📍 Università di Verona, 1 Funzionario – settore professionale amministrativo-gestionale → 45.4363394, 11.0030301
+📍 Azienda Zero , 55  tecnico sanitario di radiologia medica → 45.4142864, 11.8791326
+📍 Azienda Zero ,  46 assistente sanitario → 45.4142864, 11.8791326
+📍 Università degli Studi di Padova, 1 tecnologo di ricerca → 45.4066496, 11.8774407
+📍 Comune di Codogne’, 1 istruttore amministrativo → 45.8707206, 12.4294912
+📍 Comune di Bardolino, 1 istruttore tecnico → None, None
+📍 Casa di Riposo per Anziani Villa Belvedere di Crocetta di Montello, 1 Infermiere → None, None
+📍 Università degli Studi di Padova, 1 tecnologo di ricerca → 45.4066496, 11.8774407
+📍 Concorso funzionario Verona 2025 presso Università di Verona : Bando pubblico per 1 posti → 45.4363394, 11.0030301
+📍 Pensionato Pietro e Santa Scarmignan, 5 operatori socio- sanitari → None, None
+📍 Pensionato Pietro e Santa Scarmignan, 1 infermiere → None, None
+📍 Azienda unita' locale socio-sanitaria n. 7 Pedemontana - Bassano del Grappa, 1 direttore medico cardiologo → None, None
+📍 Comune di Albignasego, 1 Specialista Servizi Tecnici → 45.3463858, 11.8689358
+📍 Centro Servizi Anziani di Dueville, 5 operatore socio sanitario → None, None
+📍 Università di Verona, 1 ricercatore → 45.4363394, 11.0030301
+📍 Comune di Sant’Ambrogio di Valpolicella, 1 Istruttore Tecnico → 45.5249559, 10.8343247
+📍 Unione Montana Feltrina, 1 Funzionario Farmacista → None, None
+📍 Autorita’ di Bacino Distrettuale Delle Alpi Orientali, 2 ingegnere → None, None
+📍 Autorita’ di Bacino Distrettuale Delle Alpi Orientali, 2 geologo → None, None
+📍 Universita’ degli Studi di Verona, 1  Funzionario, Settore professionale scientifico – tecnologico → 45.4363394, 11.0030301
+📍 Università di Verona, 1 Funzionario – settore professionale scientifico → 45.4363394, 11.0030301
+📍 Consiglio Nazionale delle Ricerche - Istituto di Scienze Marine di Venezia, 1 ricercatore → None, None
+📍 Concorso funzionario, tecnico scientifico Padova 2025 presso Università di Padova : Bando pubblico per 1 posti → 45.4066496, 11.8774407
+📍 Università di Verona,  30  borse  di dottorato  nazionale  in  Scienze   motorie e sportive di cui nove riservate a dipendenti di imprese → 45.4363394, 11.0030301
+✅ File salvato: concorsi_geolocalizzati.json
